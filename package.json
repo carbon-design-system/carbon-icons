@@ -16,5 +16,10 @@
     "ibm"
   ],
   "author": "Brian Han <thisisbrianhan@gmail.com> (http://brianhanio.mybluemix.net/)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-image-data-uri": "^1.1.0"
+  }
 }
