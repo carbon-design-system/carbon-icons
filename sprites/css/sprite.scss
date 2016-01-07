@@ -1,0 +1,484 @@
+%svg-common {
+	background: url("svg/sprite.css-10545e5b.svg") no-repeat;
+}
+
+.svg-common--add {
+	@extend %svg-common;
+	background-position: 37.06896551724138% 81.99121522693997%;
+}
+
+.svg-common--add-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--arrows {
+	@extend %svg-common;
+	background-position: 48.783068783068785% 87.58915834522111%;
+}
+
+.svg-common--arrows-dims {
+	width: 15px;
+	height: 14px;
+}
+
+.svg-common--cancel {
+	@extend %svg-common;
+	background-position: 64.65517241379311% 81.99121522693997%;
+}
+
+.svg-common--cancel-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--configure {
+	@extend %svg-common;
+	background-position: 85.34482758620689% 81.99121522693997%;
+}
+
+.svg-common--configure-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--create {
+	@extend %svg-common;
+	background-position: 0 93.17147192716237%;
+}
+
+.svg-common--create-dims {
+	width: 56px;
+	height: 56px;
+}
+
+.svg-common--delete {
+	@extend %svg-common;
+	background-position: 50.86206896551724% 81.99121522693997%;
+}
+
+.svg-common--delete-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--deploy {
+	@extend %svg-common;
+	background-position: 54.310344827586206% 81.99121522693997%;
+}
+
+.svg-common--deploy-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--download {
+	@extend %svg-common;
+	background-position: 57.758620689655174% 81.99121522693997%;
+}
+
+.svg-common--download-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--edit {
+	@extend %svg-common;
+	background-position: 61.206896551724135% 81.99121522693997%;
+}
+
+.svg-common--edit-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--grid {
+	@extend %svg-common;
+	background-position: 41.164021164021165% 90.28571428571429%;
+}
+
+.svg-common--grid-dims {
+	width: 15px;
+	height: 15px;
+}
+
+.svg-common--group {
+	@extend %svg-common;
+	background-position: 68.10344827586206% 81.99121522693997%;
+}
+
+.svg-common--group-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--healthy {
+	@extend %svg-common;
+	background-position: 71.55172413793103% 81.99121522693997%;
+}
+
+.svg-common--healthy-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--help {
+	@extend %svg-common;
+	background-position: 75% 81.99121522693997%;
+}
+
+.svg-common--help-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--link {
+	@extend %svg-common;
+	background-position: 78.44827586206897% 81.99121522693997%;
+}
+
+.svg-common--link-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--monitor {
+	@extend %svg-common;
+	background-position: 81.89655172413794% 81.99121522693997%;
+}
+
+.svg-common--monitor-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--previous {
+	@extend %svg-common;
+	background-position: 0 84.72012102874433%;
+}
+
+.svg-common--previous-dims {
+	width: 62px;
+	height: 54px;
+}
+
+.svg-common--purchase {
+	@extend %svg-common;
+	background-position: 88.79310344827586% 81.99121522693997%;
+}
+
+.svg-common--purchase-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--restart {
+	@extend %svg-common;
+	background-position: 26.724137931034484% 81.99121522693997%;
+}
+
+.svg-common--restart-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--running {
+	@extend %svg-common;
+	background-position: 30.17241379310345% 81.99121522693997%;
+}
+
+.svg-common--running-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--search {
+	@extend %svg-common;
+	background-position: 33.62068965517241% 81.99121522693997%;
+}
+
+.svg-common--search-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--search-sm {
+	@extend %svg-common;
+	background-position: 94.87179487179488% 81.04196816208393%;
+}
+
+.svg-common--search-sm-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-common--settings {
+	@extend %svg-common;
+	background-position: 40.51724137931034% 81.99121522693997%;
+}
+
+.svg-common--settings-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--start {
+	@extend %svg-common;
+	background-position: 43.96551724137931% 81.99121522693997%;
+}
+
+.svg-common--start-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--stop {
+	@extend %svg-common;
+	background-position: 47.41379310344828% 81.99121522693997%;
+}
+
+.svg-common--stop-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-common--tile-view {
+	@extend %svg-common;
+	background-position: 92.24137931034483% 81.99121522693997%;
+}
+
+.svg-common--tile-view-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-old--arrow-left {
+	@extend %svg-common;
+	background-position: 97.82722787866065% 79.63594994311717%;
+}
+
+.svg-old--arrow-left-dims {
+	width: 7.3px;
+	height: 11.8px;
+}
+
+.svg-old--arrow-right {
+	@extend %svg-common;
+	background-position: 98.5934711871523% 79.63594994311717%;
+}
+
+.svg-old--arrow-right-dims {
+	width: 7.3px;
+	height: 11.8px;
+}
+
+.svg-old--caret {
+	@extend %svg-common;
+	background-position: 99.3805774278215% 78.74015748031495%;
+}
+
+.svg-old--caret-dims {
+	width: 7.5px;
+	height: 3.8px;
+}
+
+.svg-old--runtime-rb {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.svg-old--runtime-rb-dims {
+	width: 960px;
+	height: 560px;
+}
+
+.svg-service--add-filled {
+	@extend %svg-common;
+	background-position: 43.20594479830149% 88.09182209469154%;
+}
+
+.svg-service--add-filled-dims {
+	width: 18px;
+	height: 18px;
+}
+
+.svg-service--chevron {
+	@extend %svg-common;
+	background-position: 97.02127659574468% 79.65860597439544%;
+}
+
+.svg-service--chevron-dims {
+	width: 20px;
+	height: 12px;
+}
+
+.svg-service--status-error {
+	@extend %svg-common;
+	background-position: 45.11677282377919% 88.09182209469154%;
+}
+
+.svg-service--status-error-dims {
+	width: 18px;
+	height: 18px;
+}
+
+.svg-service--status-pending {
+	@extend %svg-common;
+	background-position: 47.0276008492569% 88.09182209469154%;
+}
+
+.svg-service--status-pending-dims {
+	width: 18px;
+	height: 18px;
+}
+
+.svg-service--status-success {
+	@extend %svg-common;
+	background-position: 41.29511677282378% 88.09182209469154%;
+}
+
+.svg-service--status-success-dims {
+	width: 18px;
+	height: 18px;
+}
+
+.svg-taxonomy--app-services {
+	@extend %svg-common;
+	background-position: 4.907306434023991% 100%;
+}
+
+.svg-taxonomy--app-services-dims {
+	width: 43px;
+	height: 45px;
+}
+
+.svg-taxonomy--cognitive {
+	@extend %svg-common;
+	background-position: 16.03875134553283% 91.77877428998505%;
+}
+
+.svg-taxonomy--cognitive-dims {
+	width: 31px;
+	height: 46px;
+}
+
+.svg-taxonomy--compute {
+	@extend %svg-common;
+	background-position: 17.067833698030636% 83.4575260804769%;
+}
+
+.svg-taxonomy--compute-dims {
+	width: 46px;
+	height: 44px;
+}
+
+.svg-taxonomy--data {
+	@extend %svg-common;
+	background-position: 33.005464480874316% 91.2332838038633%;
+}
+
+.svg-taxonomy--data-dims {
+	width: 45px;
+	height: 42px;
+}
+
+.svg-taxonomy--devops {
+	@extend %svg-common;
+	background-position: 28.08743169398907% 91.36904761904762%;
+}
+
+.svg-taxonomy--devops-dims {
+	width: 45px;
+	height: 43px;
+}
+
+.svg-taxonomy--home {
+	@extend %svg-common;
+	background-position: 11.269146608315099% 91.77877428998505%;
+}
+
+.svg-taxonomy--home-dims {
+	width: 46px;
+	height: 46px;
+}
+
+.svg-taxonomy--integration {
+	@extend %svg-common;
+	background-position: 22.100656455142232% 82.96296296296296%;
+}
+
+.svg-taxonomy--integration-dims {
+	width: 46px;
+	height: 40px;
+}
+
+.svg-taxonomy--iot {
+	@extend %svg-common;
+	background-position: 6.790799561883899% 83.83233532934132%;
+}
+
+.svg-taxonomy--iot-dims {
+	width: 47px;
+	height: 47px;
+}
+
+.svg-taxonomy--media-cdn {
+	@extend %svg-common;
+	background-position: 23.169398907103826% 91.64179104477611%;
+}
+
+.svg-taxonomy--media-cdn-dims {
+	width: 45px;
+	height: 45px;
+}
+
+.svg-taxonomy--mobile {
+	@extend %svg-common;
+	background-position: 37.79956427015251% 91.0979228486647%;
+}
+
+.svg-taxonomy--mobile-dims {
+	width: 42px;
+	height: 41px;
+}
+
+.svg-taxonomy--network {
+	@extend %svg-common;
+	background-position: 6.133625410733845% 91.91616766467065%;
+}
+
+.svg-taxonomy--network-dims {
+	width: 47px;
+	height: 47px;
+}
+
+.svg-taxonomy--private-apis {
+	@extend %svg-common;
+	background-position: 0 100%;
+}
+
+.svg-taxonomy--private-apis-dims {
+	width: 45px;
+	height: 45px;
+}
+
+.svg-taxonomy--security {
+	@extend %svg-common;
+	background-position: 19.396551724137932% 91.64179104477611%;
+}
+
+.svg-taxonomy--security-dims {
+	width: 32px;
+	height: 45px;
+}
+
+.svg-taxonomy--storage {
+	@extend %svg-common;
+	background-position: 11.938663745892661% 83.4575260804769%;
+}
+
+.svg-taxonomy--storage-dims {
+	width: 47px;
+	height: 44px;
+}
+

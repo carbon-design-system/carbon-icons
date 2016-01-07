@@ -32,3 +32,23 @@ The import path will depend on where your `scss` files are located in
 ```
 
 `@import 'path/to/bluemix-icons/bluemix-icons';`
+
+## Usage
+
+In order to change the color of an icon, you *must* be using the *defs* version and target the `<use>` property. For example, if you want an "add" button, your Sass (or CSS) would look like:
+
+CSS:
+```css
+.svg-common--add {
+  @extend %svg-common;
+  background-position: 37.06896551724138% 81.99121522693997%;
+  fill: #cc6699;
+}
+```
+
+Sass:
+```sass
+.icon--add {
+  @extend .svg-common--add;
+  fill: #cc6699;
+}
