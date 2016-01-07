@@ -18,8 +18,10 @@
   "author": "Brian Han <thisisbrianhan@gmail.com> (http://brianhanio.mybluemix.net/)",
   "license": "ISC",
   "devDependencies": {
+    "browserify": "^12.0.1",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
-    "gulp-image-data-uri": "^1.1.0"
+    "gulp-image-data-uri": "^1.1.0",
+    "gulp-svg-sprite": "^1.2.18"
   }
 }
