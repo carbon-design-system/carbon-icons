@@ -19,7 +19,7 @@
     }
   ],
   "description": "",
-  "main": "_icons.scss",
+  "main": "sprite.svg",
   "keywords": [
     "ibm",
     "bluemix",
