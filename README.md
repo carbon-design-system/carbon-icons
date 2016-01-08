@@ -1,6 +1,6 @@
 # Bluemix Icons
 
-Icons for Bluemix. [SEE REFERENCE PAGE](#)
+Icons for Bluemix. [SEE REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/build/defs/sprite.defs.html)
 
 ## Developing in this Repo
 
@@ -39,7 +39,7 @@ bower install bluemix-icons --save-dev
 
 *The main file here is `sprite.svg`, which contains an SVG sprite (every SVG included in a single file within a `<defs>` tag). We're using the [SVG <use>](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use) to access them*
 
-The icons are their original color by default. (see [REFERENCE PAGE](#)) but can be edited using CSS.
+The icons are their original color by default. (see [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/build/defs/sprite.defs.html)) but can be edited using CSS.
 
 HTML:
 ```html
@@ -48,7 +48,7 @@ HTML:
 </shapes>
 ```
 
-In this usage, there must be a viewBox (what you have in the ViewBox *does NOT matter* as long as the last two numbers are identical for square icons). Use "0 0 1 1" and you should be fine. See the [REFERENCE PAGE](#) for a guide with what `xlink:href` to use.
+In this usage, there must be a viewBox (what you have in the ViewBox *does NOT matter* as long as the last two numbers are identical for square icons). Use "0 0 1 1" and you should be fine. See the [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/build/defs/sprite.defs.html) for a guide with what `xlink:href` to use.
 
 All of the icons are black by default and take the size of their parent elements. You can edit height and width, or let it stay at 100%.
 
