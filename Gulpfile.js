@@ -13,19 +13,19 @@ var config= {
     defs: { // Activate the defs mode
       render: {
         css: true, // CSS output
-        scss: true,
-        prefix: "svg--%s",
+        scss: true
       },
-      bust: true, // Cache busting
+      prefix: ".svg--%s",
+      bust: false, // Cache busting
       example: true // Build a page
     },
     css: { // Activate the CSS mode
       render: {
         css: true,
-        scss: true,
-        prefix: "svg--%s",
+        scss: true
       },
-      bust: true,
+      prefix: ".svg--%s",
+      bust: false, // Cache busting
       example: true
     }
   }

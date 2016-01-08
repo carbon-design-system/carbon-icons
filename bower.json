@@ -1,4 +1,4 @@
-{
+  {
   "name": "bluemix-icons",
   "authors": [
     {
@@ -12,6 +12,10 @@
     {
       "name": "Jeff Ng",
       "email": "ctng@us.ibm.com"
+    },
+    {
+      "name": "Una Kravets",
+      "email": "uakravet@us.ibm.com"
     }
   ],
   "description": "",
@@ -25,9 +29,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ],
   "dependencies": {
     "svgxuse": "~1.1.3"

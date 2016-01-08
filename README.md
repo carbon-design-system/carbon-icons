@@ -35,6 +35,8 @@ The import path will depend on where your `scss` files are located in
 
 ## Usage
 
+We're using the [SVG <use>](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use)
+
 In order to change the color of an icon, you *must* be using the *defs* version and target the `<use>` property. For example, if you want an "add" button, your Sass (or CSS) would look like:
 
 CSS:
