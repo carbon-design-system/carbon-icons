@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<title>SVG CSS sprite preview | svg-sprite</title>
+		<style>@charset "UTF-8";body{padding:0;margin:0;color:#666;background:#fafafa;font-family:Arial,Helvetica,sans-serif;font-size:1em;line-height:1.4}header{display:block;padding:3em 3em 2em 3em;background-color:#fff}header p{margin:2em 0 0 0}section{border-top:1px solid #eee;padding:2em 3em 0 3em}section ul{margin:0;padding:0}section li{display:inline;display:inline-block;background-color:#fff;position:relative;margin:0 2em 2em 0;vertical-align:top;border:1px solid #ccc;padding:1em 1em 3em 1em;cursor:default}.icon-box{margin:0;width:144px;height:144px;position:relative;background:#ccc url("data:image/gif;base64,R0lGODlhDAAMAIAAAMzMzP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjEgNjQuMTQwOTQ5LCAyMDEwLzEyLzA3LTEwOjU3OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgV2luZG93cyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQjk4OTI0MUY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQjk4OTI0MkY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNCOTg5MjNGRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNCOTg5MjQwRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAwADAAAAhaEH6mHmmzcgzJAUG/NVGrfOZ8YLlABADs=") top left repeat;border:1px solid #ccc;display:table-cell;vertical-align:middle;text-align:center}.icon{display:inline;display:inline-block}h1{margin-top:0}h2{margin:0;padding:0;font-size:1em;font-weight:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;position:absolute;left:1em;right:1em;bottom:1em}footer{display:block;margin:0;padding:0 3em 3em 3em}footer p{margin:0;font-size:.7em}footer a{color:#0f7595;margin-left:0}</style>
+		<style>i{text-indent:200%;white-space:nowrap;overflow:hidden;display:inline-block}</style>
+		
+<!--
+	
+Sprite CSS
+====================================================================================================
+This is an all-in-one inline version of the CSS necessary to use the SVG sprite. 
+
+-->
+
+<style type="text/css">
+.svg--common--add {
+	background: url("svg/sprite.css.svg") 52.80172413793103% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--arrows {
+	background: url("svg/sprite.css.svg") 37.883597883597886% 91.01283880171184% no-repeat;
+	width: 15px;
+	height: 14px;
+}
+.svg--common--cancel {
+	background: url("svg/sprite.css.svg") 49.35344827586207% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--configure {
+	background: url("svg/sprite.css.svg") 59.69827586206897% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--create {
+	background: url("svg/sprite.css.svg") 0 93.17147192716237% no-repeat;
+	width: 56px;
+	height: 56px;
+}
+.svg--common--delete {
+	background: url("svg/sprite.css.svg") 80.38793103448276% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--deploy {
+	background: url("svg/sprite.css.svg") 21.767241379310345% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--download {
+	background: url("svg/sprite.css.svg") 70.04310344827586% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--edit {
+	background: url("svg/sprite.css.svg") 32.11206896551724% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--grid {
+	background: url("svg/sprite.css.svg") 17.46031746031746% 95.71428571428571% no-repeat;
+	width: 15px;
+	height: 15px;
+}
+.svg--common--group {
+	background: url("svg/sprite.css.svg") 56.25% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--healthy {
+	background: url("svg/sprite.css.svg") 63.14655172413793% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--help {
+	background: url("svg/sprite.css.svg") 66.59482758620689% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--link {
+	background: url("svg/sprite.css.svg") 73.49137931034483% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--monitor {
+	background: url("svg/sprite.css.svg") 76.9396551724138% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--previous {
+	background: url("svg/sprite.css.svg") 0 84.72012102874433% no-repeat;
+	width: 62px;
+	height: 54px;
+}
+.svg--common--purchase {
+	background: url("svg/sprite.css.svg") 83.83620689655173% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--restart {
+	background: url("svg/sprite.css.svg") 87.28448275862068% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--running {
+	background: url("svg/sprite.css.svg") 25.21551724137931% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--search {
+	background: url("svg/sprite.css.svg") 28.663793103448278% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--search-sm {
+	background: url("svg/sprite.css.svg") 38.24786324786325% 88.85672937771346% no-repeat;
+	width: 24px;
+	height: 24px;
+}
+.svg--common--settings {
+	background: url("svg/sprite.css.svg") 35.560344827586206% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--start {
+	background: url("svg/sprite.css.svg") 39.008620689655174% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--stop {
+	background: url("svg/sprite.css.svg") 42.456896551724135% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--common--tile-view {
+	background: url("svg/sprite.css.svg") 45.9051724137931% 81.99121522693997% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.svg--old--arrow-left {
+	background: url("svg/sprite.css.svg") 89.22011126272699% 82.48009101251422% no-repeat;
+	width: 7.3px;
+	height: 11.8px;
+}
+.svg--old--arrow-right {
+	background: url("svg/sprite.css.svg") 89.98635457121864% 82.48009101251422% no-repeat;
+	width: 7.3px;
+	height: 11.8px;
+}
+.svg--old--caret {
+	background: url("svg/sprite.css.svg") 91.61154855643044% 81.55230596175477% no-repeat;
+	width: 7.5px;
+	height: 3.8px;
+}
+.svg--old--runtime-rb {
+	background: url("svg/sprite.css.svg") 0 0 no-repeat;
+	width: 960px;
+	height: 560px;
+}
+.svg--service--add-filled {
+	background: url("svg/sprite.css.svg") 97.77070063694268% 80.34433285509326% no-repeat;
+	width: 18px;
+	height: 18px;
+}
+.svg--service--back {
+	background: url("svg/sprite.css.svg") 47.195767195767196% 87.46438746438747% no-repeat;
+	width: 15px;
+	height: 13px;
+}
+.svg--service--chevron {
+	background: url("svg/sprite.css.svg") 88.4453781512605% 82.50355618776672% no-repeat;
+	width: 8px;
+	height: 12px;
+}
+.svg--service--down-arrow {
+	background: url("svg/sprite.css.svg") 90.81932773109243% 81.69014084507042% no-repeat;
+	width: 8px;
+	height: 5px;
+}
+.svg--service--logsLink {
+	background: url("svg/sprite.css.svg") 90.05347593582887% 80.57553956834532% no-repeat;
+	width: 25px;
+	height: 20px;
+}
+.svg--service--status-complete {
+	background: url("svg/sprite.css.svg") 99.47033898305085% 80.11444921316166% no-repeat;
+	width: 16px;
+	height: 16px;
+}
+.svg--service--status-error {
+	background: url("svg/sprite.css.svg") 93.94904458598727% 80.34433285509326% no-repeat;
+	width: 18px;
+	height: 18px;
+}
+.svg--service--status-initializing {
+	background: url("svg/sprite.css.svg") 42.16101694915254% 87.83977110157367% no-repeat;
+	width: 16px;
+	height: 16px;
+}
+.svg--service--status-paused {
+	background: url("svg/sprite.css.svg") 45.55084745762712% 87.83977110157367% no-repeat;
+	width: 16px;
+	height: 16px;
+}
+.svg--service--status-pending {
+	background: url("svg/sprite.css.svg") 92.03821656050955% 80.34433285509326% no-repeat;
+	width: 18px;
+	height: 18px;
+}
+.svg--service--status-running {
+	background: url("svg/sprite.css.svg") 40.46610169491525% 87.83977110157367% no-repeat;
+	width: 16px;
+	height: 16px;
+}
+.svg--service--status-scheduled {
+	background: url("svg/sprite.css.svg") 43.855932203389834% 87.83977110157367% no-repeat;
+	width: 16px;
+	height: 16px;
+}
+.svg--service--status-success {
+	background: url("svg/sprite.css.svg") 95.85987261146497% 80.34433285509326% no-repeat;
+	width: 18px;
+	height: 18px;
+}
+.svg--taxonomy--app-services {
+	background: url("svg/sprite.css.svg") 13.304252998909487% 100% no-repeat;
+	width: 43px;
+	height: 45px;
+}
+.svg--taxonomy--cognitive {
+	background: url("svg/sprite.css.svg") 16.03875134553283% 91.77877428998505% no-repeat;
+	width: 31px;
+	height: 46px;
+}
+.svg--taxonomy--compute {
+	background: url("svg/sprite.css.svg") 19.693654266958426% 91.50521609538004% no-repeat;
+	width: 46px;
+	height: 44px;
+}
+.svg--taxonomy--data {
+	background: url("svg/sprite.css.svg") 29.617486338797814% 91.2332838038633% no-repeat;
+	width: 45px;
+	height: 42px;
+}
+.svg--taxonomy--devops {
+	background: url("svg/sprite.css.svg") 24.69945355191257% 91.36904761904762% no-repeat;
+	width: 45px;
+	height: 43px;
+}
+.svg--taxonomy--home {
+	background: url("svg/sprite.css.svg") 11.269146608315099% 91.77877428998505% no-repeat;
+	width: 46px;
+	height: 46px;
+}
+.svg--taxonomy--integration {
+	background: url("svg/sprite.css.svg") 17.067833698030636% 82.96296296296296% no-repeat;
+	width: 46px;
+	height: 40px;
+}
+.svg--taxonomy--iot {
+	background: url("svg/sprite.css.svg") 6.790799561883899% 83.83233532934132% no-repeat;
+	width: 47px;
+	height: 47px;
+}
+.svg--taxonomy--media-cdn {
+	background: url("svg/sprite.css.svg") 0 100% no-repeat;
+	width: 45px;
+	height: 45px;
+}
+.svg--taxonomy--mobile {
+	background: url("svg/sprite.css.svg") 34.42265795206972% 91.0979228486647% no-repeat;
+	width: 42px;
+	height: 41px;
+}
+.svg--taxonomy--network {
+	background: url("svg/sprite.css.svg") 6.133625410733845% 91.91616766467065% no-repeat;
+	width: 47px;
+	height: 47px;
+}
+.svg--taxonomy--private-apis {
+	background: url("svg/sprite.css.svg") 4.918032786885246% 100% no-repeat;
+	width: 45px;
+	height: 45px;
+}
+.svg--taxonomy--security {
+	background: url("svg/sprite.css.svg") 9.698275862068966% 100% no-repeat;
+	width: 32px;
+	height: 45px;
+}
+.svg--taxonomy--storage {
+	background: url("svg/sprite.css.svg") 11.938663745892661% 83.4575260804769% no-repeat;
+	width: 47px;
+	height: 44px;
+}
+</style>
+
+<!--
+====================================================================================================
+-->
+
+	</head>
+	<body>
+		<header>
+			<h1>SVG CSS sprite preview</h1>
+			<p>This preview features the generated SVG file as a conventional CSS sprite. The shapes are displayed as background images of several <code>&lt;i&gt;</code> elements.</p>
+		</header>
+		<section>
+			
+<!--
+	
+Conventional CSS sprite
+====================================================================================================
+This technique uses CSS classes to display portions of the sprite as background image of
+appropriately sized elements.
+
+-->
+
+			<ul>
+				
+				<li title="common--add">
+					<div class="icon-box">
+						
+						<!-- common--add -->
+						<i class="svg--common--add">common--add</i>
+						
+					</div>
+					<h2>common--add</h2>
+				</li>
+				<li title="common--arrows">
+					<div class="icon-box">
+						
+						<!-- common--arrows -->
+						<i class="svg--common--arrows">common--arrows</i>
+						
+					</div>
+					<h2>common--arrows</h2>
+				</li>
+				<li title="common--cancel">
+					<div class="icon-box">
+						
+						<!-- common--cancel -->
+						<i class="svg--common--cancel">common--cancel</i>
+						
+					</div>
+					<h2>common--cancel</h2>
+				</li>
+				<li title="common--configure">
+					<div class="icon-box">
+						
+						<!-- common--configure -->
+						<i class="svg--common--configure">common--configure</i>
+						
+					</div>
+					<h2>common--configure</h2>
+				</li>
+				<li title="common--create">
+					<div class="icon-box">
+						
+						<!-- common--create -->
+						<i class="svg--common--create">common--create</i>
+						
+					</div>
+					<h2>common--create</h2>
+				</li>
+				<li title="common--delete">
+					<div class="icon-box">
+						
+						<!-- common--delete -->
+						<i class="svg--common--delete">common--delete</i>
+						
+					</div>
+					<h2>common--delete</h2>
+				</li>
+				<li title="common--deploy">
+					<div class="icon-box">
+						
+						<!-- common--deploy -->
+						<i class="svg--common--deploy">common--deploy</i>
+						
+					</div>
+					<h2>common--deploy</h2>
+				</li>
+				<li title="common--download">
+					<div class="icon-box">
+						
+						<!-- common--download -->
+						<i class="svg--common--download">common--download</i>
+						
+					</div>
+					<h2>common--download</h2>
+				</li>
+				<li title="common--edit">
+					<div class="icon-box">
+						
+						<!-- common--edit -->
+						<i class="svg--common--edit">common--edit</i>
+						
+					</div>
+					<h2>common--edit</h2>
+				</li>
+				<li title="common--grid">
+					<div class="icon-box">
+						
+						<!-- common--grid -->
+						<i class="svg--common--grid">common--grid</i>
+						
+					</div>
+					<h2>common--grid</h2>
+				</li>
+				<li title="common--group">
+					<div class="icon-box">
+						
+						<!-- common--group -->
+						<i class="svg--common--group">common--group</i>
+						
+					</div>
+					<h2>common--group</h2>
+				</li>
+				<li title="common--healthy">
+					<div class="icon-box">
+						
+						<!-- common--healthy -->
+						<i class="svg--common--healthy">common--healthy</i>
+						
+					</div>
+					<h2>common--healthy</h2>
+				</li>
+				<li title="common--help">
+					<div class="icon-box">
+						
+						<!-- common--help -->
+						<i class="svg--common--help">common--help</i>
+						
+					</div>
+					<h2>common--help</h2>
+				</li>
+				<li title="common--link">
+					<div class="icon-box">
+						
+						<!-- common--link -->
+						<i class="svg--common--link">common--link</i>
+						
+					</div>
+					<h2>common--link</h2>
+				</li>
+				<li title="common--monitor">
+					<div class="icon-box">
+						
+						<!-- common--monitor -->
+						<i class="svg--common--monitor">common--monitor</i>
+						
+					</div>
+					<h2>common--monitor</h2>
+				</li>
+				<li title="common--previous">
+					<div class="icon-box">
+						
+						<!-- common--previous -->
+						<i class="svg--common--previous">common--previous</i>
+						
+					</div>
+					<h2>common--previous</h2>
+				</li>
+				<li title="common--purchase">
+					<div class="icon-box">
+						
+						<!-- common--purchase -->
+						<i class="svg--common--purchase">common--purchase</i>
+						
+					</div>
+					<h2>common--purchase</h2>
+				</li>
+				<li title="common--restart">
+					<div class="icon-box">
+						
+						<!-- common--restart -->
+						<i class="svg--common--restart">common--restart</i>
+						
+					</div>
+					<h2>common--restart</h2>
+				</li>
+				<li title="common--running">
+					<div class="icon-box">
+						
+						<!-- common--running -->
+						<i class="svg--common--running">common--running</i>
+						
+					</div>
+					<h2>common--running</h2>
+				</li>
+				<li title="common--search">
+					<div class="icon-box">
+						
+						<!-- common--search -->
+						<i class="svg--common--search">common--search</i>
+						
+					</div>
+					<h2>common--search</h2>
+				</li>
+				<li title="common--search-sm">
+					<div class="icon-box">
+						
+						<!-- common--search-sm -->
+						<i class="svg--common--search-sm">common--search-sm</i>
+						
+					</div>
+					<h2>common--search-sm</h2>
+				</li>
+				<li title="common--settings">
+					<div class="icon-box">
+						
+						<!-- common--settings -->
+						<i class="svg--common--settings">common--settings</i>
+						
+					</div>
+					<h2>common--settings</h2>
+				</li>
+				<li title="common--start">
+					<div class="icon-box">
+						
+						<!-- common--start -->
+						<i class="svg--common--start">common--start</i>
+						
+					</div>
+					<h2>common--start</h2>
+				</li>
+				<li title="common--stop">
+					<div class="icon-box">
+						
+						<!-- common--stop -->
+						<i class="svg--common--stop">common--stop</i>
+						
+					</div>
+					<h2>common--stop</h2>
+				</li>
+				<li title="common--tile-view">
+					<div class="icon-box">
+						
+						<!-- common--tile-view -->
+						<i class="svg--common--tile-view">common--tile-view</i>
+						
+					</div>
+					<h2>common--tile-view</h2>
+				</li>
+				<li title="old--arrow-left">
+					<div class="icon-box">
+						
+						<!-- old--arrow-left -->
+						<i class="svg--old--arrow-left">old--arrow-left</i>
+						
+					</div>
+					<h2>old--arrow-left</h2>
+				</li>
+				<li title="old--arrow-right">
+					<div class="icon-box">
+						
+						<!-- old--arrow-right -->
+						<i class="svg--old--arrow-right">old--arrow-right</i>
+						
+					</div>
+					<h2>old--arrow-right</h2>
+				</li>
+				<li title="old--caret">
+					<div class="icon-box">
+						
+						<!-- old--caret -->
+						<i class="svg--old--caret">old--caret</i>
+						
+					</div>
+					<h2>old--caret</h2>
+				</li>
+				<li title="old--runtime-rb">
+					<div class="icon-box">
+						
+						<!-- old--runtime-rb -->
+						<i class="svg--old--runtime-rb">old--runtime-rb</i>
+						
+					</div>
+					<h2>old--runtime-rb</h2>
+				</li>
+				<li title="service--add-filled">
+					<div class="icon-box">
+						
+						<!-- service--add-filled -->
+						<i class="svg--service--add-filled">service--add-filled</i>
+						
+					</div>
+					<h2>service--add-filled</h2>
+				</li>
+				<li title="service--back">
+					<div class="icon-box">
+						
+						<!-- service--back -->
+						<i class="svg--service--back">service--back</i>
+						
+					</div>
+					<h2>service--back</h2>
+				</li>
+				<li title="service--chevron">
+					<div class="icon-box">
+						
+						<!-- service--chevron -->
+						<i class="svg--service--chevron">service--chevron</i>
+						
+					</div>
+					<h2>service--chevron</h2>
+				</li>
+				<li title="service--down-arrow">
+					<div class="icon-box">
+						
+						<!-- service--down-arrow -->
+						<i class="svg--service--down-arrow">service--down-arrow</i>
+						
+					</div>
+					<h2>service--down-arrow</h2>
+				</li>
+				<li title="service--logsLink">
+					<div class="icon-box">
+						
+						<!-- service--logsLink -->
+						<i class="svg--service--logsLink">service--logsLink</i>
+						
+					</div>
+					<h2>service--logsLink</h2>
+				</li>
+				<li title="service--status-complete">
+					<div class="icon-box">
+						
+						<!-- service--status-complete -->
+						<i class="svg--service--status-complete">service--status-complete</i>
+						
+					</div>
+					<h2>service--status-complete</h2>
+				</li>
+				<li title="service--status-error">
+					<div class="icon-box">
+						
+						<!-- service--status-error -->
+						<i class="svg--service--status-error">service--status-error</i>
+						
+					</div>
+					<h2>service--status-error</h2>
+				</li>
+				<li title="service--status-initializing">
+					<div class="icon-box">
+						
+						<!-- service--status-initializing -->
+						<i class="svg--service--status-initializing">service--status-initializing</i>
+						
+					</div>
+					<h2>service--status-initializing</h2>
+				</li>
+				<li title="service--status-paused">
+					<div class="icon-box">
+						
+						<!-- service--status-paused -->
+						<i class="svg--service--status-paused">service--status-paused</i>
+						
+					</div>
+					<h2>service--status-paused</h2>
+				</li>
+				<li title="service--status-pending">
+					<div class="icon-box">
+						
+						<!-- service--status-pending -->
+						<i class="svg--service--status-pending">service--status-pending</i>
+						
+					</div>
+					<h2>service--status-pending</h2>
+				</li>
+				<li title="service--status-running">
+					<div class="icon-box">
+						
+						<!-- service--status-running -->
+						<i class="svg--service--status-running">service--status-running</i>
+						
+					</div>
+					<h2>service--status-running</h2>
+				</li>
+				<li title="service--status-scheduled">
+					<div class="icon-box">
+						
+						<!-- service--status-scheduled -->
+						<i class="svg--service--status-scheduled">service--status-scheduled</i>
+						
+					</div>
+					<h2>service--status-scheduled</h2>
+				</li>
+				<li title="service--status-success">
+					<div class="icon-box">
+						
+						<!-- service--status-success -->
+						<i class="svg--service--status-success">service--status-success</i>
+						
+					</div>
+					<h2>service--status-success</h2>
+				</li>
+				<li title="taxonomy--app-services">
+					<div class="icon-box">
+						
+						<!-- taxonomy--app-services -->
+						<i class="svg--taxonomy--app-services">taxonomy--app-services</i>
+						
+					</div>
+					<h2>taxonomy--app-services</h2>
+				</li>
+				<li title="taxonomy--cognitive">
+					<div class="icon-box">
+						
+						<!-- taxonomy--cognitive -->
+						<i class="svg--taxonomy--cognitive">taxonomy--cognitive</i>
+						
+					</div>
+					<h2>taxonomy--cognitive</h2>
+				</li>
+				<li title="taxonomy--compute">
+					<div class="icon-box">
+						
+						<!-- taxonomy--compute -->
+						<i class="svg--taxonomy--compute">taxonomy--compute</i>
+						
+					</div>
+					<h2>taxonomy--compute</h2>
+				</li>
+				<li title="taxonomy--data">
+					<div class="icon-box">
+						
+						<!-- taxonomy--data -->
+						<i class="svg--taxonomy--data">taxonomy--data</i>
+						
+					</div>
+					<h2>taxonomy--data</h2>
+				</li>
+				<li title="taxonomy--devops">
+					<div class="icon-box">
+						
+						<!-- taxonomy--devops -->
+						<i class="svg--taxonomy--devops">taxonomy--devops</i>
+						
+					</div>
+					<h2>taxonomy--devops</h2>
+				</li>
+				<li title="taxonomy--home">
+					<div class="icon-box">
+						
+						<!-- taxonomy--home -->
+						<i class="svg--taxonomy--home">taxonomy--home</i>
+						
+					</div>
+					<h2>taxonomy--home</h2>
+				</li>
+				<li title="taxonomy--integration">
+					<div class="icon-box">
+						
+						<!-- taxonomy--integration -->
+						<i class="svg--taxonomy--integration">taxonomy--integration</i>
+						
+					</div>
+					<h2>taxonomy--integration</h2>
+				</li>
+				<li title="taxonomy--iot">
+					<div class="icon-box">
+						
+						<!-- taxonomy--iot -->
+						<i class="svg--taxonomy--iot">taxonomy--iot</i>
+						
+					</div>
+					<h2>taxonomy--iot</h2>
+				</li>
+				<li title="taxonomy--media-cdn">
+					<div class="icon-box">
+						
+						<!-- taxonomy--media-cdn -->
+						<i class="svg--taxonomy--media-cdn">taxonomy--media-cdn</i>
+						
+					</div>
+					<h2>taxonomy--media-cdn</h2>
+				</li>
+				<li title="taxonomy--mobile">
+					<div class="icon-box">
+						
+						<!-- taxonomy--mobile -->
+						<i class="svg--taxonomy--mobile">taxonomy--mobile</i>
+						
+					</div>
+					<h2>taxonomy--mobile</h2>
+				</li>
+				<li title="taxonomy--network">
+					<div class="icon-box">
+						
+						<!-- taxonomy--network -->
+						<i class="svg--taxonomy--network">taxonomy--network</i>
+						
+					</div>
+					<h2>taxonomy--network</h2>
+				</li>
+				<li title="taxonomy--private-apis">
+					<div class="icon-box">
+						
+						<!-- taxonomy--private-apis -->
+						<i class="svg--taxonomy--private-apis">taxonomy--private-apis</i>
+						
+					</div>
+					<h2>taxonomy--private-apis</h2>
+				</li>
+				<li title="taxonomy--security">
+					<div class="icon-box">
+						
+						<!-- taxonomy--security -->
+						<i class="svg--taxonomy--security">taxonomy--security</i>
+						
+					</div>
+					<h2>taxonomy--security</h2>
+				</li>
+				<li title="taxonomy--storage">
+					<div class="icon-box">
+						
+						<!-- taxonomy--storage -->
+						<i class="svg--taxonomy--storage">taxonomy--storage</i>
+						
+					</div>
+					<h2>taxonomy--storage</h2>
+				</li>
+			</ul>
+
+<!--
+====================================================================================================
+-->
+
+		</section>
+		<footer>
+			<p>Generated at Fri, 08 Jan 2016 19:43:39 GMT by <a href="https://github.com/jkphl/svg-sprite" target="_blank">svg-sprite</a>.</p>
+		</footer>
+	</body>
+</html>

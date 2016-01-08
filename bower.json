@@ -1,12 +1,25 @@
-{
+  {
   "name": "bluemix-icons",
   "authors": [
-    {"name": "Brian Han", "email": "bthan@us.ibm.com"},
-    {"name": "Stan Li", "email": "lih@us.ibm.com"},
-    {"name": "Jeff Ng", "email": "ctng@us.ibm.com"}
+    {
+      "name": "Brian Han",
+      "email": "bthan@us.ibm.com"
+    },
+    {
+      "name": "Stan Li",
+      "email": "lih@us.ibm.com"
+    },
+    {
+      "name": "Jeff Ng",
+      "email": "ctng@us.ibm.com"
+    },
+    {
+      "name": "Una Kravets",
+      "email": "uakravet@us.ibm.com"
+    }
   ],
   "description": "",
-  "main": "_icons.scss",
+  "main": "sprite.svg",
   "keywords": [
     "ibm",
     "bluemix",
@@ -16,8 +29,9 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+    "bower_components"
+  ],
+  "dependencies": {
+    "svgxuse": "~1.1.3"
+  }
 }

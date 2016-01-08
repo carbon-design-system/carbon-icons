@@ -2,8 +2,9 @@
   "name": "bluemix-icons",
   "version": "0.0.2",
   "description": "",
-  "main": "_icons.scss",
+  "main": "sprite.svg",
   "scripts": {
+    "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,11 +16,14 @@
     "bluemix",
     "ibm"
   ],
-  "author": "Brian Han <thisisbrianhan@gmail.com> (http://brianhanio.mybluemix.net/)",
+  "authors": [
+    "Brian Han <thisisbrianhan@gmail.com>",
+    "Una Kravets <uakravet@us.ibm.com>"
+  ],
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-image-data-uri": "^1.1.0"
+    "gulp-rename": "^1.2.2",
+    "gulp-svg-sprite": "^1.2.18"
   }
 }

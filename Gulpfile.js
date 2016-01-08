@@ -5,21 +5,44 @@
 //////////////////////////////
 
 var gulp = require('gulp');
-var concat = require('gulp-concat');
-var svg = require('gulp-image-data-uri');
+var svgSprite = require('gulp-svg-sprite');
+var rename = require('gulp-rename');
 
-gulp.task('icons', function() {
-  return gulp.src('svg/**/*.svg')
-    .pipe(svg({
-      customClass: function(className) {
-        var customClass = 'icon--' + className;
-        return customClass;
+// SVG Config
+var config= {
+  mode: {
+    defs: { // Activate the defs mode
+      render: {
+        css: true, // CSS output
+        scss: true
       },
+      prefix: ".svg--%s",
+      bust: false, // Cache busting
+      example: true // Build a page
+    },
+    css: { // Activate the CSS mode
+      render: {
+        css: true,
+        scss: true
+      },
+      prefix: ".svg--%s",
+      bust: false, // Cache busting
+      example: true
+    }
+  }
+};
 
-		template: {
-		    file: 'node_modules/gulp-image-data-uri/template.css'
-		}
-    } ))
-    .pipe(concat('_icons.scss'))
+
+gulp.task('sprite-page', function() {
+  return gulp.src('svg/**/*.svg')
+    .pipe(svgSprite(config))
+    .pipe(gulp.dest('./build'));
+});
+
+gulp.task('sprite-shortcut', function() {
+  return gulp.src('build/defs/svg/sprite.defs.svg')
+    .pipe(rename('sprite.svg'))
     .pipe(gulp.dest('.'));
 });
+
+gulp.task('default', ['sprite-page', 'sprite-shortcut']);
