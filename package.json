@@ -16,10 +16,14 @@
     "bluemix",
     "ibm"
   ],
-  "authors": ["Brian Han <thisisbrianhan@gmail.com>", "Una Kravets <uakravet@us.ibm.com>"],
+  "authors": [
+    "Brian Han <thisisbrianhan@gmail.com>",
+    "Una Kravets <uakravet@us.ibm.com>"
+  ],
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
     "gulp-svg-sprite": "^1.2.18"
   }
 }

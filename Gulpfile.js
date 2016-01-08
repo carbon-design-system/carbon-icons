@@ -6,6 +6,7 @@
 
 var gulp = require('gulp');
 var svgSprite = require('gulp-svg-sprite');
+var rename = require('gulp-rename');
 
 // SVG Config
 var config= {
@@ -32,8 +33,16 @@ var config= {
 };
 
 
-gulp.task('sprite', function() {
+gulp.task('sprite-page', function() {
   return gulp.src('svg/**/*.svg')
     .pipe(svgSprite(config))
-    .pipe(gulp.dest('./sprites'));
+    .pipe(gulp.dest('./build'));
 });
+
+gulp.task('sprite-shortcut', function() {
+  return gulp.src('build/defs/svg/sprite.defs.svg')
+    .pipe(rename('sprite.svg'))
+    .pipe(gulp.dest('.'));
+});
+
+gulp.task('default', ['sprite-page', 'sprite-shortcut']);
