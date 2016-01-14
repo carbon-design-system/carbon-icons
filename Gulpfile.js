@@ -11,7 +11,7 @@ var rename = require('gulp-rename');
 // SVG Config
 var config= {
   mode: {
-    defs: { // Activate the defs mode
+    symbol: { // Activate the defs mode
       render: {
         css: true, // CSS output
         scss: true
@@ -40,7 +40,7 @@ gulp.task('sprite-page', function() {
 });
 
 gulp.task('sprite-shortcut', function() {
-  return gulp.src('build/defs/svg/sprite.defs.svg')
+  return gulp.src('build/symbol/svg/sprite.symbol.svg')
     .pipe(rename('sprite.svg'))
     .pipe(gulp.dest('.'));
 });
