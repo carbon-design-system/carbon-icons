@@ -43,19 +43,17 @@ The icons are their original color by default. (see [REFERENCE PAGE](https://pag
 
 HTML:
 ```html
-<svg viewBox="0 0 32 32">
+<svg>
   <use xlink:href="#service--add-filled"></use>
 </shapes>
 ```
 
-In this usage, there must be a viewBox (what you have in the ViewBox *does NOT matter* as long as the last two numbers are identical for square icons). Use "0 0 1 1" and you should be fine. See the [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/build/symbol/sprite.symbol.html) for a guide with what `xlink:href` to use.
-
-All of the icons are black by default and take the size of their parent elements. You can edit height and width, or let it stay at 100%.
+In this usage, you style the SVG in CSS. Make sure to give it a width and height (default is 100% of parent). Some icons are colored while others are black by default. You can edit the fill to change this. See the [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/build/symbol/sprite.symbol.html) for a guide with what `xlink:href` to use.
 
 To edit these icons in CSS, *add your own class* to the `<svg>`. For example:
 
 ```html
-<svg viewBox="0 0 32 32" class="icon--add">
+<svg class="icon--add">
   <use xlink:href="#service--add-filled"></use>
 </shapes>
 ```
