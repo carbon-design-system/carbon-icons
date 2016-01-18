@@ -123,24 +123,64 @@
 	height: 32px;
 }
 
-.svg--old--arrow-left-dims {
-	width: 7.3px;
-	height: 11.8px;
+.svg--runtime--go-dims {
+	width: 64px;
+	height: 64px;
 }
 
-.svg--old--arrow-right-dims {
-	width: 7.3px;
-	height: 11.8px;
+.svg--runtime--java-dims {
+	width: 64px;
+	height: 64px;
 }
 
-.svg--old--caret-dims {
-	width: 7.5px;
-	height: 3.8px;
+.svg--runtime--javaliberty-dims {
+	width: 64px;
+	height: 64px;
 }
 
-.svg--old--runtime-rb-dims {
-	width: 960px;
-	height: 560px;
+.svg--runtime--net-dims {
+	width: 64px;
+	height: 64px;
+}
+
+.svg--runtime--nodejs-dims {
+	width: 64px;
+	height: 64px;
+}
+
+.svg--runtime--nodejsmean-dims {
+	width: 64px;
+	height: 64px;
+}
+
+.svg--runtime--php-dims {
+	width: 64px;
+	height: 64px;
+}
+
+.svg--runtime--python-dims {
+	width: 64px;
+	height: 64px;
+}
+
+.svg--runtime--pythonflask-dims {
+	width: 64px;
+	height: 64px;
+}
+
+.svg--runtime--ruby-dims {
+	width: 64px;
+	height: 64px;
+}
+
+.svg--runtime--rubyonrails-dims {
+	width: 64px;
+	height: 64px;
+}
+
+.svg--runtime--rubysinatra-dims {
+	width: 64px;
+	height: 64px;
 }
 
 .svg--service--add-filled-dims {
