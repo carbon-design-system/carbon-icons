@@ -44,8 +44,8 @@ The icons are their original color by default. (see [REFERENCE PAGE](https://pag
 HTML:
 ```html
 <svg>
-  <use xlink:href="#service--add-filled"></use>
-</shapes>
+  <use xlink:href="{link to sprite folder}/sprite.svg#service--add-filled"></use>
+</svg>
 ```
 
 In this usage, you style the SVG in CSS. Make sure to give it a width and height (default is 100% of parent). Some icons are colored while others are black by default. You can edit the fill to change this. See the [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/build/symbol/sprite.symbol.html) for a guide with what `xlink:href` to use.
@@ -54,14 +54,13 @@ To edit these icons in CSS, *add your own class* to the `<svg>`. For example:
 
 ```html
 <svg class="icon--add">
-  <use xlink:href="#service--add-filled"></use>
-</shapes>
+  <use xlink:href="{link to sprite folder}/sprite.svg#service--add-filled"></use>
+</svg>
 ```
 
 Sass:
 ```scss
 .icon--add {
-  @extend .svg-common--add; // extenting the icon class
   fill: #cc6699; // additional styling
 }
 ```
