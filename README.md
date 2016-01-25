@@ -66,3 +66,15 @@ Sass:
 ```
 
 You may style interactions, etc. For any questions, email Una Kravets at unakravets@us.ibm.com
+
+## IE 9-11 Polyfill
+
+External SVG is supported in every browser where inline SVG is supported, except for Internet Explorer. To fix this, there is a simple polyfill available called [svgxuse](https://github.com/Keyamoon/svgxuse). Simply include the script from svgxuse or integrate it into your build system:
+
+```
+npm install --save svgxuse
+```
+
+```
+<script defer src="node_modules/svgxuse/svgxuse.js"></script>
+```
