@@ -33,6 +33,11 @@
 	height: 32px;
 }
 
+.svg--common--copy-dims {
+	width: 44px;
+	height: 60px;
+}
+
 .svg--common--create-dims {
 	width: 56px;
 	height: 56px;
@@ -304,8 +309,8 @@
 }
 
 .svg--taxonomy--iot-dims {
-	width: 47px;
-	height: 47px;
+	width: 77px;
+	height: 77px;
 }
 
 .svg--taxonomy--media-cdn-dims {
