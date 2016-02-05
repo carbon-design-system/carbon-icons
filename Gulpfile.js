@@ -7,6 +7,7 @@
 var gulp = require('gulp');
 var svgSprite = require('gulp-svg-sprite');
 var rename = require('gulp-rename');
+var rsp = require('remove-svg-properties').stream;
 
 // SVG Config
 var config= {
@@ -39,9 +40,14 @@ gulp.task('sprite-page', function() {
     .pipe(gulp.dest('./build'));
 });
 
+// renames a sprite shortcut for redundancy
 gulp.task('sprite-shortcut', function() {
   return gulp.src('build/symbol/svg/sprite.symbol.svg')
     .pipe(rename('sprite.svg'))
+    .pipe(rsp.remove({
+        properties: [rsp.PROPS_FILL],
+        namespaces: ['i', 'sketch', 'inkscape']
+    }))
     .pipe(gulp.dest('.'));
 });
 

@@ -6,7 +6,7 @@
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="status-pending" sketch:type="MSLayerGroup">
-            <path d="M9,0 C4.02975,0 0,4.02975 0,9 C0,13.97025 4.02975,18 9,18 C13.97025,18 18,13.97025 18,9 C18,4.02975 13.97025,0 9,0" id="Fill-2" fill="#EFC100" sketch:type="MSShapeGroup"></path>
+            <path d="M9,0 C4.02975,0 0,4.02975 0,9 C0,13.97025 4.02975,18 9,18 C13.97025,18 18,13.97025 18,9 C18,4.02975 13.97025,0 9,0" id="Fill-2" sketch:type="MSShapeGroup"></path>
             <path d="M8.35714286,13.5 L10.0446429,13.5 L10.0446429,4.5 L8.35714286,4.5 L8.35714286,13.5 L8.35714286,13.5 Z" id="Fill-1" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
         </g>
     </g>

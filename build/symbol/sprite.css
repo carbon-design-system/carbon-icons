@@ -273,6 +273,11 @@
 	height: 18px;
 }
 
+.svg--taxonomy--allcategories-dims {
+	width: 42px;
+	height: 41px;
+}
+
 .svg--taxonomy--app-services-dims {
 	width: 43px;
 	height: 45px;
@@ -319,8 +324,8 @@
 }
 
 .svg--taxonomy--mobile-dims {
-	width: 42px;
-	height: 41px;
+	width: 55px;
+	height: 62px;
 }
 
 .svg--taxonomy--network-dims {
