@@ -1,17 +1,25 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4 (15588) - http://www.bohemiancoding.com/sketch -->
-    <title>Stroke 1 + Stroke 3</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Compute-Taxonomy" sketch:type="MSArtboardGroup" transform="translate(-311.000000, -131.000000)" stroke="#5AAAFA" stroke-width="1.5">
-            <g id="Main-Menu" sketch:type="MSLayerGroup" transform="translate(23.000000, 62.000000)">
-                <g id="Stroke-1-+-Stroke-3" transform="translate(289.000000, 70.000000)" sketch:type="MSShapeGroup">
-                    <path d="M17.9694915,4.70490236 C17.9694915,7.27618621 20.0288136,9.36070764 22.5707242,9.36070764 C25.1126348,9.36070764 27.1719569,7.27618621 27.1719569,4.70490236 C27.1719569,2.13502128 25.1126348,0.0504998464 22.5707242,0.0504998464 C20.0288136,0.0504998464 17.9694915,2.13502128 17.9694915,4.70490236 L17.9694915,4.70490236 Z M0.237134052,40.5794321 C0.237134052,43.1493132 2.29784284,45.2338347 4.83975347,45.2338347 C7.38027735,45.2338347 9.44098613,43.1493132 9.44098613,40.5794321 C9.44098613,38.0081483 7.38027735,35.9236269 4.83975347,35.9236269 C2.29784284,35.9236269 0.237134052,38.0081483 0.237134052,40.5794321 L0.237134052,40.5794321 Z M35.7004622,40.5794321 C35.7004622,43.1493132 37.761171,45.2338347 40.3030817,45.2338347 C42.8436055,45.2338347 44.9043143,43.1493132 44.9043143,40.5794321 C44.9043143,38.0081483 42.8436055,35.9236269 40.3030817,35.9236269 C37.761171,35.9236269 35.7004622,38.0081483 35.7004622,40.5794321 L35.7004622,40.5794321 Z" id="Stroke-1"></path>
-                    <path d="M22.5707242,9.36070764 L22.5707242,22.6421673 M4.83975347,35.9236269 L4.83975347,22.6421673 L40.3030817,22.6421673 L40.3030817,35.9236269" id="Stroke-3" stroke-linecap="round"></path>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-616 377 47 47"
+	 style="enable-background:new -616 377 47 47;" xml:space="preserve">
+<title>Stroke 1 + Stroke 3</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="Compute-Taxonomy" transform="translate(-311.000000, -131.000000)" sketch:type="MSArtboardGroup">
+		<g id="Main-Menu" transform="translate(23.000000, 62.000000)" sketch:type="MSLayerGroup">
+			<g id="Stroke-1-_x2B_-Stroke-3" transform="translate(289.000000, 70.000000)" sketch:type="MSShapeGroup">
+				<path d="M-575.7,423c-3,0-5.4-2.4-5.4-5.4c0-3,2.4-5.4,5.4-5.4s5.4,2.4,5.4,5.4C-570.3,420.6-572.7,423-575.7,423z
+					 M-575.7,413.7c-2.1,0-3.9,1.8-3.9,3.9s1.7,3.9,3.9,3.9s3.9-1.8,3.9-3.9S-573.6,413.7-575.7,413.7z M-611.2,423
+					c-3,0-5.4-2.4-5.4-5.4c0-3,2.4-5.4,5.4-5.4c3,0,5.4,2.4,5.4,5.4C-605.8,420.6-608.2,423-611.2,423z M-611.2,413.7
+					c-2.1,0-3.9,1.8-3.9,3.9s1.7,3.9,3.9,3.9c2.1,0,3.9-1.8,3.9-3.9S-609,413.7-611.2,413.7z M-593.4,387.1c-3,0-5.4-2.4-5.4-5.4
+					c0-3,2.4-5.4,5.4-5.4s5.4,2.4,5.4,5.4C-588.1,384.7-590.5,387.1-593.4,387.1z M-593.4,377.8c-2.1,0-3.9,1.8-3.9,3.9
+					c0,2.2,1.7,3.9,3.9,3.9s3.9-1.8,3.9-3.9C-589.6,379.6-591.3,377.8-593.4,377.8z"/>
+				<path d="M-575.7,413.7c-0.4,0-0.8-0.3-0.8-0.8v-12.5h-34v12.5c0,0.4-0.3,0.8-0.8,0.8s-0.8-0.3-0.8-0.8v-14h17.7v-12.5
+					c0-0.4,0.3-0.8,0.8-0.8s0.7,0.3,0.7,0.8v12.5h17.7v14C-574.9,413.3-575.3,413.7-575.7,413.7z"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

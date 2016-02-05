@@ -1,19 +1,25 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="55px" height="62px" viewBox="0 0 55 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
-    <title>Page 1</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Console-Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Atlas-Home-Copy" sketch:type="MSArtboardGroup" transform="translate(-1229.000000, -338.000000)">
-            <g id="Page-1" sketch:type="MSLayerGroup" transform="translate(1230.000000, 339.000000)">
-                <path d="M32.5567758,29.7696486 L50.7767303,29.7696486 C51.7267152,29.7696486 52.5040485,28.9847838 52.5040485,28.0255946 L52.5040485,9.19775676 C52.5040485,8.23856757 51.7267152,7.4537027 50.7767303,7.4537027 L25.6908667,7.4537027 C24.7408818,7.4537027 23.9635485,8.23856757 23.9635485,9.19775676 L23.9635485,36.2537027 L32.5567758,29.7696486 L32.5567758,29.7696486 Z" id="Stroke-1" stroke="#5AAAFA" stroke-width="2" sketch:type="MSShapeGroup"></path>
-                <path d="M30.2034955,14.5945946 L46.2641015,14.5945946" id="Stroke-3" stroke="#5AAAFA" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
-                <path d="M30.2034955,21.8918919 L46.2641015,21.8918919" id="Stroke-5" stroke="#5AAAFA" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
-                <path d="M0.399427273,46.2162162 L34.2608061,46.2162162" id="Stroke-7" stroke="#5AAAFA" stroke-width="2" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
-                <path d="M19.1032076,52.8641351 C19.1032076,51.8757568 18.3098136,51.0746757 17.3309197,51.0746757 C16.3520258,51.0746757 15.5586318,51.8757568 15.5586318,52.8641351 C15.5586318,53.8525135 16.3520258,54.6535946 17.3309197,54.6535946 C18.3098136,54.6535946 19.1032076,53.8525135 19.1032076,52.8641351" id="Fill-9" fill="#5AAAFA" sketch:type="MSShapeGroup"></path>
-                <path d="M34.2611273,29.8726216 L34.2611273,56.4234324 C34.2611273,58.1747838 32.8550212,59.5945135 31.1204758,59.5945135 L3.54200606,59.5945135 C1.80746061,59.5945135 0.401354545,58.1747838 0.401354545,56.4234324 L0.401354545,3.32181081 C0.401354545,1.57045946 1.80746061,0.15072973 3.54200606,0.15072973 L31.1204758,0.15072973 C32.8550212,0.15072973 34.2611273,1.57045946 34.2611273,3.32181081 L34.2611273,7.4537027" id="Stroke-11" stroke="#5AAAFA" stroke-width="2" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-612 370 55 62"
+	 style="enable-background:new -612 370 55 62;" xml:space="preserve">
+<title>Page 1</title>
+<desc>Created with Sketch.</desc>
+<g id="Console-Screens" sketch:type="MSPage">
+	<g id="Atlas-Home-Copy" transform="translate(-1229.000000, -338.000000)" sketch:type="MSArtboardGroup">
+		<g id="Page-1" transform="translate(1230.000000, 339.000000)" sketch:type="MSLayerGroup">
+			<path d="M-589,408.3v-29.1c0-1.5,1.2-2.7,2.7-2.7h25.1c1.5,0,2.7,1.2,2.7,2.7V398c0,1.5-1.2,2.7-2.7,2.7h-17.9L-589,408.3z
+				 M-586.3,378.5c-0.4,0-0.7,0.3-0.7,0.7v25l7.3-5.5h18.6c0.4,0,0.7-0.3,0.7-0.7v-18.8c0-0.4-0.3-0.7-0.7-0.7H-586.3z"/>
+			<path d="M-565.7,385.6h-16.1c-0.6,0-1-0.4-1-1s0.4-1,1-1h16.1c0.6,0,1,0.4,1,1S-565.2,385.6-565.7,385.6z"/>
+			<path d="M-565.7,392.9h-16.1c-0.6,0-1-0.4-1-1s0.4-1,1-1h16.1c0.6,0,1,0.4,1,1S-565.2,392.9-565.7,392.9z"/>
+			<rect x="-611.6" y="415.2" width="33.9" height="2"/>
+			<path id="Fill-9" sketch:type="MSShapeGroup" d="M-592.9,422.9c0-1-0.8-1.8-1.8-1.8s-1.8,0.8-1.8,1.8s0.8,1.8,1.8,1.8
+				S-592.9,423.9-592.9,422.9"/>
+			<path d="M-580.9,430.6h-27.6c-2.3,0-4.1-1.9-4.1-4.2v-53.1c0-2.3,1.9-4.2,4.1-4.2h27.6c2.3,0,4.1,1.9,4.1,4.2v4.1h-2v-4.1
+				c0-1.2-1-2.2-2.1-2.2h-27.6c-1.2,0-2.1,1-2.1,2.2v53.1c0,1.2,1,2.2,2.1,2.2h27.6c1.2,0,2.1-1,2.1-2.2v-26.6h2v26.6
+				C-576.7,428.7-578.6,430.6-580.9,430.6z"/>
+		</g>
+	</g>
+</g>
 </svg>
