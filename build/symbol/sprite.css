@@ -143,6 +143,11 @@
 	height: 32px;
 }
 
+.svg--common--user-dims {
+	width: 32px;
+	height: 32px;
+}
+
 .svg--runtime--go-dims {
 	width: 64px;
 	height: 64px;
