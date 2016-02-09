@@ -1,18 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="45px" height="42px" viewBox="0 0 45 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4 (15588) - http://www.bohemiancoding.com/sketch -->
-    <title>Imported Layers</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Compute-Taxonomy" sketch:type="MSArtboardGroup" transform="translate(-76.000000, -276.000000)" fill="#5AAAFA">
-            <g id="Main-Menu" sketch:type="MSLayerGroup" transform="translate(23.000000, 62.000000)">
-                <g id="Imported-Layers" transform="translate(53.000000, 214.000000)" sketch:type="MSShapeGroup">
-                    <path d="M43.9994805,11.5047975 L1.15363636,11.5047975 C0.830454545,11.5047975 0.569220779,11.2574063 0.569220779,10.9525849 C0.569220779,10.6477636 0.830454545,10.4003723 1.15363636,10.4003723 L43.9994805,10.4003723 C44.3220779,10.4003723 44.5838961,10.6477636 44.5838961,10.9525849 C44.5838961,11.2574063 44.3220779,11.5047975 43.9994805,11.5047975" id="Fill-1"></path>
-                    <path d="M43.9994805,41.868208 L1.15480519,41.868208 C0.832207792,41.868208 0.57038961,41.6213689 0.57038961,41.3159953 L0.57038961,0.83107998 C0.57038961,0.526258618 0.832207792,0.278867369 1.15480519,0.278867369 L43.9994805,0.278867369 C44.3220779,0.278867369 44.5838961,0.526258618 44.5838961,0.83107998 L44.5838961,41.3159953 C44.5838961,41.6213689 44.3220779,41.868208 43.9994805,41.868208 L43.9994805,41.868208 Z M1.73922078,40.7637827 L43.4150649,40.7637827 L43.4150649,1.38329259 L1.73922078,1.38329259 L1.73922078,40.7637827 Z" id="Fill-2"></path>
-                    <path d="M28.7509091,31.7472552 C28.6521429,31.7472552 28.5522078,31.7235101 28.461039,31.6738109 L10.4166234,21.9112442 L1.59720779,31.5556374 C1.38564935,31.7864623 1.0162987,31.8118641 0.772597403,31.6130676 C0.528311688,31.4131666 0.501428571,31.0647204 0.712402597,30.8338956 L9.84681818,20.8449216 C10.0297403,20.6455729 10.3365584,20.5953215 10.5790909,20.7267481 L28.582013,30.4672264 L43.5237662,10.6323016 C43.7096104,10.3838059 44.0748701,10.3258236 44.3384416,10.5025316 C44.6014286,10.6792397 44.6627922,11.0243726 44.4757792,11.2728682 L29.2277922,31.5153259 C29.1144156,31.6655278 28.9344156,31.7472552 28.7509091,31.7472552" id="Fill-3"></path>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-617 380 45 42"
+	 style="enable-background:new -617 380 45 42;" xml:space="preserve">
+<title>Imported Layers</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="Compute-Taxonomy" transform="translate(-76.000000, -276.000000)" sketch:type="MSArtboardGroup">
+		<g id="Main-Menu" transform="translate(23.000000, 62.000000)" sketch:type="MSLayerGroup">
+			<g id="Imported-Layers" transform="translate(53.000000, 214.000000)" sketch:type="MSShapeGroup">
+				<path id="Fill-1" d="M-573,391.5h-42.8c-0.3,0-0.6-0.2-0.6-0.6c0-0.3,0.3-0.6,0.6-0.6h42.8c0.3,0,0.6,0.2,0.6,0.6
+					C-572.4,391.3-572.7,391.5-573,391.5"/>
+				<path id="Fill-2" d="M-573,421.9h-42.8c-0.3,0-0.6-0.2-0.6-0.6v-40.5c0-0.3,0.3-0.6,0.6-0.6h42.8c0.3,0,0.6,0.2,0.6,0.6v40.5
+					C-572.4,421.6-572.7,421.9-573,421.9L-573,421.9z M-615.3,420.8h41.7v-39.4h-41.7V420.8z"/>
+				<path id="Fill-3" d="M-588.2,411.7c-0.1,0-0.2,0-0.3-0.1l-18-9.8l-8.8,9.6c-0.2,0.2-0.6,0.3-0.8,0.1c-0.2-0.2-0.3-0.5-0.1-0.8
+					l9.1-10c0.2-0.2,0.5-0.2,0.7-0.1l18,9.7l14.9-19.8c0.2-0.2,0.6-0.3,0.8-0.1c0.3,0.2,0.3,0.5,0.1,0.8l-15.2,20.2
+					C-587.9,411.7-588.1,411.7-588.2,411.7"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

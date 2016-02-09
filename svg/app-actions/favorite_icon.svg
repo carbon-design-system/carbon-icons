@@ -1,16 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
-    <title>Shape</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="List-View-–-Bare-Metal-Copy-6" sketch:type="MSArtboardGroup" transform="translate(-1323.000000, -606.000000)" fill="#959F9F">
-            <g id="AppCard1-Copy-4-+-containerServiceIcon-Copy-Copy-Copy-Copy-Copy" sketch:type="MSLayerGroup" transform="translate(1161.000000, 420.000000)">
-                <g id="AppCard1-Copy-4" sketch:type="MSShapeGroup">
-                    <path d="M177.565338,192.333467 L172.859904,191.604178 L170.750817,187.058237 C170.632195,186.785137 170.478941,186.648649 170.291515,186.648649 C170.104089,186.648649 169.95095,186.785137 169.832212,187.058237 L167.723011,191.604178 L163.017347,192.333467 C162.667462,192.393433 162.492462,192.5466 162.492462,192.793089 C162.492462,192.933011 162.570585,193.092922 162.726831,193.2727 L166.138923,196.809508 L165.332843,201.805016 C165.320302,201.898338 165.314089,201.96505 165.314089,202.004905 C165.314089,202.144827 165.34688,202.262921 165.412462,202.359677 C165.478043,202.45631 165.576416,202.504505 165.707695,202.504505 C165.820219,202.504505 165.94517,202.464772 166.082661,202.384694 L170.2914,200.026617 L174.500483,202.384694 C174.631877,202.464649 174.756828,202.504505 174.875335,202.504505 C175.000631,202.504505 175.095782,202.456433 175.161364,202.359677 C175.22683,202.263044 175.259621,202.144827 175.259621,202.004905 C175.259621,201.918327 175.256515,201.851738 175.250187,201.805016 L174.443991,196.809508 L177.846649,193.2727 C178.009338,193.099544 178.090452,192.939633 178.090452,192.793089 C178.090452,192.5466 177.915568,192.393433 177.565338,192.333467 Z" id="Shape"></path>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-631 392 17 17"
+	 style="enable-background:new -631 392 17 17;" xml:space="preserve">
+<title>Shape</title>
+<desc>Created with Sketch.</desc>
+<path d="M-614.9,398.8c0-0.2-0.2-0.4-0.5-0.5l-4.7-0.7l-2.1-4.5c-0.1-0.3-0.3-0.4-0.5-0.4c-0.2,0-0.3,0.1-0.5,0.4l-2.1,4.5l-4.7,0.7
+	c-0.3,0.1-0.5,0.2-0.5,0.5c0,0.1,0.1,0.3,0.2,0.5l3.4,3.5l-0.8,5c0,0.1,0,0.2,0,0.2c0,0.1,0,0.3,0.1,0.4c0.1,0.1,0.2,0.1,0.3,0.1
+	c0.1,0,0.2,0,0.4-0.1l4.2-2.4l4.2,2.4c0.1,0.1,0.3,0.1,0.4,0.1c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.2,0-0.2
+	l-0.8-5l3.4-3.5C-615,399.1-614.9,398.9-614.9,398.8z"/>
 </svg>
