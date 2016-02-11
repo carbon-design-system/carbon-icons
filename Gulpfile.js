@@ -41,6 +41,7 @@ gulp.task('sprite-page', function() {
 });
 
 // renames a sprite shortcut for redundancy
+// removing fills and namespaces
 gulp.task('sprite-shortcut', function() {
   return gulp.src('build/symbol/svg/sprite.symbol.svg')
     .pipe(rename('sprite.svg'))
