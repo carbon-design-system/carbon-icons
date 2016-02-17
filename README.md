@@ -27,9 +27,8 @@ Please submit a Pull Request to add icons.
 
 **Recommended:**
 
-Install [bluemix-components](https://github.ibm.com/Bluemix/bluemix-components) since it bundles all the things you need to build UIs for Bluemix:
-- bluemix-colors
-- bluemix-typography
+Install [bluemix-components](https://github.ibm.com/Bluemix/bluemix-components). 
+This will automatically install **bluemix-icons** as a peer dependency in your project's bower_components.
 
 **Bluemix icons Only:**
 
