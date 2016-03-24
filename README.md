@@ -25,17 +25,6 @@ Please submit a Pull Request to add icons.
 
 ## Usage
 
-**Recommended:**
-
-Install [bluemix-components](https://github.ibm.com/Bluemix/bluemix-components).
-This will automatically install **bluemix-icons** as a peer dependency in your project's bower_components.
-
-**Bluemix icons Only:**
-
-```
-bower install bluemix-icons --save-dev
-```
-
 *The main file here is `sprite.svg`, which contains an SVG sprite (every SVG included in a single file within a `<defs>` tag inside of a `<symbol>`). We're using the [SVG <use>](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use) to access them*
 
 The icons are their original color by default. (see [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/build/symbol/sprite.symbol.html)) but can be edited using CSS.
@@ -66,7 +55,7 @@ Sass:
 
 You may style interactions, etc. For any questions, email Una Kravets at unakravets@us.ibm.com
 
-## IE 9-11 Polyfill
+## Polyfill
 
 External SVG is supported in every browser where inline SVG is supported, except for Internet Explorer. To fix this, there is a simple polyfill available called [svgxuse](https://github.com/Keyamoon/svgxuse). Simply include the script from svgxuse or integrate it into your build system:
 
@@ -77,3 +66,20 @@ npm install --save svgxuse
 ```
 <script defer src="node_modules/svgxuse/svgxuse.js"></script>
 ```
+
+## Troubleshooting and Development Use
+
+**PLEASE READ THIS SECTION**
+
+The CDN running this sprite is located at `https://dev-console.stage1.ng.bluemix.net/api/v4/img/sprite.svg`
+
+SVG <use xlink:href="" /> actually can't reference an SVG file on a different domain right now due to CORS (cross-origin scripting security violations).
+
+This means an app running at `localhost:3000` can't use the sprite on `dev-console.stage1.ng.bluemix...` without the **svgxuse library**. This does not only add SVG/use support for IE 9/10/11, but it also (and more usefully) does a check for if a use element is missing content (which it would if the request is cross-origin), and if it is empty the script requests the SVG file with an old-fashioned XMLHttpRequest (this can go cross-origin, assuming the SVG has an appropriate CORS header) and finds the appropriate #hash to populate the `<use>` element.
+
+This won't be a big issue for production services as they will eventually be running on the same domain as the sprite (no CORS issues), or use the common header JS, which includes the svgxuse library already.
+
+But if you're doing something locally or not using the common header, you either have to:
+
+1. include svgxuse yourself to allow a cross-origin request to the CDN
+2. bring in a local copy of the sprite sheet to serve on the same domain (or locally) and reference that sprite instead of the CDN
