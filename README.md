@@ -20,7 +20,7 @@ Please submit a Pull Request to add icons.
 2. Clone it to your local system
 3. Add icons in the proper folder (you may add your own) within the `svg/` folder
 4. In your terminal run `npm install`
-5. Run `gulp` to rebuild the sprite
+5. Run `npm run build` to rebuild the `sprite.svg`
 6. Submit a pull request and rejoice! :tada:
 
 ## Usage

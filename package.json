@@ -4,8 +4,10 @@
   "description": "",
   "main": "sprite.svg",
   "scripts": {
-    "start": "gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prebuild": "gulp clean",
+    "build": "gulp build",
+    "postbuild": "gulp sprite-page && gulp sprite-shortcut",
+    "deploy": "npm run build && gulp deploy"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,10 @@
   ],
   "license": "ISC",
   "devDependencies": {
+    "del": "2.2.0",
+    "gh-pages": "0.11.0",
     "gulp": "^3.9.0",
+    "gulp-gh-pages": "0.5.4",
     "gulp-rename": "^1.2.2",
     "gulp-svg-sprite": "^1.2.18"
   },
