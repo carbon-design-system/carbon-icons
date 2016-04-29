@@ -33,6 +33,11 @@
 	height: 32px;
 }
 
+.svg--common--close-dims {
+	width: 24px;
+	height: 24px;
+}
+
 .svg--common--configure-dims {
 	width: 32px;
 	height: 32px;
