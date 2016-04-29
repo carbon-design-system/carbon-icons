@@ -1,5 +1,5 @@
 .svg--app-actions--favorite_icon {
-	background: url("svg/sprite.css.svg") 19.10891089108911% 98.21882951653944% no-repeat;
+	background: url("svg/sprite.css.svg") 30.330788804071243% 97.97435897435898% no-repeat;
 }
 
 .svg--app-actions--favorite_icon-dims {
@@ -8,7 +8,7 @@
 }
 
 .svg--app-actions--go_to_icon {
-	background: url("svg/sprite.css.svg") 43.97022332506204% 90.35532994923858% no-repeat;
+	background: url("svg/sprite.css.svg") 37.55102040816326% 91.30434782608695% no-repeat;
 }
 
 .svg--app-actions--go_to_icon-dims {
@@ -17,7 +17,7 @@
 }
 
 .svg--app-actions--overflow_menu_icon {
-	background: url("svg/sprite.css.svg") 76.77261613691931% 15.428571428571429% no-repeat;
+	background: url("svg/sprite.css.svg") 78.89447236180905% 15.561959654178674% no-repeat;
 }
 
 .svg--app-actions--overflow_menu_icon-dims {
@@ -26,7 +26,7 @@
 }
 
 .svg--app-actions--restart_icon {
-	background: url("svg/sprite.css.svg") 88.97058823529412% 22.900763358778626% no-repeat;
+	background: url("svg/sprite.css.svg") 91.68765743073048% 34.1025641025641% no-repeat;
 }
 
 .svg--app-actions--restart_icon-dims {
@@ -35,7 +35,7 @@
 }
 
 .svg--common--add {
-	background: url("svg/sprite.css.svg") 73.26478149100257% 71.16402116402116% no-repeat;
+	background: url("svg/sprite.css.svg") 87.3015873015873% 84.26666666666667% no-repeat;
 }
 
 .svg--common--add-dims {
@@ -44,7 +44,7 @@
 }
 
 .svg--common--arrows {
-	background: url("svg/sprite.css.svg") 89.4088669950739% 27.02020202020202% no-repeat;
+	background: url("svg/sprite.css.svg") 80.25316455696202% 63.61323155216285% no-repeat;
 }
 
 .svg--common--arrows-dims {
@@ -53,7 +53,7 @@
 }
 
 .svg--common--cancel {
-	background: url("svg/sprite.css.svg") 23.90745501285347% 71.16402116402116% no-repeat;
+	background: url("svg/sprite.css.svg") 54.4973544973545% 71.73333333333333% no-repeat;
 }
 
 .svg--common--cancel-dims {
@@ -61,8 +61,17 @@
 	height: 32px;
 }
 
+.svg--common--close {
+	background: url("svg/sprite.css.svg") 0 99.76501305483029% no-repeat;
+}
+
+.svg--common--close-dims {
+	width: 24px;
+	height: 24px;
+}
+
 .svg--common--configure {
-	background: url("svg/sprite.css.svg") 60.9254498714653% 82.80423280423281% no-repeat;
+	background: url("svg/sprite.css.svg") 44.973544973544975% 84.26666666666667% no-repeat;
 }
 
 .svg--common--configure-dims {
@@ -71,7 +80,7 @@
 }
 
 .svg--common--copy {
-	background: url("svg/sprite.css.svg") 71.61803713527851% 15.428571428571429% no-repeat;
+	background: url("svg/sprite.css.svg") 73.77049180327869% 15.561959654178674% no-repeat;
 }
 
 .svg--common--copy-dims {
@@ -80,7 +89,7 @@
 }
 
 .svg--common--create {
-	background: url("svg/sprite.css.svg") 73.97260273972603% 46.89265536723164% no-repeat;
+	background: url("svg/sprite.css.svg") 76.27118644067797% 47.293447293447294% no-repeat;
 }
 
 .svg--common--create-dims {
@@ -89,7 +98,7 @@
 }
 
 .svg--common--delete {
-	background: url("svg/sprite.css.svg") 97.17223650385604% 40.74074074074074% no-repeat;
+	background: url("svg/sprite.css.svg") 36.507936507936506% 84.26666666666667% no-repeat;
 }
 
 .svg--common--delete-dims {
@@ -98,7 +107,7 @@
 }
 
 .svg--common--deploy {
-	background: url("svg/sprite.css.svg") 97.17223650385604% 32.27513227513227% no-repeat;
+	background: url("svg/sprite.css.svg") 28.04232804232804% 84.26666666666667% no-repeat;
 }
 
 .svg--common--deploy-dims {
@@ -107,7 +116,7 @@
 }
 
 .svg--common--download {
-	background: url("svg/sprite.css.svg") 44.473007712082264% 82.80423280423281% no-repeat;
+	background: url("svg/sprite.css.svg") 19.576719576719576% 84.26666666666667% no-repeat;
 }
 
 .svg--common--download-dims {
@@ -116,7 +125,7 @@
 }
 
 .svg--common--edit {
-	background: url("svg/sprite.css.svg") 36.246786632390744% 82.80423280423281% no-repeat;
+	background: url("svg/sprite.css.svg") 11.11111111111111% 84.26666666666667% no-repeat;
 }
 
 .svg--common--edit-dims {
@@ -125,7 +134,7 @@
 }
 
 .svg--common--grid {
-	background: url("svg/sprite.css.svg") 89.4088669950739% 30.632911392405063% no-repeat;
+	background: url("svg/sprite.css.svg") 80.25316455696202% 59.94897959183673% no-repeat;
 }
 
 .svg--common--grid-dims {
@@ -134,7 +143,7 @@
 }
 
 .svg--common--group {
-	background: url("svg/sprite.css.svg") 19.794344473007712% 82.80423280423281% no-repeat;
+	background: url("svg/sprite.css.svg") 71.42857142857143% 71.73333333333333% no-repeat;
 }
 
 .svg--common--group-dims {
@@ -143,7 +152,7 @@
 }
 
 .svg--common--healthy {
-	background: url("svg/sprite.css.svg") 11.568123393316196% 82.80423280423281% no-repeat;
+	background: url("svg/sprite.css.svg") 62.96296296296296% 71.73333333333333% no-repeat;
 }
 
 .svg--common--healthy-dims {
@@ -152,7 +161,7 @@
 }
 
 .svg--common--help {
-	background: url("svg/sprite.css.svg") 65.03856041131105% 71.16402116402116% no-repeat;
+	background: url("svg/sprite.css.svg") 100% 59.733333333333334% no-repeat;
 }
 
 .svg--common--help-dims {
@@ -161,7 +170,7 @@
 }
 
 .svg--common--link {
-	background: url("svg/sprite.css.svg") 28.020565552699228% 82.80423280423281% no-repeat;
+	background: url("svg/sprite.css.svg") 100% 51.2% no-repeat;
 }
 
 .svg--common--link-dims {
@@ -170,7 +179,7 @@
 }
 
 .svg--common--monitor {
-	background: url("svg/sprite.css.svg") 97.17223650385604% 83.06878306878306% no-repeat;
+	background: url("svg/sprite.css.svg") 100% 42.666666666666664% no-repeat;
 }
 
 .svg--common--monitor-dims {
@@ -179,7 +188,7 @@
 }
 
 .svg--common--previous {
-	background: url("svg/sprite.css.svg") 75.20891364902506% 0 no-repeat;
+	background: url("svg/sprite.css.svg") 77.58620689655173% 0 no-repeat;
 }
 
 .svg--common--previous-dims {
@@ -188,7 +197,7 @@
 }
 
 .svg--common--purchase {
-	background: url("svg/sprite.css.svg") 97.17223650385604% 57.67195767195767% no-repeat;
+	background: url("svg/sprite.css.svg") 100% 34.13333333333333% no-repeat;
 }
 
 .svg--common--purchase-dims {
@@ -197,7 +206,7 @@
 }
 
 .svg--common--restart {
-	background: url("svg/sprite.css.svg") 97.17223650385604% 49.20634920634921% no-repeat;
+	background: url("svg/sprite.css.svg") 100% 25.6% no-repeat;
 }
 
 .svg--common--restart-dims {
@@ -206,7 +215,7 @@
 }
 
 .svg--common--running {
-	background: url("svg/sprite.css.svg") 52.69922879177378% 82.80423280423281% no-repeat;
+	background: url("svg/sprite.css.svg") 53.439153439153436% 84.26666666666667% no-repeat;
 }
 
 .svg--common--running-dims {
@@ -215,7 +224,7 @@
 }
 
 .svg--common--search {
-	background: url("svg/sprite.css.svg") 56.81233933161954% 71.16402116402116% no-repeat;
+	background: url("svg/sprite.css.svg") 61.904761904761905% 84.26666666666667% no-repeat;
 }
 
 .svg--common--search-dims {
@@ -224,7 +233,7 @@
 }
 
 .svg--common--search-sm {
-	background: url("svg/sprite.css.svg") 0 100% no-repeat;
+	background: url("svg/sprite.css.svg") 6.217616580310881% 99.76501305483029% no-repeat;
 }
 
 .svg--common--search-sm-dims {
@@ -233,7 +242,7 @@
 }
 
 .svg--common--settings {
-	background: url("svg/sprite.css.svg") 48.58611825192802% 71.16402116402116% no-repeat;
+	background: url("svg/sprite.css.svg") 70.37037037037037% 84.26666666666667% no-repeat;
 }
 
 .svg--common--settings-dims {
@@ -242,7 +251,7 @@
 }
 
 .svg--common--start {
-	background: url("svg/sprite.css.svg") 97.17223650385604% 74.60317460317461% no-repeat;
+	background: url("svg/sprite.css.svg") 78.83597883597884% 84.26666666666667% no-repeat;
 }
 
 .svg--common--start-dims {
@@ -251,7 +260,7 @@
 }
 
 .svg--common--stop {
-	background: url("svg/sprite.css.svg") 97.17223650385604% 66.13756613756614% no-repeat;
+	background: url("svg/sprite.css.svg") 100% 0 no-repeat;
 }
 
 .svg--common--stop-dims {
@@ -260,7 +269,7 @@
 }
 
 .svg--common--tile-view {
-	background: url("svg/sprite.css.svg") 32.13367609254499% 71.16402116402116% no-repeat;
+	background: url("svg/sprite.css.svg") 100% 8.533333333333333% no-repeat;
 }
 
 .svg--common--tile-view-dims {
@@ -269,7 +278,7 @@
 }
 
 .svg--common--user {
-	background: url("svg/sprite.css.svg") 40.3598971722365% 71.16402116402116% no-repeat;
+	background: url("svg/sprite.css.svg") 100% 17.066666666666666% no-repeat;
 }
 
 .svg--common--user-dims {
@@ -278,7 +287,7 @@
 }
 
 .svg--common--warning {
-	background: url("svg/sprite.css.svg") 74.79224376731302% 31.843575418994412% no-repeat;
+	background: url("svg/sprite.css.svg") 77.14285714285714% 32.11267605633803% no-repeat;
 }
 
 .svg--common--warning-dims {
@@ -287,7 +296,7 @@
 }
 
 .svg--runtime--go {
-	background: url("svg/sprite.css.svg") 35.85434173669468% 59.2485549132948% no-repeat;
+	background: url("svg/sprite.css.svg") 41.040462427745666% 0 no-repeat;
 }
 
 .svg--runtime--go-dims {
@@ -296,7 +305,7 @@
 }
 
 .svg--runtime--java {
-	background: url("svg/sprite.css.svg") 17.92717086834734% 59.2485549132948% no-repeat;
+	background: url("svg/sprite.css.svg") 18.497109826589597% 41.10787172011662% no-repeat;
 }
 
 .svg--runtime--java-dims {
@@ -305,7 +314,7 @@
 }
 
 .svg--runtime--javaliberty {
-	background: url("svg/sprite.css.svg") 0 59.2485549132948% no-repeat;
+	background: url("svg/sprite.css.svg") 36.994219653179194% 41.10787172011662% no-repeat;
 }
 
 .svg--runtime--javaliberty-dims {
@@ -314,7 +323,7 @@
 }
 
 .svg--runtime--net {
-	background: url("svg/sprite.css.svg") 57.703081232493% 36.994219653179194% no-repeat;
+	background: url("svg/sprite.css.svg") 59.53757225433526% 18.658892128279884% no-repeat;
 }
 
 .svg--runtime--net-dims {
@@ -323,7 +332,7 @@
 }
 
 .svg--runtime--nodejs {
-	background: url("svg/sprite.css.svg") 57.703081232493% 18.497109826589597% no-repeat;
+	background: url("svg/sprite.css.svg") 36.994219653179194% 59.7667638483965% no-repeat;
 }
 
 .svg--runtime--nodejs-dims {
@@ -332,7 +341,7 @@
 }
 
 .svg--runtime--nodejsmean {
-	background: url("svg/sprite.css.svg") 57.703081232493% 0 no-repeat;
+	background: url("svg/sprite.css.svg") 18.497109826589597% 59.7667638483965% no-repeat;
 }
 
 .svg--runtime--nodejsmean-dims {
@@ -341,7 +350,7 @@
 }
 
 .svg--runtime--php {
-	background: url("svg/sprite.css.svg") 17.92717086834734% 40.7514450867052% no-repeat;
+	background: url("svg/sprite.css.svg") 0 59.7667638483965% no-repeat;
 }
 
 .svg--runtime--php-dims {
@@ -350,7 +359,7 @@
 }
 
 .svg--runtime--python {
-	background: url("svg/sprite.css.svg") 35.85434173669468% 40.7514450867052% no-repeat;
+	background: url("svg/sprite.css.svg") 59.53757225433526% 37.31778425655977% no-repeat;
 }
 
 .svg--runtime--python-dims {
@@ -359,7 +368,7 @@
 }
 
 .svg--runtime--pythonflask {
-	background: url("svg/sprite.css.svg") 0 22.254335260115607% no-repeat;
+	background: url("svg/sprite.css.svg") 0 22.448979591836736% no-repeat;
 }
 
 .svg--runtime--pythonflask-dims {
@@ -368,7 +377,7 @@
 }
 
 .svg--runtime--ruby {
-	background: url("svg/sprite.css.svg") 0 40.7514450867052% no-repeat;
+	background: url("svg/sprite.css.svg") 59.53757225433526% 0 no-repeat;
 }
 
 .svg--runtime--ruby-dims {
@@ -377,7 +386,7 @@
 }
 
 .svg--runtime--rubyonrails {
-	background: url("svg/sprite.css.svg") 39.77591036414566% 18.497109826589597% no-repeat;
+	background: url("svg/sprite.css.svg") 0 41.10787172011662% no-repeat;
 }
 
 .svg--runtime--rubyonrails-dims {
@@ -386,7 +395,7 @@
 }
 
 .svg--runtime--rubysinatra {
-	background: url("svg/sprite.css.svg") 39.77591036414566% 0 no-repeat;
+	background: url("svg/sprite.css.svg") 41.040462427745666% 18.658892128279884% no-repeat;
 }
 
 .svg--runtime--rubysinatra-dims {
@@ -395,7 +404,7 @@
 }
 
 .svg--service--add-filled {
-	background: url("svg/sprite.css.svg") 5.955334987593052% 98.46938775510205% no-repeat;
+	background: url("svg/sprite.css.svg") 19.183673469387756% 91.77377892030849% no-repeat;
 }
 
 .svg--service--add-filled-dims {
@@ -404,7 +413,7 @@
 }
 
 .svg--service--back {
-	background: url("svg/sprite.css.svg") 78.07881773399015% 55.91939546599496% no-repeat;
+	background: url("svg/sprite.css.svg") 80.25316455696202% 56.34517766497462% no-repeat;
 }
 
 .svg--service--back-dims {
@@ -413,7 +422,7 @@
 }
 
 .svg--service--chevron {
-	background: url("svg/sprite.css.svg") 99.27360774818402% 33.66834170854271% no-repeat;
+	background: url("svg/sprite.css.svg") 90.54726368159204% 41.0126582278481% no-repeat;
 }
 
 .svg--service--chevron-dims {
@@ -422,7 +431,7 @@
 }
 
 .svg--service--default {
-	background: url("svg/sprite.css.svg") 17.92717086834734% 22.254335260115607% no-repeat;
+	background: url("svg/sprite.css.svg") 18.497109826589597% 22.448979591836736% no-repeat;
 }
 
 .svg--service--default-dims {
@@ -431,7 +440,7 @@
 }
 
 .svg--service--down-arrow {
-	background: url("svg/sprite.css.svg") 99.27360774818402% 39.333333333333336% no-repeat;
+	background: url("svg/sprite.css.svg") 99.25373134328358% 86.06965174129353% no-repeat;
 }
 
 .svg--service--down-arrow-dims {
@@ -440,7 +449,7 @@
 }
 
 .svg--service--gear {
-	background: url("svg/sprite.css.svg") 98.18181818181819% 22.994652406417114% no-repeat;
+	background: url("svg/sprite.css.svg") 45.45454545454545% 72.50673854447439% no-repeat;
 }
 
 .svg--service--gear-dims {
@@ -449,7 +458,7 @@
 }
 
 .svg--service--logsLink {
-	background: url("svg/sprite.css.svg") 20.252525252525253% 91.28205128205128% no-repeat;
+	background: url("svg/sprite.css.svg") 13.03896103896104% 92.24806201550388% no-repeat;
 }
 
 .svg--service--logsLink-dims {
@@ -458,7 +467,7 @@
 }
 
 .svg--service--status-complete {
-	background: url("svg/sprite.css.svg") 52.148148148148145% 90.35532994923858% no-repeat;
+	background: url("svg/sprite.css.svg") 41.92893401015228% 91.30434782608695% no-repeat;
 }
 
 .svg--service--status-complete-dims {
@@ -467,7 +476,7 @@
 }
 
 .svg--service--status-error {
-	background: url("svg/sprite.css.svg") 35.03722084367245% 90.81632653061224% no-repeat;
+	background: url("svg/sprite.css.svg") 32.95918367346938% 91.77377892030849% no-repeat;
 }
 
 .svg--service--status-error-dims {
@@ -476,7 +485,7 @@
 }
 
 .svg--service--status-initializing {
-	background: url("svg/sprite.css.svg") 64% 90.35532994923858% no-repeat;
+	background: url("svg/sprite.css.svg") 91.87817258883248% 80.81841432225065% no-repeat;
 }
 
 .svg--service--status-initializing-dims {
@@ -485,7 +494,7 @@
 }
 
 .svg--service--status-paused {
-	background: url("svg/sprite.css.svg") 48.19753086419753% 90.35532994923858% no-repeat;
+	background: url("svg/sprite.css.svg") 91.87817258883248% 84.91048593350384% no-repeat;
 }
 
 .svg--service--status-paused-dims {
@@ -494,7 +503,7 @@
 }
 
 .svg--service--status-pending {
-	background: url("svg/sprite.css.svg") 30.570719602977668% 90.81632653061224% no-repeat;
+	background: url("svg/sprite.css.svg") 23.775510204081634% 91.77377892030849% no-repeat;
 }
 
 .svg--service--status-pending-dims {
@@ -503,7 +512,7 @@
 }
 
 .svg--service--status-running {
-	background: url("svg/sprite.css.svg") 60.04938271604938% 90.35532994923858% no-repeat;
+	background: url("svg/sprite.css.svg") 50.0507614213198% 91.30434782608695% no-repeat;
 }
 
 .svg--service--status-running-dims {
@@ -512,7 +521,7 @@
 }
 
 .svg--service--status-scheduled {
-	background: url("svg/sprite.css.svg") 56.098765432098766% 90.35532994923858% no-repeat;
+	background: url("svg/sprite.css.svg") 45.98984771573604% 91.30434782608695% no-repeat;
 }
 
 .svg--service--status-scheduled-dims {
@@ -521,7 +530,7 @@
 }
 
 .svg--service--status-success {
-	background: url("svg/sprite.css.svg") 26.10421836228288% 90.81632653061224% no-repeat;
+	background: url("svg/sprite.css.svg") 12.244897959183673% 98.22622107969151% no-repeat;
 }
 
 .svg--service--status-success-dims {
@@ -530,7 +539,7 @@
 }
 
 .svg--support--arrow-right {
-	background: url("svg/sprite.css.svg") 99.12959381044487% 30.65326633165829% no-repeat;
+	background: url("svg/sprite.css.svg") 90.41231992051664% 37.9746835443038% no-repeat;
 }
 
 .svg--support--arrow-right-dims {
@@ -539,7 +548,7 @@
 }
 
 .svg--support--bluemix-padding {
-	background: url("svg/sprite.css.svg") 10.411502231036193% 98.36901121304791% no-repeat;
+	background: url("svg/sprite.css.svg") 21.406727828746178% 98.12532100667694% no-repeat;
 }
 
 .svg--support--bluemix-padding-dims {
@@ -548,7 +557,7 @@
 }
 
 .svg--support--check-fill-circle {
-	background: url("svg/sprite.css.svg") 99.27360774818402% 40.87064676616915% no-repeat;
+	background: url("svg/sprite.css.svg") 54.22885572139303% 48.1203007518797% no-repeat;
 }
 
 .svg--support--check-fill-circle-dims {
@@ -557,7 +566,7 @@
 }
 
 .svg--support--check-padding {
-	background: url("svg/sprite.css.svg") 84.14322250639387% 82.36842105263158% no-repeat;
+	background: url("svg/sprite.css.svg") 99.47368421052632% 67.90450928381964% no-repeat;
 }
 
 .svg--support--check-padding-dims {
@@ -566,7 +575,7 @@
 }
 
 .svg--support--chevron-down {
-	background: url("svg/sprite.css.svg") 99.87819732034104% 38.05287867556215% no-repeat;
+	background: url("svg/sprite.css.svg") 94.61827284105131% 86.13393079412496% no-repeat;
 }
 
 .svg--support--chevron-down-dims {
@@ -575,7 +584,7 @@
 }
 
 .svg--support--chevron-down-padding {
-	background: url("svg/sprite.css.svg") 76.47058823529412% 82.36842105263158% no-repeat;
+	background: url("svg/sprite.css.svg") 99.47368421052632% 75.86206896551724% no-repeat;
 }
 
 .svg--support--chevron-down-padding-dims {
@@ -584,7 +593,7 @@
 }
 
 .svg--support--chevron-up {
-	background: url("svg/sprite.css.svg") 99.87819732034104% 36.07610575735112% no-repeat;
+	background: url("svg/sprite.css.svg") 97.24655819774718% 86.13393079412496% no-repeat;
 }
 
 .svg--support--chevron-up-dims {
@@ -593,7 +602,7 @@
 }
 
 .svg--support--close-stroke-circle {
-	background: url("svg/sprite.css.svg") 89.08188585607941% 79.84693877551021% no-repeat;
+	background: url("svg/sprite.css.svg") 28.367346938775512% 91.77377892030849% no-repeat;
 }
 
 .svg--support--close-stroke-circle-dims {
@@ -602,7 +611,7 @@
 }
 
 .svg--support--help-fill-circle-with-outline {
-	background: url("svg/sprite.css.svg") 7.577671129072999% 92.49155624837621% no-repeat;
+	background: url("svg/sprite.css.svg") 0 93.47996857816183% no-repeat;
 }
 
 .svg--support--help-fill-circle-with-outline-dims {
@@ -611,7 +620,7 @@
 }
 
 .svg--support--idea-fill-circle-with-outline {
-	background: url("svg/sprite.css.svg") 13.91765597373074% 92.49155624837621% no-repeat;
+	background: url("svg/sprite.css.svg") 6.521174330995064% 93.47996857816183% no-repeat;
 }
 
 .svg--support--idea-fill-circle-with-outline-dims {
@@ -620,7 +629,7 @@
 }
 
 .svg--support--info-stroke-circle {
-	background: url("svg/sprite.css.svg") 88.99755501222494% 56.78391959798995% no-repeat;
+	background: url("svg/sprite.css.svg") 51.75879396984924% 48.607594936708864% no-repeat;
 }
 
 .svg--support--info-stroke-circle-dims {
@@ -629,7 +638,7 @@
 }
 
 .svg--support--left-arrow-stroke-circle {
-	background: url("svg/sprite.css.svg") 39.50372208436724% 90.81632653061224% no-repeat;
+	background: url("svg/sprite.css.svg") 16.836734693877553% 98.22622107969151% no-repeat;
 }
 
 .svg--support--left-arrow-stroke-circle-dims {
@@ -638,7 +647,7 @@
 }
 
 .svg--support--search-padding {
-	background: url("svg/sprite.css.svg") 0 93.6842105263158% no-repeat;
+	background: url("svg/sprite.css.svg") 79.47368421052632% 71.35278514588859% no-repeat;
 }
 
 .svg--support--search-padding-dims {
@@ -647,7 +656,7 @@
 }
 
 .svg--support--stackoverflow-padding {
-	background: url("svg/sprite.css.svg") 14.774417451660883% 98.36901121304791% no-repeat;
+	background: url("svg/sprite.css.svg") 25.891946992864426% 98.12532100667694% no-repeat;
 }
 
 .svg--support--stackoverflow-padding-dims {
@@ -656,7 +665,7 @@
 }
 
 .svg--support--upload-padding {
-	background: url("svg/sprite.css.svg") 68.79795396419438% 82.36842105263158% no-repeat;
+	background: url("svg/sprite.css.svg") 99.47368421052632% 83.81962864721486% no-repeat;
 }
 
 .svg--support--upload-padding-dims {
@@ -665,7 +674,7 @@
 }
 
 .svg--support--user-stroke-circle {
-	background: url("svg/sprite.css.svg") 53.63128491620112% 59.07780979827089% no-repeat;
+	background: url("svg/sprite.css.svg") 55.331412103746395% 59.593023255813954% no-repeat;
 }
 
 .svg--support--user-stroke-circle-dims {
@@ -674,7 +683,7 @@
 }
 
 .svg--taxonomy--allcategories {
-	background: url("svg/sprite.css.svg") 99.73614775725594% 12.195121951219512% no-repeat;
+	background: url("svg/sprite.css.svg") 0 86.33879781420765% no-repeat;
 }
 
 .svg--taxonomy--allcategories-dims {
@@ -683,7 +692,7 @@
 }
 
 .svg--taxonomy--app-services {
-	background: url("svg/sprite.css.svg") 100% 0 no-repeat;
+	background: url("svg/sprite.css.svg") 90.46321525885558% 49.171270718232044% no-repeat;
 }
 
 .svg--taxonomy--app-services-dims {
@@ -692,7 +701,7 @@
 }
 
 .svg--taxonomy--cognitive {
-	background: url("svg/sprite.css.svg") 85.12820512820512% 24.725274725274726% no-repeat;
+	background: url("svg/sprite.css.svg") 12.401055408970976% 74.51523545706371% no-repeat;
 }
 
 .svg--taxonomy--cognitive-dims {
@@ -701,7 +710,7 @@
 }
 
 .svg--taxonomy--compute {
-	background: url("svg/sprite.css.svg") 88.53333333333333% 0 no-repeat;
+	background: url("svg/sprite.css.svg") 21.428571428571427% 74.10468319559229% no-repeat;
 }
 
 .svg--taxonomy--compute-dims {
@@ -710,7 +719,7 @@
 }
 
 .svg--taxonomy--data {
-	background: url("svg/sprite.css.svg") 88.29787234042553% 73.6413043478261% no-repeat;
+	background: url("svg/sprite.css.svg") 90.95890410958904% 24.931506849315067% no-repeat;
 }
 
 .svg--taxonomy--data-dims {
@@ -719,7 +728,7 @@
 }
 
 .svg--taxonomy--devops {
-	background: url("svg/sprite.css.svg") 0 85.28610354223433% no-repeat;
+	background: url("svg/sprite.css.svg") 90.95890410958904% 73.62637362637362% no-repeat;
 }
 
 .svg--taxonomy--devops-dims {
@@ -728,7 +737,7 @@
 }
 
 .svg--taxonomy--home {
-	background: url("svg/sprite.css.svg") 88.53333333333333% 12.087912087912088% no-repeat;
+	background: url("svg/sprite.css.svg") 91.20879120879121% 0 no-repeat;
 }
 
 .svg--taxonomy--home-dims {
@@ -737,7 +746,7 @@
 }
 
 .svg--taxonomy--integration {
-	background: url("svg/sprite.css.svg") 12.533333333333333% 72.70270270270271% no-repeat;
+	background: url("svg/sprite.css.svg") 34.065934065934066% 73.29700272479565% no-repeat;
 }
 
 .svg--taxonomy--integration-dims {
@@ -755,7 +764,7 @@
 }
 
 .svg--taxonomy--media-cdn {
-	background: url("svg/sprite.css.svg") 88.29787234042553% 37.26027397260274% no-repeat;
+	background: url("svg/sprite.css.svg") 90.95890410958904% 61.60220994475138% no-repeat;
 }
 
 .svg--taxonomy--media-cdn-dims {
@@ -764,7 +773,7 @@
 }
 
 .svg--taxonomy--mobile {
-	background: url("svg/sprite.css.svg") 21.629213483146067% 0 no-repeat;
+	background: url("svg/sprite.css.svg") 22.318840579710145% 0 no-repeat;
 }
 
 .svg--taxonomy--mobile-dims {
@@ -773,7 +782,7 @@
 }
 
 .svg--taxonomy--network {
-	background: url("svg/sprite.css.svg") 72.19251336898395% 61.15702479338843% no-repeat;
+	background: url("svg/sprite.css.svg") 0 74.72222222222223% no-repeat;
 }
 
 .svg--taxonomy--network-dims {
@@ -782,7 +791,7 @@
 }
 
 .svg--taxonomy--private-apis {
-	background: url("svg/sprite.css.svg") 88.29787234042553% 49.58904109589041% no-repeat;
+	background: url("svg/sprite.css.svg") 90.95890410958904% 12.707182320441989% no-repeat;
 }
 
 .svg--taxonomy--private-apis-dims {
@@ -791,7 +800,7 @@
 }
 
 .svg--taxonomy--security {
-	background: url("svg/sprite.css.svg") 85.34704370179949% 61.917808219178085% no-repeat;
+	background: url("svg/sprite.css.svg") 87.83068783068784% 36.74033149171271% no-repeat;
 }
 
 .svg--taxonomy--security-dims {
@@ -800,7 +809,7 @@
 }
 
 .svg--taxonomy--storage {
-	background: url("svg/sprite.css.svg") 0 73.49726775956285% no-repeat;
+	background: url("svg/sprite.css.svg") 74.3801652892562% 61.15702479338843% no-repeat;
 }
 
 .svg--taxonomy--storage-dims {
