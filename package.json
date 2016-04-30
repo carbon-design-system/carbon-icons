@@ -1,7 +1,7 @@
 {
   "name": "bluemix-icons",
-  "version": "0.3.3",
-  "description": "",
+  "version": "1.4.0",
+  "description": "SVG icons as sprite for Bluemix",
   "main": "sprite.svg",
   "scripts": {
     "prebuild": "gulp clean",
@@ -19,8 +19,8 @@
     "ibm"
   ],
   "authors": [
-    "Brian Han <thisisbrianhan@gmail.com>",
-    "Una Kravets <uakravet@us.ibm.com>"
+    "Brian Han <bthan@us.ibm.com>",
+    "Una Kravets <@una>"
   ],
   "license": "ISC",
   "devDependencies": {
@@ -29,10 +29,7 @@
     "gulp": "^3.9.0",
     "gulp-gh-pages": "0.5.4",
     "gulp-rename": "^1.2.2",
-    "gulp-svg-sprite": "^1.2.18"
-  },
-  "dependencies": {
-    "remove-svg-properties": "^0.3.2",
-    "svgxuse": "^1.1.5"
+    "gulp-svg-sprite": "^1.2.18",
+    "remove-svg-properties": "^0.3.2"
   }
 }

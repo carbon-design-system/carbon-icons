@@ -1,25 +1,11 @@
-  {
+{
   "name": "bluemix-icons",
-  "version": "0.3.3",
+  "version": "1.4.0",
   "authors": [
-    {
-      "name": "Brian Han",
-      "email": "bthan@us.ibm.com"
-    },
-    {
-      "name": "Stan Li",
-      "email": "lih@us.ibm.com"
-    },
-    {
-      "name": "Jeff Ng",
-      "email": "ctng@us.ibm.com"
-    },
-    {
-      "name": "Una Kravets",
-      "email": "uakravet@us.ibm.com"
-    }
+    "Brian Han <bthan@us.ibm.com>",
+    "Una Kravets <@una>"
   ],
-  "description": "",
+  "description": "SVG icons as sprite for Bluemix",
   "main": "sprite.svg",
   "keywords": [
     "ibm",
@@ -31,8 +17,5 @@
     "**/.*",
     "node_modules",
     "bower_components"
-  ],
-  "dependencies": {
-    "svgxuse": "~1.1.3"
-  }
+  ]
 }
