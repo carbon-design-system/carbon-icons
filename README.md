@@ -1,6 +1,6 @@
 # Bluemix Icons
 
-Icons for Bluemix. [SEE REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/build/symbol/sprite.symbol.html)
+Icons for Bluemix. [SEE REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/)
 
 ## Developing in this Repo
 
@@ -39,19 +39,47 @@ npm install --save svgxuse
 <script defer src="node_modules/svgxuse/svgxuse.js"></script>
 ```
 
-After installing the `svgxuse` polyfill and setting up with your app, you can add the inline svg to your HTML code.
+### Using Local `sprite.svg`
 
-HTML:
+After installing and setting up the `svgxuse` polyfill, install bluemix-icons.
+
+**Bower:**
+```
+bower install bluemix-icons --save
+```
+
+Or you can **download** a `.zip` or `.tar.gz` file from the [latest releases here.](https://github.ibm.com/Bluemix/bluemix-icons/releases)
+
+In your HTML, choose and use an icon available from `sprite.svg` by referencing it with a relative path or a path to your static assets.
+
+**HTML:**
 ```html
+<!-- From bower_components -->
 <svg>
-  <use xlink:href="https://dev-console.stage1.ng.bluemix.net/api/v4/img/sprite.svg#service--add-filled"></use>
+  <use xlink:href="bower_components/bluemix-icons/sprite.svg#common--arrows"></use>
+</svg>
+
+<!-- From static assets  -->
+<svg>
+  <use xlink:href="/img/sprite.svg#common--arrows"></use>
 </svg>
 ```
 
 **Note**: The icons are their original color by default. (see [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/)) but can be edited using CSS.
 
+### Using `sprite.svg` from Bluemix.Common
 
-In this usage, you style the SVG in CSS. Make sure to give it a width and height (default is 100% of parent). Some icons are colored while others are black by default. You can edit the fill to change this. See the [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/) for a guide with what `xlink:href` to use.
+Bluemix.Common serves Bluemix Icons and can be accessed with the following URL: `https://dev-console.stage1.ng.bluemix.net/api/v4/img/sprite.svg`. **Note**: Bluemix.Common will be slower to update and slower to render compared to using a local version of `sprite.svg`.
+```html
+<!-- From Bluemix.Common -->
+<svg>
+  <use xlink:href="https://dev-console.stage1.ng.bluemix.net/api/v4/img/sprite.svg#common--arrows"></use>
+</svg>
+```
+
+### Styling Icons
+
+You style the SVG in CSS. Make sure to give it a `width` and `height` (default is 100% of parent). Some icons are colored while others are black by default. You can edit the fill to change this. See the [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/) for a guide with what `xlink:href` to use.
 
 To edit these icons in CSS, *add your own class* to the `<svg>`. For example:
 
