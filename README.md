@@ -27,7 +27,19 @@ Please submit a Pull Request to add icons.
 
 *The main file here is `sprite.svg`, which contains an SVG sprite (every SVG included in a single file within a `<defs>` tag inside of a `<symbol>`). We're using the [SVG <use>](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use) to access them*
 
-The icons are their original color by default. (see [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/build/symbol/sprite.symbol.html)) but can be edited using CSS.
+> #### Polyfill
+
+> A a simple polyfill is used called [svgxuse](https://github.com/Keyamoon/svgxuse) to enable the use of `sprite.svg`. Simply include the script from svgxuse or integrate it into your build system:
+
+> ```
+npm install --save svgxuse
+```
+
+> ```html
+<script defer src="node_modules/svgxuse/svgxuse.js"></script>
+```
+
+After installing the `svgxuse` polyfill and setting up with your app, you can add the inline svg to your HTML code.
 
 HTML:
 ```html
@@ -36,7 +48,10 @@ HTML:
 </svg>
 ```
 
-In this usage, you style the SVG in CSS. Make sure to give it a width and height (default is 100% of parent). Some icons are colored while others are black by default. You can edit the fill to change this. See the [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/build/symbol/sprite.symbol.html) for a guide with what `xlink:href` to use.
+**Note**: The icons are their original color by default. (see [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/)) but can be edited using CSS.
+
+
+In this usage, you style the SVG in CSS. Make sure to give it a width and height (default is 100% of parent). Some icons are colored while others are black by default. You can edit the fill to change this. See the [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/) for a guide with what `xlink:href` to use.
 
 To edit these icons in CSS, *add your own class* to the `<svg>`. For example:
 
@@ -54,18 +69,6 @@ Sass:
 ```
 
 You may style interactions, etc. For any questions, email Una Kravets at unakravets@us.ibm.com
-
-## Polyfill
-
-External SVG is supported in every browser where inline SVG is supported, except for Internet Explorer. To fix this, there is a simple polyfill available called [svgxuse](https://github.com/Keyamoon/svgxuse). Simply include the script from svgxuse or integrate it into your build system:
-
-```
-npm install --save svgxuse
-```
-
-```
-<script defer src="node_modules/svgxuse/svgxuse.js"></script>
-```
 
 ## Troubleshooting and Development Use
 
