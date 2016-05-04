@@ -8,8 +8,12 @@ Icons for Bluemix. [SEE REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/blu
 
 Create a `.bowerrc` file that points to private bower registry:
 
-```
-{ "registry": "http://x1showcase.emmlabs.ibm.com:5678/" }
+```json
+{
+  "registry": "http://9.37.228.216:5678/",
+  "timeout": 300000
+}
+
 ```
 
 ## Adding Icons
