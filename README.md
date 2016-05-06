@@ -2,61 +2,44 @@
 
 Icons for Bluemix. [SEE REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/)
 
-## Developing in this Repo
-
-### Bower
-
-Create a `.bowerrc` file that points to private bower registry:
-
-```json
-{
-  "registry": "http://9.37.228.216:5678/",
-  "timeout": 300000
-}
-
-```
-
-## Adding Icons
-
-Please submit a Pull Request to add icons.
-
-1. Fork this repo
-2. Clone it to your local system
-3. Add icons in the proper folder (you may add your own) within the `svg/` folder
-4. In your terminal run `npm install`
-5. Run `npm run build` to rebuild the `sprite.svg`
-6. Submit a pull request and rejoice! :tada:
-
-## Usage
+## Getting Started
 
 *The main file here is `sprite.svg`, which contains an SVG sprite (every SVG included in a single file within a `<defs>` tag inside of a `<symbol>`). We're using the [SVG <use>](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use) to access them*
 
-> #### Polyfill
+There are two ways to use `sprite.svg`:
 
-> A a simple polyfill is used called [svgxuse](https://github.com/Keyamoon/svgxuse) to enable the use of `sprite.svg`. Simply include the script from svgxuse or integrate it into your build system:
+* [Local Usage](#local-usage)
+* [Usage from Bluemix.Common](#usage-from-bluemix-common)
+
+## Local Usage
+
+> **Polyfill:** A simple polyfill is used called [svgxuse](https://github.com/Keyamoon/svgxuse) to enable the use of `sprite.svg`.
+
+> Install `svgxuse` and include it as an external script.
 
 > ```
 npm install --save svgxuse
 ```
 
-> ```html
-<script defer src="node_modules/svgxuse/svgxuse.js"></script>
+> Or you can `import` or `require` it into your main JavaScript file:
+
+> ```js
+import 'svgxuse';
 ```
 
-### Using Local `sprite.svg`
+#### Install `bluemix-icons`
 
-After installing and setting up the `svgxuse` polyfill, install bluemix-icons.
-
-**Bower:**
+Use bower (recommended):
 ```
 bower install bluemix-icons --save
 ```
 
-Or you can **download** a `.zip` or `.tar.gz` file from the [latest releases here.](https://github.ibm.com/Bluemix/bluemix-icons/releases)
+Or **download** a `.zip` or `.tar.gz` file from the [latest releases here.](https://github.ibm.com/Bluemix/bluemix-icons/releases)
 
-In your HTML, choose and use an icon available from `sprite.svg` by referencing it with a relative path or a path to your static assets.
+#### Use `sprite.svg`
 
-**HTML:**
+In your HTML, use an icon from `sprite.svg` by referencing it with a relative path or a path to your static assets.
+
 ```html
 <!-- From bower_components -->
 <svg>
@@ -71,9 +54,13 @@ In your HTML, choose and use an icon available from `sprite.svg` by referencing 
 
 **Note**: The icons are their original color by default. (see [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/)) but can be edited using CSS.
 
-### Using `sprite.svg` from Bluemix.Common
+## Usage from Bluemix-Common
 
-Bluemix.Common serves Bluemix Icons and can be accessed with the following URL: `https://dev-console.stage1.ng.bluemix.net/api/v4/img/sprite.svg`. **Note**: Bluemix.Common will be slower to update and slower to render compared to using a local version of `sprite.svg`.
+> **Polyfill:** The `svgxuse` polyfill is already set-up for you on [Bluemix.Common](https://github.ibm.com/Bluemix/Bluemix.Common) -- it acts directly on the `window` object, so it shouldn't need to be re-imported if you are using the header JavaScript from Bluemix.Common.
+
+The following URL will give you access to the `sprite.svg`: `https://dev-console.stage1.ng.bluemix.net/api/v4/img/sprite.svg`.
+
+**Note**: `Bluemix.Common` will be slower to update and slower to render compared to using a local version of `sprite.svg`.
 ```html
 <!-- From Bluemix.Common -->
 <svg>
@@ -87,20 +74,20 @@ You style the SVG in CSS. Make sure to give it a `width` and `height` (default i
 
 To edit these icons in CSS, *add your own class* to the `<svg>`. For example:
 
+HTML:
+
 ```html
 <svg class="icon--add">
   <use xlink:href="{link to sprite folder}/sprite.svg#service--add-filled"></use>
 </svg>
 ```
 
-Sass:
+SCSS:
 ```scss
 .icon--add {
   fill: #cc6699; // additional styling
 }
 ```
-
-You may style interactions, etc. For any questions, email Una Kravets at unakravets@us.ibm.com
 
 ## Troubleshooting and Development Use
 
