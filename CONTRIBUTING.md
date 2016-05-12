@@ -1,7 +1,11 @@
 # Contributing
 
-### Adding Icons
+## Requirements
+* Export SVGs from **Sketch** or **Illustrator** 
+* Make sure SVGs are exported at `32px`.
+* Export clean SVG code where possible
 
+## Adding Icons
 Please submit a Pull Request to add icons.
 
 1. Fork this repo
@@ -10,10 +14,11 @@ Please submit a Pull Request to add icons.
 4. In your terminal run `npm install`
 5. Run `npm run build` to rebuild the `sprite.svg`
 6. Submit a pull request and rejoice! :tada:
-7. Optional: Contact Brian Han (bthan@us.ibm.com) and let him know you have a pull request for him to review.
+7. **Optional**: Contact Brian Han (bthan@us.ibm.com) and let him know you have a pull request for him to review.
 
 > Bluemix Icons is registered to a Private Bower Registry.
-A `.bowerrc` config file points to the correct registry URL:
+
+> A `.bowerrc` config file points to the correct registry:
 
 > ```json
 {
