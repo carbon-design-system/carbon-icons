@@ -67,10 +67,10 @@ gulp.task('sprite-shortcut', function() {
     .pipe(gulp.dest('.'));
 });
 
-gulp.task('deploy', function() {
-  return gulp.src('./*.{html,svg,css}')
-    .pipe(deploy());
-});
+// gulp.task('deploy', function() {
+//   return gulp.src('./*.{html,svg,css}')
+//     .pipe(deploy());
+// });
 
 gulp.task('default', function() {
   console.warn(

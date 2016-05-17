@@ -6,8 +6,7 @@
   "scripts": {
     "prebuild": "gulp clean",
     "build": "gulp build",
-    "postbuild": "gulp sprite-page && gulp sprite-shortcut",
-    "deploy": "npm run build && gulp deploy"
+    "postbuild": "gulp sprite-page && gulp sprite-shortcut"
   },
   "repository": {
     "type": "git",
