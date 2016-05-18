@@ -1,6 +1,6 @@
 {
   "name": "bluemix-icons",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "authors": [
     "Brian Han <bthan@us.ibm.com>",
     "Una Kravets <@una>"
@@ -12,7 +12,6 @@
     "bluemix",
     "icons"
   ],
-  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",

@@ -1,6 +1,6 @@
 {
   "name": "bluemix-icons",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "SVG icons as sprite for Bluemix",
   "main": "sprite.svg",
   "scripts": {
