@@ -21,10 +21,27 @@ There are two ways to use `sprite.svg`:
 npm install --save svgxuse
 ```
 
+>```html
+<!--index.html-->
+<body>
+  ...
+  <script src="./node_modules/svgxuse/svgxuse.min.js">
+</body>
+```
+
 > Or you can `import` or `require` it into your main JavaScript file:
 
 > ```js
+// bundle.js
 import 'svgxuse';
+```
+
+>```html
+<!--index.html-->
+<body>
+  ...
+  <script src="path_to_bundle.js">
+</body>
 ```
 
 #### Install `bluemix-icons`
