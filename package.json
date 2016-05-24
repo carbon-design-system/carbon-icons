@@ -1,8 +1,9 @@
 {
   "name": "@console/bluemix-icons",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "SVG icons as sprite for Bluemix",
   "main": "sprite.svg",
+  "private": false,
   "scripts": {
     "dev": "nodemon server.js",
     "build": "gulp clean && gulp build && gulp rename-move"
@@ -16,10 +17,10 @@
     "bluemix",
     "ibm"
   ],
-  "authors": [
-    "Brian Han <bthan@us.ibm.com>",
-    "Una Kravets <@una>"
-  ],
+  "maintainers": [{
+    "name": "Brian Han",
+    "email": "bthan@us.ibm.com"
+  }],
   "license": "ISC",
   "devDependencies": {
     "del": "2.2.0",
