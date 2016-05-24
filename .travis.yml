@@ -1,0 +1,14 @@
+language: node_js
+node_js: "4"
+
+before_install: if [[ `npm -v` != 3* ]]; then npm i -g npm@~3.8.0; npm cache clean; fi
+install:
+  - npm install || (cat npm-debug.log; false)
+
+script: true
+
+deploy:
+  provider: script
+  script: travis.ci/deploy.sh
+  on:
+    tags: true
