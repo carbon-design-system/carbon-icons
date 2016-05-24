@@ -4,6 +4,7 @@
   "description": "SVG icons as sprite for Bluemix",
   "main": "sprite.svg",
   "scripts": {
+    "dev": "nodemon server.js",
     "prebuild": "gulp clean",
     "build": "gulp build",
     "postbuild": "gulp sprite-page && gulp sprite-shortcut"
@@ -29,6 +30,11 @@
     "gulp-gh-pages": "0.5.4",
     "gulp-rename": "^1.2.2",
     "gulp-svg-sprite": "^1.2.18",
+    "nodemon": "^1.9.2",
     "remove-svg-properties": "^0.3.2"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "svgxuse": "^1.1.16"
   }
 }
