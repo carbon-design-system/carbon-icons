@@ -1,0 +1,5 @@
+<svg fill-rule="evenodd" width="16" height="14" viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg">
+  <path d="M8 0L0 13.867h16L8 0zm0 2.134L14.153 12.8H1.847L8 2.134z"/>
+  <path d="M7.467 5.867v1.066L7.733 9.6h.534l.266-2.667V5.867z"/>
+  <ellipse cx="8" cy="10.667" rx=".533" ry=".533"/>
+</svg>
