@@ -9,4 +9,4 @@ deploy:
   provider: script
   script: sh travis.ci/deploy.sh
   on:
-    tags: true
+    all_branches: true

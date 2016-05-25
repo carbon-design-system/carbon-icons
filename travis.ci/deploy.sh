@@ -1,7 +1,5 @@
 #! /bin/bash
 
-#set -v
-
 mv travis.ci/.npmrc .
 npm install @console/console-npm-scripts
 mv ./.npmrc travis.ci
