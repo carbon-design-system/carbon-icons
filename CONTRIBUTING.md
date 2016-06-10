@@ -1,9 +1,27 @@
 # Contributing
 
 ## Requirements
-* Export SVGs from **Sketch** or **Illustrator** 
+* Export SVGs from **Sketch** or **Illustrator**
 * Make sure SVGs are exported at `32px`.
 * Export clean SVG code where possible
+
+> Sketch: Always convert paths and other shapes to outline. We want our SVG code to render with `fill` attributes -- not `stroke`
+
+## Clean SVG Rules
+
+There's a ton of stuff to remove from SVG code - that list goes on forever.
+Instead, here are all the things you should keep in your SVG code.
+
+#### Attributes
+* `fill-rule="evenodd"`
+* `width`
+* `height`
+* `viewBox`
+
+#### Nodes / Elements
+* `<?xml>`
+* `<svg>`
+* `<path>`
 
 ## Adding Icons
 Please submit a Pull Request to add icons.
