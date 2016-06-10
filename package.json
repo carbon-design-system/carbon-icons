@@ -17,10 +17,12 @@
     "bluemix",
     "ibm"
   ],
-  "maintainers": [{
-    "name": "Brian Han",
-    "email": "bthan@us.ibm.com"
-  }],
+  "maintainers": [
+    {
+      "name": "Brian Han",
+      "email": "bthan@us.ibm.com"
+    }
+  ],
   "license": "ISC",
   "devDependencies": {
     "del": "2.2.0",
@@ -30,7 +32,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-svg-sprite": "^1.2.18",
     "gulp-svgo": "1.0.3",
-    "nodemon": "^1.9.2"
+    "nodemon": "1.9.2"
   },
   "dependencies": {
     "express": "^4.13.4",

@@ -4,17 +4,21 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <style>
-    .icon--close {
+    .icon--compute,
+    .icon--console {
       display: inline-block;
-      width: 16px;
-      height: 16px;
-      fill: salmon;
+      width: 50px;
+      height: 50px;
+      fill: red;
     }
   </style>
 </head>
 <body>
-  <svg class="icon--close">
-    <use xlink:href="./sprite.svg#common--close"></use>
+  <svg class="icon--compute">
+    <use xlink:href="./sprite.svg#taxonomy--compute"></use>
+  </svg>
+  <svg class="icon--console">
+    <use xlink:href="./sprite.svg#taxonomy--console"></use>
   </svg>
   <script src="./node_modules/svgxuse/svgxuse.min.js"></script>
 </body>
