@@ -4,11 +4,8 @@ node_js:
   - "5"
   - "5.1"
 
-install:
-  - npm install
-
-script:
-  - npm run build
+install: true
+script: true
 
 deploy:
   provider: script
