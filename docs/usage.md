@@ -94,3 +94,17 @@ SCSS:
   fill: #cc6699; // additional styling
 }
 ```
+
+### Accessibility
+
+For screen reader accessibility, use `<title>` element and `aria-labelledby` attribute.
+
+```html
+<svg class="icon--add" aria-labelledby="add">
+  <title id="add">Add a new service</title>
+  <use xlink:href="https://dev-console.stage1.ng.bluemix.net/api/v4/img/sprite.svg#common--add"></use>
+</svg>
+```
+* The `aria-labelledby` attribute will reference the `id` attribute in the the `<title>` element.
+Make sure that you do not duplicate this `id`. 
+* The `<title>`element will be read by the screen reader to the user so it should describe it's purpose.
