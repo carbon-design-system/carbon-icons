@@ -5,7 +5,7 @@
   "main": "sprite.svg",
   "private": false,
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "nodemon -e html,svg server.js",
     "build": "gulp clean && gulp build && gulp rename-move"
   },
   "engines": {

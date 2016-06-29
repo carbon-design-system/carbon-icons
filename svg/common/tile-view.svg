@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
-<g>
-  <rect x="19" y="3" width="10" height="10"/>
-  <path d="M17,3h-2H3v12v2v12h12h2h12V17v-2H17V3z M15,27H5V17h10V27z M27,17v10H17V17H27z M5,15V5h10v10H5z"/>
-</g>
+<svg width="26px" height="26px" viewBox="0 0 26 26" fill-rule="evenodd" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect x="16" y="0" width="10" height="10"></rect>
+  <path d="M14,0 L12,0 L0,0 L0,12 L0,14 L0,26 L12,26 L14,26 L26,26 L26,14 L26,12 L14,12 L14,0 L14,0 Z M12,24 L2,24 L2,14 L12,14 L12,24 L12,24 Z M24,14 L24,24 L14,24 L14,14 L24,14 L24,14 Z M2,12 L2,2 L12,2 L12,12 L2,12 L2,12 Z"></path>
 </svg>

@@ -1,14 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
-<g>
-  <rect x="12" y="2" width="8" height="2"/>
-  <path d="M6,5v5h1v20h18V10h1V5H6z M23,28H9V12h14V28z"/>
-  <rect x="11" y="14" width="1" height="12"/>
-  <rect x="14" y="14" width="1" height="12"/>
-  <rect x="17" y="14" width="1" height="12"/>
-  <rect x="20" y="14" width="1" height="12"/>
-</g>
+<svg width="20px" height="28px" viewBox="0 0 20 28" fill-rule="evenodd" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect x="6" y="0" width="8" height="2"></rect>
+  <path d="M0,3 L0,8 L1,8 L1,28 L19,28 L19,8 L20,8 L20,3 L0,3 L0,3 Z M17,26 L3,26 L3,10 L17,10 L17,26 L17,26 Z"></path>
+  <rect x="5" y="12" width="1" height="12"></rect>
+  <rect x="8" y="12" width="1" height="12"></rect>
+  <rect x="11" y="12" width="1" height="12"></rect>
+  <rect x="14" y="12" width="1" height="12"></rect>
 </svg>
