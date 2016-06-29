@@ -269,8 +269,8 @@
 }
 
 .svg--service--gear-dims {
-	width: 36px;
-	height: 36px;
+	width: 16px;
+	height: 16px;
 }
 
 .svg--service--logsLink-dims {
@@ -309,8 +309,8 @@
 }
 
 .svg--service--status-scheduled-dims {
-	width: 16px;
-	height: 16px;
+	width: 14px;
+	height: 14px;
 }
 
 .svg--service--status-success-dims {
