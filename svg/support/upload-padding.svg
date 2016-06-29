@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-596 382 30 30" style="enable-background:new -596 382 30 30;">
-	<polygon class="st0" points="-585.4,394.1 -584.6,394.8 -581.5,391.7 -581.5,400 -580.5,400 -580.5,391.7 -577.4,394.8 -576.6,394.1 -581,389.8"/>
-	<polygon class="st0" points="-574,398.2 -574,402.2 -588,402.2 -588,398.2 -588.5,398.2 -588.5,402.2 -588.5,404.2 -588,404.2 -574,404.2 -573.5,404.2 -573.5,402.2 -573.5,398.2"/>
+<svg width="16px" height="16px" viewBox="0 0 16 16" fill-rule="evenodd" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polygon points="3.6 5.1 4.4 5.8 7.5 2.7 7.5 11 8.5 11 8.5 2.7 11.6 5.8 12.4 5.1 8 0.8"></polygon>
+  <polygon points="15 9.2 15 13.2 1 13.2 1 9.2 0.5 9.2 0.5 13.2 0.5 15.2 1 15.2 15 15.2 15.5 15.2 15.5 13.2 15.5 9.2"></polygon>
 </svg>

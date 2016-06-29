@@ -319,13 +319,13 @@
 }
 
 .svg--support--arrow-right-dims {
-	width: 7.4px;
+	width: 8px;
 	height: 12px;
 }
 
 .svg--support--bluemix-padding-dims {
-	width: 17.6px;
-	height: 17.6px;
+	width: 12px;
+	height: 12px;
 }
 
 .svg--support--check-fill-circle-dims {
@@ -339,13 +339,13 @@
 }
 
 .svg--support--chevron-down-dims {
-	width: 10.5px;
-	height: 5.3px;
+	width: 11px;
+	height: 6px;
 }
 
 .svg--support--chevron-down-padding-dims {
-	width: 30px;
-	height: 30px;
+	width: 11px;
+	height: 6px;
 }
 
 .svg--support--chevron-up-dims {
@@ -354,18 +354,18 @@
 }
 
 .svg--support--close-stroke-circle-dims {
-	width: 18px;
-	height: 18px;
+	width: 19px;
+	height: 19px;
 }
 
 .svg--support--help-fill-circle-with-outline-dims {
-	width: 25.1px;
-	height: 25.1px;
+	width: 27px;
+	height: 27px;
 }
 
 .svg--support--idea-fill-circle-with-outline-dims {
-	width: 25.1px;
-	height: 25.1px;
+	width: 27px;
+	height: 27px;
 }
 
 .svg--support--info-stroke-circle-dims {
@@ -374,28 +374,28 @@
 }
 
 .svg--support--left-arrow-stroke-circle-dims {
+	width: 19px;
+	height: 19px;
+}
+
+.svg--support--search-padding-dims {
 	width: 18px;
 	height: 18px;
 }
 
-.svg--support--search-padding-dims {
-	width: 30px;
-	height: 30px;
-}
-
 .svg--support--stackoverflow-padding-dims {
-	width: 17.6px;
-	height: 17.6px;
+	width: 11px;
+	height: 14px;
 }
 
 .svg--support--upload-padding-dims {
-	width: 30px;
-	height: 30px;
+	width: 16px;
+	height: 16px;
 }
 
 .svg--support--user-stroke-circle-dims {
-	width: 63px;
-	height: 63px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--taxonomy--allcategories-dims {

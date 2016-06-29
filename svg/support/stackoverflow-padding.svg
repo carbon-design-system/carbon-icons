@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-602 388.4 17.6 17.6" style="enable-background:new -602 388.4 17.6 17.6;">
-	<rect x="-594.2" y="394.1" transform="matrix(-0.7531 -0.6579 0.6579 -0.7531 -1296.9958 302.536)" width="4.9" height="1"/>
-	<rect x="-595.2" y="395.7" transform="matrix(-0.8905 -0.455 0.455 -0.8905 -1300.8552 479.369)" width="4.9" height="1"/>
-	<rect x="-595.9" y="397.4" transform="matrix(-0.9718 -0.2357 0.2357 -0.9718 -1263.926 644.7156)" width="4.9" height="1"/>
-	<rect x="-596.2" y="399.1" transform="matrix(-0.9985 -5.452156e-02 5.452156e-02 -0.9985 -1208.3898 766.2229)" width="4.9" height="1"/>
-	<rect x="-596.3" y="400.5" width="5" height="1"/>
-	<polygon points="-598.2,403.5 -598.2,398.4 -597.2,398.4 -597.2,402.5 -590.3,402.5 -590.3,398.4 -589.3,398.4 -589.3,403.5"/>
-	<rect x="-592.7" y="392.7" transform="matrix(0.5616 0.8274 -0.8274 0.5616 66.5818 660.7911)" width="4.9" height="1"/>
+<svg width="11px" height="14px" viewBox="0 0 11 14" fill-rule="evenodd" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect transform="translate(7.258465, 4.675065) rotate(221.140111) translate(-7.258465, -4.675065) " x="4.80847478" y="4.175067" width="4.89998045" height="0.99999601"></rect>
+  <rect transform="translate(6.259675, 6.254150) rotate(207.064711) translate(-6.259675, -6.254150) " x="3.80965632" y="5.75414619" width="4.90003736" height="1.00000762"></rect>
+  <rect transform="translate(5.573740, 7.912545) rotate(193.633238) translate(-5.573740, -7.912545) " x="3.12380158" y="7.41255757" width="4.89987684" height="0.999974865"></rect>
+  <rect transform="translate(5.256390, 9.594476) rotate(183.125444) translate(-5.256390, -9.594476) " x="2.80642118" y="9.09448254" width="4.89993838" height="0.999987425"></rect>
+  <rect x="2.7" y="10.5" width="5" height="1"></rect>
+  <polygon points="0.8 13.5 0.8 8.4 1.8 8.4 1.8 12.5 8.7 12.5 8.7 8.4 9.7 8.4 9.7 13.5"></polygon>
+  <rect transform="translate(8.763720, 3.239370) rotate(55.833194) translate(-8.763720, -3.239370) " x="6.31373798" y="2.73937367" width="4.89996403" height="0.99999266"></rect>
 </svg>
