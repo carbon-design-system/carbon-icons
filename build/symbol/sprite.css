@@ -8,6 +8,11 @@
 	height: 16px;
 }
 
+.svg--app-actions--filter-dims {
+	width: 30px;
+	height: 30px;
+}
+
 .svg--app-actions--go_to_icon-dims {
 	width: 18px;
 	height: 16px;
