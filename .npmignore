@@ -1,0 +1,14 @@
+.git
+build
+docs
+gulp-tasks
+node_modules
+svg
+travis.ci
+.bowerrc
+.gitignore
+.travis.yml
+Gulpfile.js
+server.js
+sprite.css
+*.html

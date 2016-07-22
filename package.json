@@ -6,7 +6,7 @@
   "private": false,
   "scripts": {
     "dev": "nodemon -e html,svg server.js",
-    "build": "gulp clean && gulp build && gulp rename-move"
+    "build": "gulp clean && gulp build && gulp copy && gulp xml2json"
   },
   "engines": {
     "node": "~4.0.0",
