@@ -353,6 +353,11 @@
 	height: 6px;
 }
 
+.svg--support--chevron-down-32-dims {
+	width: 32px;
+	height: 32px;
+}
+
 .svg--support--chevron-down-padding-dims {
 	width: 11px;
 	height: 6px;
@@ -361,6 +366,11 @@
 .svg--support--chevron-up-dims {
 	width: 10.5px;
 	height: 5.3px;
+}
+
+.svg--support--chevron-up-32-dims {
+	width: 32px;
+	height: 32px;
 }
 
 .svg--support--close-stroke-circle-dims {
