@@ -1,4 +1,11 @@
-<svg width="28px" height="28px" viewBox="0 0 28 28" fill-rule="evenodd" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M14,0 C6.269,0 0,6.269 0,14 C0,21.731 6.269,28 14,28 C21.731,28 28,21.731 28,14 C28,6.269 21.731,0 14,0 L14,0 Z M14,26 C7.383,26 2,20.617 2,14 C2,7.383 7.383,2 14,2 C20.617,2 26,7.383 26,14 C26,20.617 20.617,26 14,26 L14,26 Z"></path>
-  <polygon points="9 20 21 14 9 8"></polygon>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard-1" fill="#000000">
+        <path d="M16,0 C7.16457143,0 0,7.16457143 0,16 C0,24.8354286 7.16457143,32 16,32 C24.8354286,32 32,24.8354286 32,16 C32,7.16457143 24.8354286,0 16,0 L16,0 L16,0 Z M16,29.7142857 C8.43771429,29.7142857 2.28571429,23.5622857 2.28571429,16 C2.28571429,8.43771429 8.43771429,2.28571429 16,2.28571429 C23.5622857,2.28571429 29.7142857,8.43771429 29.7142857,16 C29.7142857,23.5622857 23.5622857,29.7142857 16,29.7142857 L16,29.7142857 L16,29.7142857 Z" id="Shape"></path>
+        <polygon id="Shape" points="10.2857143 22.8571429 24 16 10.2857143 9.14285714"></polygon>
+    </g>
 </svg>

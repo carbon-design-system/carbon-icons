@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const svgSprite = require('gulp-svg-sprite');
 const svgo = require('gulp-svgo');
+const rsp = require('remove-svg-properties').stream;
 
 
 // SVG Config
@@ -30,7 +31,14 @@ const config = {
 // Build svg sprite
 const build = () => {
   gulp.src('svg/**/*.svg')
-    .pipe(svgo())
+    .pipe(rsp.remove({
+      properties: ['fill', rsp.PROPS_STROKE]
+    }))
+    .pipe(svgo({
+      plugins: [{
+        removeTitle: true
+      }]
+    }))
     .pipe(svgSprite(config))
     .pipe(gulp.dest('./build'));
 }

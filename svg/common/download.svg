@@ -1,4 +1,9 @@
-<svg width="30px" height="29px" viewBox="0 0 30 29" fill-rule="evenodd" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <polygon id="Shape" fill="#000000" points="23.708 11.707 22.294 10.292 16 16.587 16 0 14 0 14 16.585 7.708 10.292 6.294 11.707 15.001 20.414"></polygon>
-  <polygon id="Shape" fill="#000000" points="28 17 28 25 2 25 2 17 0 17 0 25 0 29 2 29 28 29 30 29 30 25 30 17"></polygon>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <polygon id="Shape" points="25.2885333 13.5143793 23.7802667 12.0017931 17.0666667 18.730931 17.0666667 1 14.9333333 1 14.9333333 18.7287931 8.22186667 12.0017931 6.7136 13.5143793 16.0010667 22.8218621"></polygon>
+    <polygon id="Shape" points="29.8666667 19.1724138 29.8666667 27.7241379 2.13333333 27.7241379 2.13333333 19.1724138 0 19.1724138 0 27.7241379 0 32 2.13333333 32 29.8666667 32 32 32 32 27.7241379 32 19.1724138"></polygon>
 </svg>

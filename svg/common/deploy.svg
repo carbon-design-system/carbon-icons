@@ -1,4 +1,9 @@
-<svg width="30px" height="30px" viewBox="0 0 30 30" fill-rule="evenodd" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M29.707,7.293 L23,0.586 L16.293,7.293 L17.707,8.707 L22,4.414 L22,18 C22,23.514 17.514,28 12,28 C6.486,28 2,23.514 2,18 C2,15.329 3.04,12.818 4.929,10.929 L3.515,9.515 C1.248,11.782 0,14.795 0,18 C0,24.617 5.383,30 12,30 C18.617,30 24,24.617 24,18 L24,4.414 L28.293,8.707 L29.707,7.293 L29.707,7.293 Z"></path>
-  <circle cx="12" cy="18" r="3"></circle>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <path d="M30.707,8.293 L24,1.586 L17.293,8.293 L18.707,9.707 L23,5.414 L23,19 C23,24.514 18.514,29 13,29 C7.486,29 3,24.514 3,19 C3,16.329 4.04,13.818 5.929,11.929 L4.515,10.515 C2.248,12.782 1,15.795 1,19 C1,25.617 6.383,31 13,31 C19.617,31 25,25.617 25,19 L25,5.414 L29.293,9.707 L30.707,8.293 L30.707,8.293 L30.707,8.293 Z" id="Shape"></path>
+    <circle id="Oval" cx="13" cy="19" r="3"></circle>
 </svg>
