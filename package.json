@@ -31,16 +31,14 @@
   "devDependencies": {
     "del": "2.2.0",
     "gh-pages": "0.11.0",
-    "gulp": "^3.9.0",
+    "gulp": "3.9.0",
     "gulp-gh-pages": "0.5.4",
-    "gulp-rename": "^1.2.2",
-    "gulp-svg-sprite": "^1.2.18",
+    "gulp-rename": "1.2.2",
+    "gulp-svg-sprite": "1.2.18",
     "gulp-svgo": "1.0.3",
     "nodemon": "1.9.2",
-    "remove-svg-properties": "0.3.2"
-  },
-  "dependencies": {
-    "express": "^4.13.4",
-    "svgxuse": "^1.1.16"
+    "remove-svg-properties": "0.3.2",
+    "express": "4.13.4",
+    "svgxuse": "1.1.16"
   }
 }
