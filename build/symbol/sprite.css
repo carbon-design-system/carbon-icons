@@ -254,78 +254,78 @@
 }
 
 .svg--service--add-filled-dims {
-	width: 18px;
-	height: 18px;
+	width: 17px;
+	height: 17px;
 }
 
 .svg--service--back-dims {
-	width: 15px;
-	height: 13px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--service--chevron-dims {
-	width: 8px;
-	height: 12px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--service--default-dims {
-	width: 64px;
-	height: 64px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--service--down-arrow-dims {
-	width: 8px;
-	height: 5px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--service--gear-dims {
-	width: 16px;
-	height: 16px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--service--logsLink-dims {
-	width: 25px;
-	height: 20px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--service--status-complete-dims {
-	width: 16px;
-	height: 16px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--service--status-error-dims {
-	width: 18px;
-	height: 18px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--service--status-initializing-dims {
-	width: 16px;
-	height: 16px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--service--status-paused-dims {
-	width: 16px;
-	height: 16px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--service--status-pending-dims {
-	width: 18px;
-	height: 18px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--service--status-running-dims {
-	width: 16px;
-	height: 16px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--service--status-scheduled-dims {
-	width: 14px;
-	height: 14px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--service--status-success-dims {
-	width: 18px;
-	height: 18px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--support--arrow-right-dims {

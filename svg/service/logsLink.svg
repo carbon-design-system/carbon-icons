@@ -1,4 +1,11 @@
-<svg width="25px" height="20px" viewBox="0 0 25 20" fill-rule="evenodd" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M0,19.7055271 L24.6319089,19.7055271 L24.6319089,0 L0,0 L0,19.7055271 Z M1.64212726,4.92638177 L22.9897816,4.92638177 L22.9897816,18.0633998 L1.64212726,18.0633998 L1.64212726,4.92638177 Z"></path>
-  <path d="M14.5385737,14.5385737 L19.7055271,9.37162026 L19.7055271,13.1370181 L21.3476543,13.1370181 L21.3476543,6.56850903 L14.7791453,6.56850903 L14.7791453,8.21063629 L18.5445431,8.21063629 L13.3775897,13.3775897 L14.5385737,14.5385737"></path>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M2,26.6760798 L29.587738,26.6760798 L29.587738,5 L2,5 L2,26.6760798 L2,26.6760798 Z M3.83918253,10.4190199 L27.7485554,10.4190199 L27.7485554,24.8697398 L3.83918253,24.8697398 L3.83918253,10.4190199 L3.83918253,10.4190199 Z" id="Shape"></path>
+        <polyline id="Shape" points="18.2832025 20.9924311 24.0701904 15.3087823 24.0701904 19.4507199 25.9093728 19.4507199 25.9093728 12.2253599 18.5526427 12.2253599 18.5526427 14.0316999 22.7698883 14.0316999 16.9829005 19.7153487 18.2832025 20.9924311"></polyline>
+    </g>
 </svg>

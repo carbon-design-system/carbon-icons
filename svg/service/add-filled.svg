@@ -1,8 +1,19 @@
-<svg width="18px" height="18px" viewBox="0 0 18 18" fill-rule="evenodd" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M9.020815,0.520815 C4.32669,0.520815 0.520815,4.32669 0.520815,9.020815 C0.520815,13.71494 4.32669,17.520815 9.020815,17.520815 C13.71494,17.520815 17.520815,13.71494 17.520815,9.020815 C17.520815,4.32669 13.71494,0.520815 9.020815,0.520815"></path>
-  <path
-    transform="translate(9.020815, 9.020815) rotate(-45.000000) translate(-9.020815, -9.020815) translate(5.520815, 5.520815)"
-    fill="#FFFFFF"
-    d="M6.1064339,0.03500536 L3.49996964,2.64146964 L0.89350536,0.03500536 L0.03500536,0.89350536 L2.64146964,3.49996964 L0.03500536,6.1064339 L0.89350536,6.9649339 L3.49996964,4.35846964 L6.1064339,6.9649339 L6.9649339,6.1064339 L4.35846964,3.49996964 L6.9649339,0.89350536 L6.1064339,0.03500536 L6.1064339,0.03500536 Z">
-  </path>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>add-filled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.5,0 C3.805875,0 0,3.805875 0,8.5 C0,13.194125 3.805875,17 8.5,17 C13.194125,17 17,13.194125 17,8.5 C17,3.805875 13.194125,0 8.5,0 Z M7.89290588,4.20685171 L7.89290589,7.89294883 L4.20680876,7.89294883 L4.20680876,9.10705117 L7.89290589,9.10705117 L7.89290588,12.7931483 L9.10700822,12.7931483 L9.10700824,9.10705117 L12.7931053,9.10705117 L12.7931053,7.89294883 L9.10700824,7.89294883 L9.10700822,4.20685171 L7.89290588,4.20685171 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="add-filled">
+            <g id="Plus">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#000000" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
 </svg>

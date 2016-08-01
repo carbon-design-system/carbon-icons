@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="8px" height="12px" viewBox="0 0 8 12" fill-rule="evenodd" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path
-    transform="translate(-1118.000000, -324.000000)"
-    d="M1118.28571,325.264947 L1122.84737,330 L1118.28571,334.735053 L1119.50445,336 L1125.28571,330 L1119.50445,324 L1118.28571,325.264947 Z">
-  </path>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Shape" points="7 4.1623675 18.7299829 16 7 27.8376325 10.1339029 31 25 16 10.1339029 1"></polygon>
+    </g>
 </svg>

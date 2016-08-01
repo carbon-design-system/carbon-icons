@@ -1,4 +1,10 @@
-<svg width="18px" height="18px" viewBox="0 0 18 18" fill-rule="evenodd" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M9,0 C4.02975,0 0,4.02975 0,9 C0,13.97025 4.02975,18 9,18 C13.97025,18 18,13.97025 18,9 C18,4.02975 13.97025,0 9,0"></path>
-  <polygon fill="#FFFFFF" points="11.7597536 5.33118214 8.99996786 8.09096786 6.24018214 5.33118214 5.33118214 6.24018214 8.09096786 8.99996786 5.33118214 11.7597536 6.24018214 12.6687536 8.99996786 9.90896786 11.7597536 12.6687536 12.6687536 11.7597536 9.90896786 8.99996786 12.6687536 6.24018214 11.7597536 5.33118214"></polygon>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M16,0 C7.164,0 0,7.164 0,16 C0,24.836 7.164,32 16,32 C24.836,32 32,24.836 32,16 C32,7.164 24.836,0 16,0 Z M20.9062286,9.47765714 L15.9999429,14.3839429 L11.0936571,9.47765714 L9.47765714,11.0936571 L14.3839429,15.9999429 L9.47765714,20.9062286 L11.0936571,22.5222286 L15.9999429,17.6159429 L20.9062286,22.5222286 L22.5222286,20.9062286 L17.6159429,15.9999429 L22.5222286,11.0936571 L20.9062286,9.47765714 Z" id="Combined-Shape"></path>
+    </g>
 </svg>
