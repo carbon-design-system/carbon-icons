@@ -174,23 +174,23 @@
 }
 
 .svg--notifications--error-dims {
-	width: 16px;
-	height: 16px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--notifications--info-dims {
-	width: 16px;
-	height: 16px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--notifications--success-dims {
-	width: 16px;
-	height: 16px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--notifications--warning-dims {
-	width: 16px;
-	height: 14px;
+	width: 32px;
+	height: 32px;
 }
 
 .svg--runtime--go-dims {
