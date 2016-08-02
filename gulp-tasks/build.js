@@ -30,17 +30,20 @@ const config = {
 
 // Build svg sprite
 const build = () => {
-  gulp.src('svg/**/*.svg')
-    .pipe(rsp.remove({
-      properties: ['fill', rsp.PROPS_STROKE]
-    }))
-    .pipe(svgo({
-      plugins: [{
-        removeTitle: true
-      }]
-    }))
-    .pipe(svgSprite(config))
-    .pipe(gulp.dest('./build'));
+  gulp.src([
+    'svg/**/*.svg',
+    '!svg/runtime/*.svg'
+  ])
+  .pipe(rsp.remove({
+    properties: ['fill', rsp.PROPS_STROKE]
+  }))
+  .pipe(svgo({
+    plugins: [{
+      removeTitle: true
+    }]
+  }))
+  .pipe(svgSprite(config))
+  .pipe(gulp.dest('./build'));
 }
 
 module.exports = build;
