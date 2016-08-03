@@ -4,9 +4,7 @@
     <title>Artboard 1</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Artboard-1" fill="#000000">
-      <path d="M15,0 L0,26 L30,26 L15,0 L15,0 L15,0 L15,0 Z M15,2.001 L28.2685,25 L1.7315,25 L15,2.001 L15,2.001 L15,2.001 L15,2.001 Z" id="Shape"></path>
-      <polygon id="Shape" points="14 11 14 13 14.5 18 15.5 18 16 13 16 11"></polygon>
-      <ellipse id="Oval" cx="15" cy="20" rx="1" ry="1"></ellipse>
-    </g>
+    <path d="M15,0 L0,26 L30,26 L15,0 L15,0 L15,0 L15,0 Z M15,2.001 L28.2685,25 L1.7315,25 L15,2.001 L15,2.001 L15,2.001 L15,2.001 Z" id="Shape"></path>
+    <polygon id="Shape" points="14 11 14 13 14.5 18 15.5 18 16 13 16 11"></polygon>
+    <ellipse id="Oval" cx="15" cy="20" rx="1" ry="1"></ellipse>
 </svg>

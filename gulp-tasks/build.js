@@ -30,9 +30,10 @@ const config = {
 
 // Build svg sprite
 const build = () => {
+
   gulp.src([
     'svg/**/*.svg',
-    '!svg/runtime/*.svg'
+    '!svg/runtime/*.svg', // hardcoded colors
   ])
   .pipe(rsp.remove({
     properties: ['fill', rsp.PROPS_STROKE]

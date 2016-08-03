@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
     <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
     <title>Artboard 1</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-      <polygon id="Shape" points="7.78944928 13.7868678 30 13.7868678 30 16.9924651 7.78865581 16.9924651 16.5662003 25.5134553 14.2637245 27.7804091 3.15097172 16.9924651 2.72443502 16.9924651 2.72443502 16.5783953 2 15.8751346 2.49252875 15.3902046 2 14.9052745 2.72443502 14.2020137 2.72443502 13.7868678 3.15208048 13.7868678 14.2637245 3 16.5662003 5.26587735"></polygon>
-    </g>
+    <polygon id="Shape" points="7.78944928 13.7868678 30 13.7868678 30 16.9924651 7.78865581 16.9924651 16.5662003 25.5134553 14.2637245 27.7804091 3.15097172 16.9924651 2.72443502 16.9924651 2.72443502 16.5783953 2 15.8751346 2.49252875 15.3902046 2 14.9052745 2.72443502 14.2020137 2.72443502 13.7868678 3.15208048 13.7868678 14.2637245 3 16.5662003 5.26587735"></polygon>
 </svg>
