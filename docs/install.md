@@ -1,6 +1,6 @@
 # Install `bluemix-icons`
 
-Use bower (recommended):
+Use bower:
 ```
 bower install bluemix-icons --save
 ```
