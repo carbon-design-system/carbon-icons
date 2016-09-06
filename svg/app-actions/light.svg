@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+        <rect id="Rectangle-path" fill="#000000" x="8.44" y="0" width="1.12" height="3.64" rx="0.56"></rect>
+        <rect id="Rectangle-path" fill="#000000" x="8.44" y="14.36" width="1.13" height="3.64" rx="0.56"></rect>
+        <circle id="Oval" fill="#3D70B2" cx="9.11" cy="9" r="4.33"></circle>
+        <rect id="Rectangle-path" fill="#000000" transform="translate(16.180000, 9.010000) rotate(-90.000000) translate(-16.180000, -9.010000) " x="15.62" y="7.19" width="1.12" height="3.64" rx="0.56"></rect>
+        <rect id="Rectangle-path" fill="#000000" transform="translate(1.820000, 9.010000) rotate(-90.000000) translate(-1.820000, -9.010000) " x="1.26" y="7.19" width="1.12" height="3.64" rx="0.56"></rect>
+        <rect id="Rectangle-path" fill="#000000" transform="translate(3.430458, 3.669706) rotate(-45.000000) translate(-3.430458, -3.669706) " x="2.87045784" y="1.84970563" width="1.12" height="3.64" rx="0.56"></rect>
+        <rect id="Rectangle-path" fill="#000000" transform="translate(14.373956, 3.663794) rotate(225.000000) translate(-14.373956, -3.663794) " x="13.8139565" y="1.84379395" width="1.12" height="3.64" rx="0.56"></rect>
+        <rect id="Rectangle-path" fill="#000000" transform="translate(14.363609, 14.385858) rotate(135.000000) translate(-14.363609, -14.385858) " x="13.8036091" y="12.5658581" width="1.12" height="3.64" rx="0.56"></rect>
+        <rect id="Rectangle-path" fill="#000000" transform="translate(3.433645, 14.384178) rotate(45.000000) translate(-3.433645, -14.384178) " x="2.86864487" y="12.5641784" width="1.13" height="3.64" rx="0.56"></rect>
+</svg>
