@@ -3,6 +3,11 @@
 	height: 32px;
 }
 
+.svg--app-actions--dark-dims {
+	width: 12px;
+	height: 14px;
+}
+
 .svg--app-actions--favorite_icon-dims {
 	width: 32px;
 	height: 32px;
@@ -18,6 +23,11 @@
 	height: 32px;
 }
 
+.svg--app-actions--light-dims {
+	width: 18px;
+	height: 18px;
+}
+
 .svg--app-actions--overflow_menu_icon-dims {
 	width: 6px;
 	height: 30px;
@@ -31,6 +41,16 @@
 .svg--common--add-dims {
 	width: 32px;
 	height: 32px;
+}
+
+.svg--common--appstatus_asleep-dims {
+	width: 28px;
+	height: 28px;
+}
+
+.svg--common--appstatus_awake-dims {
+	width: 28px;
+	height: 28px;
 }
 
 .svg--common--arrows-dims {

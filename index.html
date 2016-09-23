@@ -20,12 +20,16 @@ They might well be outsourced to an external stylesheet of course.
 
 <style type="text/css">
 	.svg--app-actions--copy-code-dims { width: 32px; height: 32px; }
+	.svg--app-actions--dark-dims { width: 12px; height: 14px; }
 	.svg--app-actions--favorite_icon-dims { width: 32px; height: 32px; }
 	.svg--app-actions--filter-dims { width: 32px; height: 32px; }
 	.svg--app-actions--go_to_icon-dims { width: 32px; height: 32px; }
+	.svg--app-actions--light-dims { width: 18px; height: 18px; }
 	.svg--app-actions--overflow_menu_icon-dims { width: 6px; height: 30px; }
 	.svg--app-actions--restart_icon-dims { width: 32px; height: 32px; }
 	.svg--common--add-dims { width: 32px; height: 32px; }
+	.svg--common--appstatus_asleep-dims { width: 28px; height: 28px; }
+	.svg--common--appstatus_awake-dims { width: 28px; height: 28px; }
 	.svg--common--arrows-dims { width: 32px; height: 32px; }
 	.svg--common--cancel-dims { width: 32px; height: 32px; }
 	.svg--common--close-dims { width: 32px; height: 32px; }
@@ -143,12 +147,16 @@ for further details on how to create this embeddable sprite variant.
 
 <svg width="0" height="0" style="position:absolute">
 		<symbol viewBox="0 0 32 32" fill-rule="evenodd" id="app-actions--copy-code"><path d="M7.722 8L0 16l7.722 8 2.945-3.052L5.892 16l4.775-4.948zm16.556 0l-2.945 3.052L26.108 16l-4.775 4.948L24.278 24 32 16z"/></symbol>
+		<symbol viewBox="0 0 12 14" fill-rule="evenodd" id="app-actions--dark"><path d="M10.494 3.03A7.095 7.095 0 0 0 4.51 0a.516.516 0 0 0-.367.876c.218.25.417.516.594.796a6.693 6.693 0 0 1 .692 5.6 6.273 6.273 0 0 1-5.006 4.102.516.516 0 0 0-.27.875A7.13 7.13 0 0 0 4.824 14a6.876 6.876 0 0 0 1.67-.2 7.12 7.12 0 0 0 4.865-4.376 6.798 6.798 0 0 0-.867-6.395z"/></symbol>
 		<symbol viewBox="0 0 32 32" fill-rule="evenodd" id="app-actions--favorite_icon"><path d="M32 12.354c0-.405-.41-.81-1.026-1.012l-9.64-1.418L17.024.81C16.82.203 16.41 0 16 0c-.41 0-.615.203-1.026.81l-4.307 9.114-9.64 1.418C.41 11.544 0 11.747 0 12.354c0 .203.205.608.41 1.013l6.975 7.09-1.64 10.125v.405c0 .203 0 .608.204.81.204.203.41.203.614.203.205 0 .41 0 .82-.203L16 26.937l8.615 4.86c.206.203.616.203.82.203.206 0 .41 0 .616-.203.206-.202.206-.405.206-.81v-.405l-1.64-10.126 6.974-7.09c.205-.404.41-.81.41-1.012z"/></symbol>
 		<symbol viewBox="0 0 32 32" fill-rule="evenodd" id="app-actions--filter"><path d="M32 0H0v4.267l12.8 12.8V32l6.4-6.4v-3.604a4.24 4.24 0 0 0 3.2 1.47 4.265 4.265 0 0 0 4.267-4.266 4.265 4.265 0 0 0-4.267-4.267c-.45 0-.877.09-1.285.22L32 4.266V0zm-7.467 19.2a2.136 2.136 0 0 1-2.133 2.133 2.135 2.135 0 0 1-2.133-2.133c0-1.177.956-2.133 2.133-2.133 1.175 0 2.133.956 2.133 2.133zm-6.84-3.642l-.626.624v8.534l-2.134 2.133V16.18l-.625-.624-11.29-11.29h25.965l-11.29 11.29z"/></symbol>
 		<symbol viewBox="0 0 32 32" id="app-actions--go_to_icon"><path d="M18.497 2v3.514h7.77l-2.036 2.22H0v21.642h26.636V10.14l2.035-2.22v7.953H32V2H18.497zm5.734 25.71H1.666V9.585h20.717l-6.844 7.03 2.404 2.403 6.29-6.474V27.71z"/></symbol>
+		<symbol viewBox="0 0 18 18" fill-rule="evenodd" id="app-actions--light"><rect x="8.44" width="1.12" height="3.64" rx=".56"/><rect x="8.44" y="14.36" width="1.13" height="3.64" rx=".56"/><circle cx="9.11" cy="9" r="4.33"/><rect transform="rotate(-90 16.18 9.01)" x="15.62" y="7.19" width="1.12" height="3.64" rx=".56"/><rect transform="rotate(-90 1.82 9.01)" x="1.26" y="7.19" width="1.12" height="3.64" rx=".56"/><rect transform="rotate(-45 3.43 3.67)" x="2.87" y="1.85" width="1.12" height="3.64" rx=".56"/><rect transform="rotate(-135 14.374 3.664)" x="13.814" y="1.844" width="1.12" height="3.64" rx=".56"/><rect transform="rotate(135 14.364 14.386)" x="13.804" y="12.566" width="1.12" height="3.64" rx=".56"/><rect transform="rotate(45 3.434 14.384)" x="2.869" y="12.564" width="1.13" height="3.64" rx=".56"/></symbol>
 		<symbol viewBox="0 0 6 30" id="app-actions--overflow_menu_icon"><circle cx="3" cy="3" r="3"/><circle cx="3" cy="15" r="3"/><circle cx="3" cy="27" r="3"/></symbol>
 		<symbol viewBox="0 0 32 32" fill-rule="evenodd" id="app-actions--restart_icon"><path d="M28 18.89C28 12.204 22.496 6.7 15.615 6.7h-6.88l4.52-4.325L11.88 1 5 7.88l6.88 6.88 1.376-1.375-4.52-4.325h6.88c5.7 0 10.42 4.52 10.42 10.222 0 5.7-4.72 10.222-10.42 10.222-2.753 0-5.308-.983-7.274-2.948l-1.376 1.376c2.36 2.36 5.504 3.538 8.846 3.538C22.496 31.077 28 25.573 28 18.89z"/></symbol>
 		<symbol viewBox="0 0 32 32" fill-rule="evenodd" id="common--add"><path d="M17.07 8.5h-2.14v6.43H8.5v2.14h6.43v6.43h2.14v-6.43h6.43v-2.14h-6.43z"/><path d="M16 1C7.717 1 1 7.717 1 16c0 8.283 6.717 15 15 15 8.283 0 15-6.717 15-15 0-8.283-6.717-15-15-15zm0 27.857C8.91 28.857 3.143 23.09 3.143 16 3.143 8.91 8.91 3.143 16 3.143c7.09 0 12.857 5.767 12.857 12.857 0 7.09-5.767 12.857-12.857 12.857z"/></symbol>
+		<symbol viewBox="0 0 28 28" fill-rule="evenodd" id="common--appstatus_asleep"><path d="M11.43 0C4.823 1.477-.07 7.128 0 13.837.083 21.613 6.793 27.85 14.987 27.77c5.152-.05 9.662-2.59 12.282-6.4-6.44.99-12.804-1.227-16.098-6.228C8.157 10.566 8.48 4.822 11.43 0z"/></symbol>
+		<symbol viewBox="0 0 28 28" fill-rule="evenodd" id="common--appstatus_awake"><path d="M3.306 10.66c1.386-8.02 10.73-7.993 10.73-7.993l-.07 22.666C6.5 25.31 1.906 18.78 3.306 10.66M0 13.96C-.023 21.678 6.24 27.978 13.958 28h.002c7.72.023 14.017-6.24 14.04-13.958C28.023 6.322 21.76.022 14.042 0 6.322-.023.022 6.24 0 13.958"/></symbol>
 		<symbol viewBox="0 0 32 32" fill-rule="evenodd" id="common--arrows"><path d="M8.6 2.665l7.6 8.58h-15l7.4-8.58zM6 11.443h5V28.8H6V11.443zM22.8 28.6l-7.6-8.578h15l-7.4 8.58zm2.4-8.578h-5V2.665h5v17.357z"/></symbol>
 		<symbol viewBox="0 0 32 32" id="common--cancel"><path d="M20.293 10.293L16 14.586l-4.293-4.293-1.414 1.414L14.586 16l-4.293 4.293 1.414 1.414L16 17.414l4.293 4.293 1.414-1.414L17.414 16l4.293-4.293z"/><path d="M16 2C8.27 2 2 8.27 2 16s6.27 14 14 14 14-6.27 14-14S23.73 2 16 2zm0 26C9.383 28 4 22.617 4 16S9.383 4 16 4s12 5.383 12 12-5.383 12-12 12z"/></symbol>
 		<symbol viewBox="0 0 32 32" fill-rule="evenodd" id="common--close"><path d="M28.93 6.303L25.697 3.07 16 12.768 6.303 3.07 3.07 6.303 12.768 16 3.07 25.697l3.233 3.233L16 19.232l9.697 9.698 3.233-3.233L19.232 16z"/></symbol>
@@ -283,6 +291,17 @@ embedded above. They may be styled via CSS.
 					</div>
 					<h2>app-actions--copy-code</h2>
 				</li>
+				<li title="app-actions--dark">
+					<div class="icon-box">
+						
+						<!-- app-actions--dark -->
+						<svg class="svg--app-actions--dark-dims">
+							<use xlink:href="#app-actions--dark"></use>
+						</svg>
+						
+					</div>
+					<h2>app-actions--dark</h2>
+				</li>
 				<li title="app-actions--favorite_icon">
 					<div class="icon-box">
 						
@@ -316,6 +335,17 @@ embedded above. They may be styled via CSS.
 					</div>
 					<h2>app-actions--go_to_icon</h2>
 				</li>
+				<li title="app-actions--light">
+					<div class="icon-box">
+						
+						<!-- app-actions--light -->
+						<svg class="svg--app-actions--light-dims">
+							<use xlink:href="#app-actions--light"></use>
+						</svg>
+						
+					</div>
+					<h2>app-actions--light</h2>
+				</li>
 				<li title="app-actions--overflow_menu_icon">
 					<div class="icon-box">
 						
@@ -348,6 +378,28 @@ embedded above. They may be styled via CSS.
 						
 					</div>
 					<h2>common--add</h2>
+				</li>
+				<li title="common--appstatus_asleep">
+					<div class="icon-box">
+						
+						<!-- common--appstatus_asleep -->
+						<svg class="svg--common--appstatus_asleep-dims">
+							<use xlink:href="#common--appstatus_asleep"></use>
+						</svg>
+						
+					</div>
+					<h2>common--appstatus_asleep</h2>
+				</li>
+				<li title="common--appstatus_awake">
+					<div class="icon-box">
+						
+						<!-- common--appstatus_awake -->
+						<svg class="svg--common--appstatus_awake-dims">
+							<use xlink:href="#common--appstatus_awake"></use>
+						</svg>
+						
+					</div>
+					<h2>common--appstatus_awake</h2>
 				</li>
 				<li title="common--arrows">
 					<div class="icon-box">
@@ -1415,6 +1467,17 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 					</div>
 					<h2>app-actions--copy-code</h2>
 				</li>
+				<li title="app-actions--dark">
+					<div class="icon-box">
+						
+						<!-- app-actions--dark -->
+						<svg class="svg--app-actions--dark-dims">
+							<use xlink:href="svg/sprite.symbol.svg#app-actions--dark"></use>
+						</svg>
+						
+					</div>
+					<h2>app-actions--dark</h2>
+				</li>
 				<li title="app-actions--favorite_icon">
 					<div class="icon-box">
 						
@@ -1448,6 +1511,17 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 					</div>
 					<h2>app-actions--go_to_icon</h2>
 				</li>
+				<li title="app-actions--light">
+					<div class="icon-box">
+						
+						<!-- app-actions--light -->
+						<svg class="svg--app-actions--light-dims">
+							<use xlink:href="svg/sprite.symbol.svg#app-actions--light"></use>
+						</svg>
+						
+					</div>
+					<h2>app-actions--light</h2>
+				</li>
 				<li title="app-actions--overflow_menu_icon">
 					<div class="icon-box">
 						
@@ -1480,6 +1554,28 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 						
 					</div>
 					<h2>common--add</h2>
+				</li>
+				<li title="common--appstatus_asleep">
+					<div class="icon-box">
+						
+						<!-- common--appstatus_asleep -->
+						<svg class="svg--common--appstatus_asleep-dims">
+							<use xlink:href="svg/sprite.symbol.svg#common--appstatus_asleep"></use>
+						</svg>
+						
+					</div>
+					<h2>common--appstatus_asleep</h2>
+				</li>
+				<li title="common--appstatus_awake">
+					<div class="icon-box">
+						
+						<!-- common--appstatus_awake -->
+						<svg class="svg--common--appstatus_awake-dims">
+							<use xlink:href="svg/sprite.symbol.svg#common--appstatus_awake"></use>
+						</svg>
+						
+					</div>
+					<h2>common--appstatus_awake</h2>
 				</li>
 				<li title="common--arrows">
 					<div class="icon-box">
@@ -2523,7 +2619,7 @@ SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
 
 		</section>
 		<footer>
-			<p>Generated at Wed, 03 Aug 2016 18:36:46 GMT by <a href="https://github.com/jkphl/svg-sprite" target="_blank">svg-sprite</a>.</p>
+			<p>Generated at Fri, 23 Sep 2016 14:46:36 GMT by <a href="https://github.com/jkphl/svg-sprite" target="_blank">svg-sprite</a>.</p>
 		</footer>
 	</body>
 </html>
