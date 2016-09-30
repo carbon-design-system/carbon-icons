@@ -1,21 +1,21 @@
-// Create sprite.svg HTML page
+// Copy icons.svg and index.html to root directory
 
 const gulp = require('gulp');
 const rename = require('gulp-rename');
 
-const copy = () => {
-  gulp.src('build/symbol/**/*.{html,css,svg}')
+const copyToRoot = () => {
+  gulp.src('sprites/symbol/**/*.{html,css,svg}')
     .pipe(rename(function (path) {
       if (path.extname === '.html') {
-        path.basename = 'spriteSVGIndex';
+        path.basename = 'index';
       }
 
       if (path.extname === '.svg') {
-        path.basename = 'sprite';
+        path.basename = 'bluemix-icons';
         path.dirname = '.'
       }
     }))
     .pipe(gulp.dest('.'));
 }
 
-module.exports = copy;
+module.exports = copyToRoot;

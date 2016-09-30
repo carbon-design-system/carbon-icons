@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const svgSprite = require('gulp-svg-sprite');
 const svgo = require('gulp-svgo');
 const rsp = require('remove-svg-properties').stream;
+const rename = require('gulp-rename');
 
 
 // SVG Config
@@ -29,11 +30,11 @@ const config = {
 };
 
 // Build svg sprite
-const build = () => {
+const buildIconsSvg = () => {
 
   gulp.src([
-    './svg/**/*.svg',
-    '!./svg/runtime/*.svg', // hardcoded colors
+    'svg/**/*.svg',
+    '!svg/runtime/*.svg', // hardcoded colors
   ])
   .pipe(rsp.remove({
     properties: ['fill', rsp.PROPS_STROKE]
@@ -44,7 +45,7 @@ const build = () => {
     }]
   }))
   .pipe(svgSprite(config))
-  .pipe(gulp.dest('./build'));
+  .pipe(gulp.dest('./sprites'));
 }
 
-module.exports = build;
+module.exports = buildIconsSvg;

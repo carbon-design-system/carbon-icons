@@ -6,7 +6,10 @@
   "private": false,
   "scripts": {
     "dev": "nodemon -e html,svg server.js",
-    "build": "gulp clean && gulp build && gulp copy && gulp xml2json"
+    "build:sprite": "gulp build && gulp copy",
+    "build:bluemix-icons": "gulp buildIconsSvg && gulp copyToRoot",
+    "prebuild": "gulp clean",
+    "build": "npm run build:sprite && npm run build:bluemix-icons && gulp xml2json"
   },
   "engines": {
     "node": "~4.0.0",
