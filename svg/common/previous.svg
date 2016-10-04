@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
-    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard 1</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <polygon id="Shape" points="16.860243 4.93650356 13.9237394 2 0 15.9242584 13.9237394 29.8485168 16.860243 26.9120132 7.94797022 18.0002595 32 18.0002595 32 13.8482573 7.94797022 13.8482573"></polygon>
+<svg width="32px" height="28px" viewBox="0 0 32 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
+    <polygon id="Shape" points="16.860243 2.93650356 13.9237394 0 0 13.9242584 13.9237394 27.8485168 16.860243 24.9120132 7.94797022 16.0002595 32 16.0002595 32 11.8482573 7.94797022 11.8482573"></polygon>
 </svg>
