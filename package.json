@@ -20,6 +20,12 @@
     "bluemix",
     "ibm"
   ],
+  "files": [
+    "bluemix-icons.json",
+    "bluemix-icons.svg",
+    "sprite.svg",
+    "icons.json"
+  ],
   "maintainers": [
     {
       "name": "Brian Han",
