@@ -11,10 +11,6 @@
     "prebuild": "gulp clean",
     "build": "npm run build:sprite && npm run build:bluemix-icons && gulp xml2json"
   },
-  "engines": {
-    "node": "~4.0.0",
-    "npm": "~2.0.0"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.ibm.com:Bluemix/bluemix-icons.git"

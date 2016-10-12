@@ -1,4 +1,10 @@
-<svg width="32px" height="31px" viewBox="0 0 32 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
-    <polygon id="Shape" points="25.2885333 12.5143793 23.7802667 11.0017931 17.0666667 17.730931 17.0666667 0 14.9333333 0 14.9333333 17.7287931 8.22186667 11.0017931 6.7136 12.5143793 16.0010667 21.8218621"></polygon>
-    <polygon id="Shape" points="29.8666667 18.1724138 29.8666667 26.7241379 2.13333333 26.7241379 2.13333333 18.1724138 0 18.1724138 0 26.7241379 0 31 2.13333333 31 29.8666667 31 32 31 32 26.7241379 32 18.1724138"></polygon>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="12 -4 24 24" style="enable-background:new 12 -4 24 24;" xml:space="preserve">
+<title>Artboard 1</title>
+<desc>Created with Sketch.</desc>
+<polygon id="Shape" points="31,5.4 29.8,4.3 25,9 25,-4 23,-4 23,9 18.2,4.3 17,5.4 24,12 "/>
+<polygon id="Shape_1_" points="34,10 34,16 14,16 14,10 12,10 12,16.8 12,20 13.6,20 34.4,20 36,20 36,16.8 36,10 "/>
 </svg>

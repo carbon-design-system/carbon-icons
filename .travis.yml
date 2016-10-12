@@ -1,9 +1,8 @@
 language: node_js
 node_js:
   - "4"
-  - "5"
-  - "5.1"
-
+  - "6"
+group: bluezone
 install: true
 script: true
 

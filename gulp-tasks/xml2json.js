@@ -28,7 +28,7 @@ const parseSync = (xml) => {
   formatJSON()
   * Formats JSON and returns JSON string
 */
-const formatJSON = (rawJSON) => {
+const formatJSON = (rawJSON, bluemix) => {
   // iconMeta - returns new JSON Array of icon Objects
   const iconMeta = (rawJSON.svg.symbol).map(symbol => {
 
@@ -38,8 +38,8 @@ const formatJSON = (rawJSON) => {
     // For each "symbol.svg.symbol", create new Objects with these keys/values
     const data = {
       id: symbol.$.id,
-      name: splitId[1],
-      tags: splitId[0],
+      name: bluemix ? symbol.$.id : splitId[1],
+      tags: bluemix ? symbol.$.id : splitId[0],
       styles: symbol.style ? symbol.style : "",
       svgData: {
         circles: symbol.circle ? symbol.circle.map(attrValue => attrValue.$) : "",
@@ -64,18 +64,26 @@ const formatJSON = (rawJSON) => {
   * Creates new JSON Array of icon objects
   * Returns JSON string
 */
-const writeJSON = (svgFile, newFileName) => {
-  if (svgFile) {
-    const xml = fs.readFileSync(`./${svgFile}`, { 'encoding': 'utf8' });
+const writeJSON = (options) => {
+  if (options.svgFile) {
+    const xml = fs.readFileSync(`./${options.svgFile}`, { 'encoding': 'utf8' });
     const result = parseSync(xml);
-    fs.writeFile(`./${newFileName}`, formatJSON(result));
+    fs.writeFile(`./${options.newFileName}`, formatJSON(result, options.bluemix));
   }
 }
 
 
 const xml2json = (cb) => {
-  writeJSON('sprite.svg', 'icons.json');
-  writeJSON('bluemix-icons.svg', 'bluemix-icons.json');
+  writeJSON({
+    svgFile: 'sprite.svg', 
+    newFileName: 'icons.json',
+    bluemix: false,
+  });
+  writeJSON({
+    svgFile: 'bluemix-icons.svg', 
+    newFileName: 'bluemix-icons.json',
+    bluemix: true,
+  });
   cb();
 };
 
