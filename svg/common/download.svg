@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="24px" height="24px" viewBox="12 -4 24 24" style="enable-background:new 12 -4 24 24;" xml:space="preserve">
-<title>Artboard 1</title>
-<desc>Created with Sketch.</desc>
-<polygon id="Shape" points="31,5.4 29.8,4.3 25,9 25,-4 23,-4 23,9 18.2,4.3 17,5.4 24,12 "/>
-<polygon id="Shape_1_" points="34,10 34,16 14,16 14,10 12,10 12,16.8 12,20 13.6,20 34.4,20 36,20 36,16.8 36,10 "/>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
+  <polygon points="19 9.4 17.8 8.3 13 13 13 0 11 0 11 13 6.2 8.3 5 9.4 12 16"></polygon>
+  <polygon points="22 14 22 20 2 20 2 14 0 14 0 20.8 0 24 1.6 24 22.4 24 24 24 24 20.8 24 14"></polygon>
 </svg>
