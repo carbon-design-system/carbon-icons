@@ -1,27 +1,17 @@
 # Using Bluemix Icons
 
-The main file here is `sprite.svg`, which contains an SVG sprite.
+There are two main files that contain different sets of external SVG sprite files: 
+
+- sprite.svg: legacy icons
+- bluemix-icons.svg: current icons - a subset of icons that are all used throughout Bluemix product. 
+
 SVG sprite is every SVG included in a single file within a `<defs>` tag inside of a `<symbol>`.
-We're using the [SVG <use>](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use) to access them
-
-In your HTML, use an icon from `sprite.svg` by referencing it with a relative path or a path to your static assets.
-
-```html
-<!-- From bower_components -->
-<svg>
-  <use xlink:href="bower_components/bluemix-icons/sprite.svg#common--arrows"></use>
-</svg>
-
-<!-- From static assets  -->
-<svg>
-  <use xlink:href="/img/sprite.svg#common--arrows"></use>
-</svg>
-```
+We're using the [ `<use>` and `xlink:href`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use) to access them via polyfill.
 
 
-## Polyfill (required)
+## Install & Polyfill (required)
 
-Using bluemix-icons relies on the use of [external svg]() via `<use>` and `xlink:href`.
+Using bluemix-icons relies on the use of [external svg content](https://css-tricks.com/svg-sprites-use-better-icon-fonts/##Browser+Support) via `<use>` and `xlink:href`.
 For browser-compatibility, we require the use of the [svg4everybody](https://github.com/jonathantneal/svg4everybody#svg-for-everybody) polyfill.
 
 Install `svg4everybody` and invoke it manually
@@ -57,18 +47,23 @@ svg4everybody({ polyfill: true }); // run it now or whenever you are ready
 
 **Note**: The icons use original color by default, which should be `black`. (see [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/)) but can be edited using CSS.
 
-## Local Usage
+## Using Icons
 
-*Write stuff here about local usage*
+**Static assets:**
 
+You can use **sprite.svg** or **bluemix-icons.svg** by serving it as a static asset (like an image file) and use it with the following HTML: 
 
-## Usage from Bluemix-Common
+```html
+<!-- From static assets  -->
+<svg>
+  <use xlink:href="path/to/static-assets/img/sprite.svg#common--arrows"></use>
+</svg>
+```
 
-> **Polyfill:** The `svgxuse` polyfill is already set-up for you on [Bluemix.Common](https://github.ibm.com/Bluemix/Bluemix.Common) -- it acts directly on the `window` object, so it shouldn't need to be re-imported if you are using the header JavaScript from Bluemix.Common.
+**Bluemix.Common:**
 
-The following URL will give you access to the `sprite.svg`: `https://dev-console.stage1.ng.bluemix.net/api/v4/img/sprite.svg`.
+Bluemix.Common provides an endpoint to access their currently installed version of bluemix-icons. Using the icons in your HTML will look like this.
 
-**Note**: `Bluemix.Common` will be slower to update and slower to render compared to using a local version of `sprite.svg`.
 ```html
 <!-- From Bluemix.Common -->
 <svg>
@@ -76,19 +71,18 @@ The following URL will give you access to the `sprite.svg`: `https://dev-console
 </svg>
 ```
 
+> Important notes about Bluemix.Common: 
+- If you need more control over how the polyfill is invoked, use bluemix-icons locally as a static asset.
+- The older `svgxuse` polyfill is used in [Bluemix.Common](https://github.ibm.com/Bluemix/Bluemix.Common). This will be updated to [svg4everybody]() before Jan. 2017. 
+- The polyfill acts directly on the `window` object, so it shouldn't need to be re-imported if you are using the header JavaScript from Bluemix.Common.
+
 ### Styling Icons
 
-You style the SVG in CSS. Make sure to give it a `width` and `height` (default is 100% of parent). Some icons are colored while others are black by default. You can edit the fill to change this. See the [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/) for a guide with what `xlink:href` to use.
+SVG icons are styled with CSS. 
+
+Some icons are colored while others are black by default. You can edit the fill to change this. See the [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/) for a guide with what `xlink:href` to use.
 
 To edit these icons in CSS, *add your own class* to the `<svg>`. For example:
-
-HTML:
-
-```html
-<svg class="icon--add">
-  <use xlink:href="{link to sprite folder}/sprite.svg#service--add-filled"></use>
-</svg>
-```
 
 SCSS:
 ```scss
@@ -96,6 +90,14 @@ SCSS:
   fill: #cc6699; // additional styling
 }
 ```
+
+HTML:
+```html
+<svg class="icon--add">
+  <use xlink:href="path/to/sprite.svg#service--add-filled"></use>
+</svg>
+```
+
 
 ### Accessibility
 
