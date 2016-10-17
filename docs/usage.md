@@ -19,30 +19,32 @@ In your HTML, use an icon from `sprite.svg` by referencing it with a relative pa
 ```
 
 
-## Polyfill
+## Polyfill (required)
 
-Using bluemix-icons locally or from Bluemix.Common requires a simple polyfill called
-[svgxuse](https://github.com/Keyamoon/svgxuse).
+Using bluemix-icons relies on the use of [external svg]() via `<use>` and `xlink:href`.
+For browser-compatibility, we require the use of the [svg4everybody](https://github.com/jonathantneal/svg4everybody#svg-for-everybody) polyfill.
 
-Install `svgxuse` and include it as an external script.
+Install `svg4everybody` and invoke it manually
 
-```
-npm install --save svgxuse
+```sh
+npm install --save svg4everybody
 ```
 
 ```html
 <!--index.html-->
 <body>
   ...
-  <script src="./node_modules/svgxuse/svgxuse.min.js">
+  <script src="path/to/svg4everybody.js"></script>
+  <script>svg4everybody({ polyfill: true }); // run it now or whenever you are ready</script>
 </body>
 ```
 
-Or you can `import` or `require` it into your main JavaScript file:
+Or you can `import` or `require` it into your main JavaScript file and bundle it with `Webpack`:
 
 ```js
 // bundle.js
-import 'svgxuse';
+const svg4everybody = require('svg4everybody');
+svg4everybody({ polyfill: true }); // run it now or whenever you are ready
 ```
 
 ```html
