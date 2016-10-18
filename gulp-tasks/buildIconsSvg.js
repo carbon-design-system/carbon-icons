@@ -16,15 +16,6 @@ const config = {
       prefix: ".svg--%s",
       bust: false, // Cache busting
       example: true // Build a page
-    },
-    css: { // Activate the CSS mode
-      render: {
-        css: true,
-        scss: true
-      },
-      prefix: ".svg--%s",
-      bust: false, // Cache busting
-      example: true
     }
   }
 };
