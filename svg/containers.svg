@@ -1,7 +1,19 @@
-<svg width="30px" height="27px" viewBox="0 0 30 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
-  <path d="M13,14 L13,23 L4,23 L4,14 L13,14 L13,14 Z M14,13 L3,13 L3,24 L14,24 L14,13 L14,13 Z"></path>
-  <path d="M26,14 L26,23 L17,23 L17,14 L26,14 L26,14 Z M27,13 L16,13 L16,24 L27,24 L27,13 L27,13 Z"></path>
-  <path d="M13,1 L13,10 L4,10 L4,1 L13,1 L13,1 Z M14,0 L3,0 L3,11 L14,11 L14,0 L14,0 Z"></path>
-  <path d="M26,1 L26,10 L17,10 L17,1 L26,1 L26,1 Z M27,0 L16,0 L16,11 L27,11 L27,0 L27,0 Z"></path>
-  <polygon points="30 27 0 27 0 21 1 21 1 26 29 26 29 21 30 21"></polygon>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
+	<polygon points="24 22 0 22 0 18 1 18 1 21 23 21 23 18 24 18"></polygon>
+	<path d="M10,1 L10,8 L3,8 L3,1 L10,1 L10,1 Z M11,0 L2,0 L2,9 L11,9 L11,0 L11,0 L11,0 Z" ></path>
+	<path d="M21,1 L21,8 L14,8 L14,1 L21,1 L21,1 Z M22,0 L13,0 L13,9 L22,9 L22,0 L22,0 L22,0 Z" ></path>
+	<path d="M10,11 L10,18 L3,18 L3,11 L10,11 L10,11 Z M11,10 L2,10 L2,19 L11,19 L11,10 L11,10 L11,10 Z" ></path>
+	<path d="M21,11 L21,18 L14,18 L14,11 L21,11 L21,11 Z M22,10 L13,10 L13,19 L22,19 L22,10 L22,10 L22,10 Z" ></path>
+	<rect x="4" y="2" width="1" height="5"></rect>
+	<rect x="6" y="2" width="1" height="5"></rect>
+	<rect x="8" y="2" width="1" height="5"></rect>
+	<rect x="15" y="2" width="1" height="5"></rect>
+	<rect x="17" y="2" width="1" height="5"></rect>
+	<rect x="19" y="2" width="1" height="5"></rect>
+	<rect x="4" y="12" width="1" height="5"></rect>
+	<rect x="6" y="12" width="1" height="5"></rect>
+	<rect x="8" y="12" width="1" height="5"></rect>
+	<rect x="15" y="12" width="1" height="5"></rect>
+	<rect x="17" y="12" width="1" height="5"></rect>
+	<rect x="19" y="12" width="1" height="5"></rect>
 </svg>
