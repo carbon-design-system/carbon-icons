@@ -1,525 +1,420 @@
-.svg--app-actions--copy-code-dims {
-	width: 32px;
-	height: 32px;
+.svg--add-dims {
+	width: 24px;
+	height: 24px;
 }
 
-.svg--app-actions--dark-dims {
-	width: 12px;
+.svg--add--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--add--outline-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--api-dims {
+	width: 25px;
+	height: 24px;
+}
+
+.svg--app-services-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--applications-dims {
+	width: 23px;
+	height: 23px;
+}
+
+.svg--arrow--down-dims {
+	width: 14px;
+	height: 16px;
+}
+
+.svg--arrow--left-dims {
+	width: 16px;
 	height: 14px;
 }
 
-.svg--app-actions--favorite_icon-dims {
-	width: 32px;
-	height: 32px;
+.svg--arrow--right-dims {
+	width: 16px;
+	height: 14px;
 }
 
-.svg--app-actions--filter-dims {
-	width: 32px;
-	height: 32px;
+.svg--arrow--up-dims {
+	width: 14px;
+	height: 16px;
 }
 
-.svg--app-actions--go_to_icon-dims {
-	width: 32px;
-	height: 32px;
+.svg--arrows-dims {
+	width: 24px;
+	height: 22px;
 }
 
-.svg--app-actions--light-dims {
-	width: 18px;
-	height: 18px;
-}
-
-.svg--app-actions--overflow_menu_icon-dims {
-	width: 6px;
-	height: 30px;
-}
-
-.svg--app-actions--restart_icon-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--add-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--appstatus_asleep-dims {
-	width: 28px;
-	height: 28px;
-}
-
-.svg--common--appstatus_awake-dims {
-	width: 28px;
-	height: 28px;
-}
-
-.svg--common--arrows-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--cancel-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--close-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--configure-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--copy-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--create-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--delete-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--deploy-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--download-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--edit-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--grid-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--group-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--healthy-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--help-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--link-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--monitor-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--previous-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--purchase-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--restart-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--running-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--search-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--search-sm-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--settings-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--start-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--stop-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--tile-view-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--user-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--common--warning-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--notifications--error-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--notifications--info-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--notifications--success-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--notifications--warning-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--service--add-filled-dims {
-	width: 17px;
+.svg--asleep--glyph-dims {
+	width: 14px;
 	height: 17px;
 }
 
-.svg--service--back-dims {
-	width: 32px;
-	height: 32px;
+.svg--block-chain-dims {
+	width: 21px;
+	height: 24px;
 }
 
-.svg--service--chevron-dims {
-	width: 32px;
-	height: 32px;
+.svg--caret--down-dims {
+	width: 10px;
+	height: 5px;
 }
 
-.svg--service--default-dims {
-	width: 32px;
-	height: 32px;
+.svg--caret--left-dims {
+	width: 5px;
+	height: 10px;
 }
 
-.svg--service--down-arrow-dims {
-	width: 32px;
-	height: 32px;
+.svg--caret--right-dims {
+	width: 5px;
+	height: 10px;
 }
 
-.svg--service--gear-dims {
-	width: 32px;
-	height: 32px;
+.svg--caret--up-dims {
+	width: 10px;
+	height: 5px;
 }
 
-.svg--service--logsLink-dims {
-	width: 32px;
-	height: 32px;
+.svg--checkmark-dims {
+	width: 12px;
+	height: 9px;
 }
 
-.svg--service--status-complete-dims {
-	width: 32px;
-	height: 32px;
+.svg--checkmark--glyph-dims {
+	width: 16px;
+	height: 16px;
 }
 
-.svg--service--status-error-dims {
-	width: 32px;
-	height: 32px;
+.svg--checkmark--outline-dims {
+	width: 24px;
+	height: 24px;
 }
 
-.svg--service--status-initializing-dims {
-	width: 32px;
-	height: 32px;
+.svg--chevron--down-dims {
+	width: 12px;
+	height: 8px;
 }
 
-.svg--service--status-paused-dims {
-	width: 32px;
-	height: 32px;
+.svg--chevron--left-dims {
+	width: 8px;
+	height: 12px;
 }
 
-.svg--service--status-pending-dims {
-	width: 32px;
-	height: 32px;
+.svg--chevron--right-dims {
+	width: 8px;
+	height: 12px;
 }
 
-.svg--service--status-running-dims {
-	width: 32px;
-	height: 32px;
+.svg--chevron--up-dims {
+	width: 12px;
+	height: 8px;
 }
 
-.svg--service--status-scheduled-dims {
-	width: 32px;
-	height: 32px;
+.svg--close-dims {
+	width: 10px;
+	height: 10px;
 }
 
-.svg--service--status-success-dims {
-	width: 32px;
-	height: 32px;
+.svg--close--glyph-dims {
+	width: 16px;
+	height: 16px;
 }
 
-.svg--support--arrow-right-dims {
-	width: 32px;
-	height: 32px;
+.svg--close--outline-dims {
+	width: 24px;
+	height: 24px;
 }
 
-.svg--support--bluemix-padding-dims {
+.svg--cloud-foundry-dims {
+	width: 24px;
+	height: 18px;
+}
+
+.svg--containers-dims {
+	width: 24px;
+	height: 22px;
+}
+
+.svg--copy-dims {
+	width: 18px;
+	height: 24px;
+}
+
+.svg--copy--code-dims {
+	width: 24px;
+	height: 12px;
+}
+
+.svg--dashboard-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--data-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--delete-dims {
+	width: 16px;
+	height: 24px;
+}
+
+.svg--devices-dims {
+	width: 24px;
+	height: 23px;
+}
+
+.svg--devops-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--download-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--edit-dims {
+	width: 29px;
+	height: 29px;
+}
+
+.svg--edit--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--error-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--favorite-dims {
+	width: 16px;
+	height: 15px;
+}
+
+.svg--filter-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--filter--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--folder--glyph-dims {
+	width: 16px;
+	height: 12px;
+}
+
+.svg--grid-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--header--contact-dims {
 	width: 12px;
 	height: 12px;
 }
 
-.svg--support--check-fill-circle-dims {
+.svg--header--docs-dims {
+	width: 12px;
+	height: 11px;
+}
+
+.svg--header--help-dims {
+	width: 12px;
+	height: 12px;
+}
+
+.svg--header--notifciation-dims {
+	width: 12px;
+	height: 9px;
+}
+
+.svg--header--ticket-dims {
+	width: 14px;
+	height: 14px;
+}
+
+.svg--help-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--help--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--info-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--info--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--infrastructure-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--integration-dims {
+	width: 24px;
+	height: 21px;
+}
+
+.svg--iot-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--launch-dims {
+	width: 24px;
+	height: 20px;
+}
+
+.svg--light-dims {
+	width: 18px;
+	height: 18px;
+}
+
+.svg--light--glyph-dims {
+	width: 18px;
+	height: 18px;
+}
+
+.svg--link-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--list-dims {
+	width: 16px;
+	height: 14px;
+}
+
+.svg--locked-dims {
+	width: 18px;
+	height: 24px;
+}
+
+.svg--menu-dims {
+	width: 20px;
+	height: 14px;
+}
+
+.svg--mobile-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--network-dims {
+	width: 23px;
+	height: 24px;
+}
+
+.svg--open-whisk-dims {
+	width: 25px;
+	height: 16px;
+}
+
+.svg--overflow-menu-dims {
+	width: 4px;
+	height: 20px;
+}
+
+.svg--purchase-dims {
+	width: 24px;
+	height: 17px;
+}
+
+.svg--restart-dims {
+	width: 18px;
+	height: 24px;
+}
+
+.svg--restart--glyph-dims {
+	width: 12px;
+	height: 16px;
+}
+
+.svg--search-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.svg--search--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--security-dims {
+	width: 16px;
+	height: 24px;
+}
+
+.svg--services-dims {
+	width: 23px;
+	height: 23px;
+}
+
+.svg--settings-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--start-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--stop-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--storage-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--unlocked-dims {
+	width: 18px;
+	height: 24px;
+}
+
+.svg--upload-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--user-dims {
 	width: 32px;
 	height: 32px;
 }
 
-.svg--support--check-padding-dims {
-	width: 32px;
-	height: 32px;
+.svg--warning-dims {
+	width: 24px;
+	height: 21px;
 }
 
-.svg--support--chevron-down-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--support--chevron-down-32-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--support--chevron-up-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--support--chevron-up-32-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--support--close-stroke-circle-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--support--help-fill-circle-with-outline-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--support--idea-fill-circle-with-outline-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--support--info-stroke-circle-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--support--left-arrow-stroke-circle-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--support--search-padding-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--support--stackoverflow-padding-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--support--upload-padding-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--support--user-stroke-circle-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--taxonomy--allcategories-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--app-services-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--cognitive-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--compute-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--data-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--devops-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--home-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--integration-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--iot-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--media-cdn-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--mobile-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--network-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--private-apis-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--security-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--storage-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--taxonomy--watson-dims {
-	width: 40px;
-	height: 40px;
-}
-
-.svg--watson--Alchemy-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--watson--Dialog-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--watson--concept-insights-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--watson--document-conversion-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--watson--language-translation-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--watson--natural-language-classifier-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--watson--personality-insights-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--watson--relationship-extraction-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--watson--retrieve-and-rank-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--watson--speech-to-text-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--watson--text-to-speech-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--watson--tone-analyzer-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--watson--tradeoff-analytics-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg--watson--visual-recognition-dims {
-	width: 32px;
-	height: 32px;
+.svg--watson-dims {
+	width: 24px;
+	height: 23px;
 }
 

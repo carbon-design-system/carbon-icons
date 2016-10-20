@@ -1,6 +1,6 @@
 {
   "name": "bluemix-icons",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "authors": [
     "Brian Han <bthan@us.ibm.com>",
     "Una Kravets <@una>"
@@ -13,6 +13,12 @@
     "icons"
   ],
   "ignore": [
+    "docs",
+    "gulp-tasks",
+    "*.html",
+    "*.md",
+    "*.css",
+    "*.js",
     "**/.*",
     "node_modules",
     "bower_components"

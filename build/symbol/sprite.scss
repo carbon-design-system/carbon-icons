@@ -1,6 +1,26 @@
+.svg--add-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--add--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--add--outline-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--api-dims {
+	width: 25px;
+	height: 24px;
+}
+
 .svg--app-actions--copy-code-dims {
 	width: 32px;
-	height: 32px;
+	height: 16px;
 }
 
 .svg--app-actions--dark-dims {
@@ -9,8 +29,8 @@
 }
 
 .svg--app-actions--favorite_icon-dims {
-	width: 32px;
-	height: 32px;
+	width: 16px;
+	height: 16px;
 }
 
 .svg--app-actions--filter-dims {
@@ -18,9 +38,14 @@
 	height: 32px;
 }
 
+.svg--app-actions--filter--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
 .svg--app-actions--go_to_icon-dims {
-	width: 32px;
-	height: 32px;
+	width: 16px;
+	height: 14px;
 }
 
 .svg--app-actions--light-dims {
@@ -34,13 +59,133 @@
 }
 
 .svg--app-actions--restart_icon-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 31px;
+}
+
+.svg--app-services-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--applications-dims {
+	width: 23px;
+	height: 23px;
+}
+
+.svg--arrow--down-dims {
+	width: 14px;
+	height: 16px;
+}
+
+.svg--arrow--left-dims {
+	width: 16px;
+	height: 14px;
+}
+
+.svg--arrow--right-dims {
+	width: 16px;
+	height: 14px;
+}
+
+.svg--arrow--up-dims {
+	width: 14px;
+	height: 16px;
+}
+
+.svg--arrows-dims {
+	width: 24px;
+	height: 22px;
+}
+
+.svg--asleep--glyph-dims {
+	width: 14px;
+	height: 17px;
+}
+
+.svg--block-chain-dims {
+	width: 21px;
+	height: 24px;
+}
+
+.svg--caret--down-dims {
+	width: 10px;
+	height: 5px;
+}
+
+.svg--caret--left-dims {
+	width: 5px;
+	height: 10px;
+}
+
+.svg--caret--right-dims {
+	width: 5px;
+	height: 10px;
+}
+
+.svg--caret--up-dims {
+	width: 10px;
+	height: 5px;
+}
+
+.svg--checkmark-dims {
+	width: 12px;
+	height: 9px;
+}
+
+.svg--checkmark--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--checkmark--outline-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--chevron--down-dims {
+	width: 12px;
+	height: 8px;
+}
+
+.svg--chevron--left-dims {
+	width: 8px;
+	height: 12px;
+}
+
+.svg--chevron--right-dims {
+	width: 8px;
+	height: 12px;
+}
+
+.svg--chevron--up-dims {
+	width: 12px;
+	height: 8px;
+}
+
+.svg--close-dims {
+	width: 10px;
+	height: 10px;
+}
+
+.svg--close--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--close--outline-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--cloud-foundry-dims {
+	width: 24px;
+	height: 18px;
 }
 
 .svg--common--add-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 }
 
 .svg--common--appstatus_asleep-dims {
@@ -54,38 +199,38 @@
 }
 
 .svg--common--arrows-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 22px;
 }
 
 .svg--common--cancel-dims {
-	width: 32px;
-	height: 32px;
+	width: 28px;
+	height: 28px;
 }
 
 .svg--common--close-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 }
 
 .svg--common--configure-dims {
-	width: 32px;
-	height: 32px;
+	width: 30px;
+	height: 24px;
 }
 
 .svg--common--copy-dims {
-	width: 32px;
-	height: 32px;
+	width: 18px;
+	height: 24px;
 }
 
 .svg--common--create-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 }
 
 .svg--common--delete-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 }
 
 .svg--common--deploy-dims {
@@ -94,53 +239,53 @@
 }
 
 .svg--common--download-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 }
 
 .svg--common--edit-dims {
-	width: 32px;
-	height: 32px;
+	width: 29px;
+	height: 29px;
 }
 
 .svg--common--grid-dims {
-	width: 32px;
-	height: 32px;
+	width: 30px;
+	height: 30px;
 }
 
 .svg--common--group-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 }
 
 .svg--common--healthy-dims {
-	width: 32px;
-	height: 32px;
+	width: 30px;
+	height: 30px;
 }
 
 .svg--common--help-dims {
-	width: 32px;
-	height: 32px;
+	width: 30px;
+	height: 30px;
 }
 
 .svg--common--link-dims {
-	width: 32px;
-	height: 32px;
+	width: 30px;
+	height: 30px;
 }
 
 .svg--common--monitor-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 20px;
 }
 
 .svg--common--previous-dims {
-	width: 32px;
-	height: 32px;
+	width: 16px;
+	height: 14px;
 }
 
 .svg--common--purchase-dims {
-	width: 32px;
-	height: 32px;
+	width: 30px;
+	height: 20px;
 }
 
 .svg--common--restart-dims {
@@ -149,58 +294,248 @@
 }
 
 .svg--common--running-dims {
-	width: 32px;
-	height: 32px;
+	width: 30px;
+	height: 20px;
 }
 
 .svg--common--search-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 }
 
 .svg--common--search-sm-dims {
-	width: 32px;
-	height: 32px;
+	width: 16px;
+	height: 16px;
 }
 
 .svg--common--settings-dims {
-	width: 32px;
-	height: 32px;
+	width: 30px;
+	height: 30px;
 }
 
 .svg--common--start-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 }
 
 .svg--common--stop-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 }
 
 .svg--common--tile-view-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 }
 
 .svg--common--user-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 30px;
 }
 
 .svg--common--warning-dims {
-	width: 32px;
-	height: 32px;
+	width: 30px;
+	height: 26px;
+}
+
+.svg--containers-dims {
+	width: 24px;
+	height: 22px;
+}
+
+.svg--copy-dims {
+	width: 18px;
+	height: 24px;
+}
+
+.svg--copy--code-dims {
+	width: 24px;
+	height: 12px;
+}
+
+.svg--dashboard-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--data-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--delete-dims {
+	width: 16px;
+	height: 24px;
+}
+
+.svg--devices-dims {
+	width: 24px;
+	height: 23px;
+}
+
+.svg--devops-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--download-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--edit-dims {
+	width: 29px;
+	height: 29px;
+}
+
+.svg--edit--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--error-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--favorite-dims {
+	width: 16px;
+	height: 15px;
+}
+
+.svg--filter-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--filter--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--folder--glyph-dims {
+	width: 16px;
+	height: 12px;
+}
+
+.svg--grid-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--header--contact-dims {
+	width: 12px;
+	height: 12px;
+}
+
+.svg--header--docs-dims {
+	width: 12px;
+	height: 11px;
+}
+
+.svg--header--help-dims {
+	width: 12px;
+	height: 12px;
+}
+
+.svg--header--notifciation-dims {
+	width: 12px;
+	height: 9px;
+}
+
+.svg--header--ticket-dims {
+	width: 14px;
+	height: 14px;
+}
+
+.svg--help-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--help--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--info-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--info--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--infrastructure-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--integration-dims {
+	width: 24px;
+	height: 21px;
+}
+
+.svg--iot-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--launch-dims {
+	width: 24px;
+	height: 20px;
+}
+
+.svg--light-dims {
+	width: 18px;
+	height: 18px;
+}
+
+.svg--light--glyph-dims {
+	width: 18px;
+	height: 18px;
+}
+
+.svg--link-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--list-dims {
+	width: 16px;
+	height: 14px;
+}
+
+.svg--locked-dims {
+	width: 18px;
+	height: 24px;
+}
+
+.svg--menu-dims {
+	width: 20px;
+	height: 14px;
+}
+
+.svg--mobile-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--network-dims {
+	width: 23px;
+	height: 24px;
 }
 
 .svg--notifications--error-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 }
 
 .svg--notifications--info-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 }
 
 .svg--notifications--success-dims {
@@ -213,29 +548,69 @@
 	height: 32px;
 }
 
-.svg--service--add-filled-dims {
-	width: 17px;
+.svg--open-whisk-dims {
+	width: 25px;
+	height: 16px;
+}
+
+.svg--overflow-menu-dims {
+	width: 4px;
+	height: 20px;
+}
+
+.svg--purchase-dims {
+	width: 24px;
 	height: 17px;
 }
 
+.svg--restart-dims {
+	width: 18px;
+	height: 24px;
+}
+
+.svg--restart--glyph-dims {
+	width: 12px;
+	height: 16px;
+}
+
+.svg--search-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.svg--search--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg--security-dims {
+	width: 16px;
+	height: 24px;
+}
+
+.svg--service--add-filled-dims {
+	width: 16px;
+	height: 16px;
+}
+
 .svg--service--back-dims {
-	width: 32px;
-	height: 32px;
+	width: 16px;
+	height: 14px;
 }
 
 .svg--service--chevron-dims {
-	width: 32px;
-	height: 32px;
+	width: 18px;
+	height: 30px;
 }
 
 .svg--service--default-dims {
-	width: 32px;
+	width: 31px;
 	height: 32px;
 }
 
 .svg--service--down-arrow-dims {
-	width: 32px;
-	height: 32px;
+	width: 28px;
+	height: 16px;
 }
 
 .svg--service--gear-dims {
@@ -244,8 +619,8 @@
 }
 
 .svg--service--logsLink-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 19px;
 }
 
 .svg--service--status-complete-dims {
@@ -269,8 +644,8 @@
 }
 
 .svg--service--status-pending-dims {
-	width: 32px;
-	height: 32px;
+	width: 16px;
+	height: 16px;
 }
 
 .svg--service--status-running-dims {
@@ -279,13 +654,38 @@
 }
 
 .svg--service--status-scheduled-dims {
-	width: 32px;
-	height: 32px;
+	width: 16px;
+	height: 16px;
 }
 
 .svg--service--status-success-dims {
-	width: 32px;
-	height: 32px;
+	width: 16px;
+	height: 16px;
+}
+
+.svg--services-dims {
+	width: 23px;
+	height: 23px;
+}
+
+.svg--settings-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--start-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--stop-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--storage-dims {
+	width: 24px;
+	height: 24px;
 }
 
 .svg--support--arrow-right-dims {
@@ -319,8 +719,8 @@
 }
 
 .svg--support--chevron-up-dims {
-	width: 32px;
-	height: 32px;
+	width: 10px;
+	height: 5px;
 }
 
 .svg--support--chevron-up-32-dims {
@@ -359,13 +759,13 @@
 }
 
 .svg--support--stackoverflow-padding-dims {
-	width: 32px;
-	height: 32px;
+	width: 23px;
+	height: 30px;
 }
 
 .svg--support--upload-padding-dims {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 }
 
 .svg--support--user-stroke-circle-dims {
@@ -451,6 +851,31 @@
 .svg--taxonomy--watson-dims {
 	width: 40px;
 	height: 40px;
+}
+
+.svg--unlocked-dims {
+	width: 18px;
+	height: 24px;
+}
+
+.svg--upload-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg--user-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg--warning-dims {
+	width: 24px;
+	height: 21px;
+}
+
+.svg--watson-dims {
+	width: 24px;
+	height: 23px;
 }
 
 .svg--watson--Alchemy-dims {
