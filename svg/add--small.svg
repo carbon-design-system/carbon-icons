@@ -1,9 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   width="16px" height="16px" viewBox="1.5 0.5 16 16" style="enable-background:new 1.5 0.5 16 16;" xml:space="preserve">
-<title>add-filled</title>
-<desc>Created with Sketch.</desc>
-<path d="M9.5,0.5c-4.4,0-8,3.6-8,8s3.6,8,8,8s8-3.6,8-8S13.9,0.5,9.5,0.5z M13,9h-3v3H9V9H6V8h3V5h1v3h3V9z"/>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
+    <path d="M8,0 C3.6,0 0,3.6 0,8 C0,12.4 3.6,16 8,16 C12.4,16 16,12.4 16,8 C16,3.6 12.4,0 8,0 L8,0 Z M12,9 L9,9 L9,12 L7,12 L7,9 L4,9 L4,7 L7,7 L7,4 L9,4 L9,7 L12,7 L12,9 L12,9 Z" id="Shape" stroke="none" fill="#000000"></path>
 </svg>
