@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const svgSprite = require('gulp-svg-sprite');
 const svgo = require('gulp-svgo');
 const rsp = require('remove-svg-properties').stream;
+const dom = require('gulp-dom');
 
 
 // SVG Config
@@ -29,6 +30,10 @@ const build = () => {
   .pipe(rsp.remove({
     properties: ['fill', rsp.PROPS_STROKE]
   }))
+  .pipe(dom(function() {
+    this.querySelector('svg').setAttribute('fill-rule', 'evenodd');
+    return this.querySelector('body').innerHTML
+  }, false))
   .pipe(svgo({
     plugins: [{
       removeTitle: true
