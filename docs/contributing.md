@@ -1,116 +1,61 @@
 # Contributing
 
-Prepping icons for contribution involves a few steps:
-* In Sketch or Illustrator: Verifying designs and styles
-* In code: Moving `fill-rule` properties 
+These are contributing guidelines for adding Bluemix UI icons.
+For internal service logo icons and everything else, use [Master Icon List](https://releaseblueprints.ibm.com/display/CLOUDOE/Master+Icon+List) on release blueprints.
 
-## Design Requirements
+### Naming SVG files
 
-**TL;DR**: 
+We use the following naming convention for SVG filenames:
 
-* When possible, do not include internal padding.
-* Export SVGs from **Sketch** or **Illustrator**
-* Double check source code
+* `name`: icon name (ex. `add.svg`)
+* `name--outline`: icon with an outline (ex. `add--outline.svg`)
+* `name--glyph`: icon that is a glyph (ex. `add--glyph`)
+* `name--modifier`: when an icon does not use `outline` or `glyph`, use an appropriate modifier (ex. `copy--code`)
 
-> Always convert paths and other shapes to outline. We want our SVG code to render with `fill` attributes -- not `stroke`
+#### Adding SVGs
 
-### Background, Alignment and Shapes
+1. Fork this repo
+2. Clone the fork to your computer
+3. Add icons to [svg]() folder
+4. **Optional**: Open terminal to your forked repo Run `npm install` to make use of dev environment
+5. Submit a pull request
 
-In your preferred design software, ensure the following things.
+When submitting pull requests to bluemix-icons, simply add icons to [svg]() folder, not in the svg subfolders. Do not run `gulp` or `npm` tasks.
 
-* Background: 100% Transparent
-* Artboard Alignment: Centered
-* Convert paths and other shapes to outline so that SVG code will resolve to use `fill` attributes &mdash; not `stroke` attributes.
+* Icons directly added to svg folder are **current** set of icons as of version [3.0.0]() and newer.
+* Icons in any subfolders, like [taxonomy]() or [common](), are **legacy icons**.
 
-### Internal Padding
+#### Prepping SVG XML code
 
-Icons should fit exactly within the dimensions of its artboard.
+All SVG icons are optimized through [SVGO]() and other build steps to prepare icons for use via external SVG sprite files (sprite.svg and bluemix-icons.svg).
 
-![no internal padding example 2](https://media.github.ibm.com/user/76/files/2fab2d40-7433-11e6-8b3d-3af78f3d0833)
-
-Do not include internal padding or whitespace.
-For example, the icon shown below correctly sits along the top, left and bottom dimensions of its artboard.
-But the red circle indicates where there is some internal padding. 
-
-![no internal padding example 1](https://media.github.ibm.com/user/76/files/882e21d0-7437-11e6-8576-e70d6f2685a8)
-
-> **Exceptions**: Internal padding is only acceptable when an icon does not land *exactly* on the edge of a pixel &mdash; instead, it lands in the middle of a pixel causing unwanted aliasing when the icon renders. This makes icons look fuzzy when they should look sharp.
-In these situations, consult with a visual designer to redraw the icon. 
-Otherwise, export the icon with minimal internal padding **vertically** or **horizontally**. 
-
-Here's an example of an icon with vertical padding:
-![vertical padding example](https://media.github.ibm.com/user/76/files/2f51c1b0-7433-11e6-803f-cce2f36344e7)
-
-### Width, Height and ViewBox
-
-The `width`, `height` and `viewBox` attributes are required to ensure proper rendering of SVG icons.
+For example, here's how XML code for [add--glyph.svg]() can look:
 
 ```xml
-<svg width="32px" height="32px" viewBox="0 0 32 32">
-  ...    
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M8,0 C3.6,0 0,3.6 0,8 C0,12.4 3.6,16 8,16 C12.4,16 16,12.4 16,8 C16,3.6 12.4,0 8,0 L8,0 Z M12,9 L9,9 L9,12 L7,12 L7,9 L4,9 L4,7 L7,7 L7,4 L9,4 L9,7 L12,7 L12,9 L12,9 Z" id="Shape" stroke="none" fill="#000000" fill-rule="evenodd"></path>
 </svg>
 ```
 
-Keep in mind that icons can be resized with CSS regardless of the initial values of these attributes.
-In other words, your icons artboard can be based on the actual dimensions of your icon. 
+The XML code **must have** the following attributes:
+* `width` and `height`
+* `viewBox`
+* `fill-rule="evenodd"`
 
-### Small Icons 
+But it must **not have** the following nodes:
+* `<g>`
+* `<style>`
 
-![no internal padding example 2](https://media.github.ibm.com/user/76/files/2fab2d40-7433-11e6-8b3d-3af78f3d0833)
+#### About SVGO and Gulp API
 
-Small icons are an exception (`24px` or `16px`). Icons designed and drawn at large sizes can contain a lot of tiny details that can become difficult for users to interpret at small sizes.
-In these situations, the icon may need to be redrawn or a new smaller version of the icon should be created. 
-Consult with the original icon designer, a visual designer or get in contact with members of the Design Systems team for assistance.
+SVGO is used with various other gulp tasks to format external SVG sprite files.
+These should only be used when submitting pull requests that `bump` the repo to new versions.
 
-## Code Requirements
-
-Most of the XML nodes and attributes are automatically kept or removed based on our SVGO configuration.
-But there are a small number of tasks that require manual code editing of the SVL XML.
-
-### Manual Editing
-
-* Move `fill-rule="evenodd"` to the parent `<svg>` node.
-* Remove `<g>` nodes so that paths and shapes are direct children of the parent `<svg>` node.
-
-### JSON and XML
-
-Bluemix Icons performs a build step before publishing to the private registries.
-This build step (`npm run build`) will create two distributables:
-
-- icons.json: JSON metadata used for React Icon component and Design System Website
-- sprite.svg: SVG spritesheet used with vanilla Bluemix Components.
-
-Do not check these files into your pull request.
-Build locally and examine both files.
-
-For **sprite.svg**:
-
-Make sure that the attributes are represented in the react `Icon` component and sprite.svg
-
-
-For **icons.json**:
-
-Make sure there's no empty `svgData`.
-
-
-## Adding Icons
-Please submit a Pull Request to add icons.
-
-1. Fork this repo
-2. Clone it to your local system
-3. Add icons in the proper folder (you may add your own) within the `svg/` folder
-4. In your terminal run `npm install`
-5. Run `npm run build` to rebuild the `sprite.svg`
-6. Submit a pull request and rejoice! :tada:
-7. **Optional**: Contact Brian Han (bthan@us.ibm.com) and let him know you have a pull request for him to review.
-
-> Bluemix Icons is registered to a Private Bower Registry.
-
-> A `.bowerrc` config file points to the correct registry:
-
-> ```json
-{
-  "registry": "http://9.37.228.216:5678/",
-  "timeout": 300000
-}
-```
+| gulp | npm | description|
+|-----|-----|-----|
+| `gulp build` | `npm run build` | Targets source icons in svg subfolders except svg/runtime icons. Removes `fill` attribute and all `stroke` attributes with [remove-svg-properties](). Then adds `fill-rule="evenodd"` to `<svg>` wrapping node with [gulp-dom](). Then optimizes SVG with [gulp-svgo](). Finally, creates SVG sprite with [gulp-svg-sprite]().
+| `gulp buildIconsSvg` | `npm run build` | Same as `gulp-build` but targets source icons in svg folder, not subfolders. |
+| `gulp clean` | `npm run prebuild` | Deletes built folders, see [clean.js]() for details. |
+| `gulp copy` | `npm run build:sprite` | Copies source code to create [sprite.svg]() and [spriteSVGIndex.html]() |
+| `gulp copyToRoot` | `npm run build:bluemix-icons` | Copies source code to create [bluemix-icons.svg]() and [index.html]() |
+| `gulp xml2json` | `npm run build` | Converts and formats XML from SVG icons to JSON creating all distributed JSON files |
