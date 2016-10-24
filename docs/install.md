@@ -4,7 +4,28 @@ The following are guidelines for installing and using bluemix-icons.
 
 #### NPM (recommended)
 
-Before install: `bluemix-icons` is a private package on the Bluemix Sinopia npm registry. You must configure your `.npmrc` to the Sinopia install of Bluemix. Check out details [here.](https://github.ibm.com/Bluemix/bluemix-components/blob/master/docs/getting-started/install.md)
+Set up sinopia: This is the internal npm registry for Bluemix. Set up your repo to install icons from this registry to use bluemix-icons.
+
+Create an **.npmrc** file (you can create this in the root of your project folder or on your computer's **~** directory).
+
+```sh
+$ touch .npmrc
+```
+
+Next, write the following into your **.npmrc** file:
+
+```
+//dev-console-npm.stage1.ng.bluemix.net/:_authToken="u6vjQywpRv51/eKBiRcAFA=="
+@console:registry=https://dev-console-npm.stage1.ng.bluemix.net/
+```
+
+If you haven't done so already, create a **package.json** for your project:
+
+```sh
+$ npm init
+```
+
+Finally, install bluemix-icons with `npm`.
 
 
 ```sh
