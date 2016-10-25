@@ -25,7 +25,8 @@ const build = () => {
 
   gulp.src([
     './svg/**/*.svg',
-    '!./svg/runtime/*.svg', // hardcoded colors
+    '!./svg/*.svg',
+    '!./svg/runtime/*.svg',
   ])
   .pipe(rsp.remove({
     properties: ['fill', rsp.PROPS_STROKE]
