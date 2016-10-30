@@ -3,6 +3,13 @@
 These are contributing guidelines for adding Bluemix UI icons.
 For internal service logo icons and everything else, use [Master Icon List](https://releaseblueprints.ibm.com/display/CLOUDOE/Master+Icon+List) on release blueprints.
 
+### Submitting Pull Requests
+
+* **Do not commit built files**
+  * These are files created when running `npm run build`
+  * Committing built files results in unintended merge conflicts
+* **Keep your branch up to date with `master` branch**
+
 ### Naming SVG files
 
 We use the following naming convention for SVG filenames:
