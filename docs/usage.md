@@ -28,7 +28,6 @@ You can use **sprite.svg** or **bluemix-icons.svg** by serving it as a static as
 
 > Important notes about Bluemix.Common:
 - If you need more control over how the polyfill is invoked, use bluemix-icons locally as a static asset.
-- The older `svgxuse` polyfill is used in [Bluemix.Common](https://github.ibm.com/Bluemix/Bluemix.Common). This will be updated to [svg4everybody]() before Jan. 2017.
 - The polyfill acts directly on the `window` object, so it shouldn't need to be re-imported if you are using the header JavaScript from Bluemix.Common.
 
 ## Main files
