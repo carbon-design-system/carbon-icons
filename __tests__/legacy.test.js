@@ -65,21 +65,31 @@ describe('icons.json', () => {
       expect(object.id).not.toEqual('');
     })
   })
+
   it('should have a name', () => {
     iconJson.forEach(object => {
       expect(object.name).not.toEqual('');
     })
   })
+
   it('should have tags', () => {
     iconJson.forEach(object => {
       expect(object.tags).not.toEqual('');
     });
   })
+
+  it('should have a viewBox', () => {
+    iconJson.forEach(object => {
+      expect(object.viewBox).not.toEqual('');
+    })
+  })
+
   it('should have empty styles', () => {
     iconJson.forEach(object => {
       expect(object.styles.toString()).toEqual('');
     });
   })
+
   it('each svgData object should have a value', () => {
     iconJson.forEach(object => {
       let dataCount = 0;

@@ -41,6 +41,7 @@ const formatJSON = (rawJSON, bluemix) => {
       name: bluemix ? symbol.$.id : splitId[1],
       tags: bluemix ? symbol.$.id : splitId[0],
       styles: symbol.style ? symbol.style : "",
+      viewBox: symbol.$.viewBox || "",
       svgData: {
         circles: symbol.circle ? symbol.circle.map(attrValue => attrValue.$) : "",
         ellipses: symbol.ellipse ? symbol.ellipse.map(attrValue => attrValue.$) : "",
