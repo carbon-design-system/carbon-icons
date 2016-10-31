@@ -2,7 +2,7 @@
 
 The following guidelines are for developers who are using [bluemix-icons](https://github.ibm.com/Bluemix/bluemix-icons).
 
-Design usage guidelines for iconography can be found in the [design-kit wiki](https://github.ibm.com/Bluemix/design-kit/wiki/Iconography). 
+Design usage guidelines for iconography can be found in the [design-kit wiki](https://github.ibm.com/Bluemix/design-kit/wiki/Iconography---Usage). 
 
 ## Using SVG file from Static Assets
 
