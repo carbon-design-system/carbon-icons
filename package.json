@@ -1,6 +1,6 @@
 {
   "name": "@console/bluemix-icons",
-  "version": "3.0.0-beta3",
+  "version": "3.0.1",
   "description": "SVG icons as sprite for Bluemix",
   "main": "bluemix-icons.svg",
   "private": false,
