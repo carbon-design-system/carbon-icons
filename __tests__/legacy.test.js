@@ -2,6 +2,7 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 const spriteSvg = fs.readFileSync(`${__dirname}/../sprite.svg`).toString('utf8');
+const bluemixIconsSvg = fs.readFileSync(`${__dirname}/../bluemix-icons.svg`).toString('utf8');
 const iconJson = require('../icons.json');
 
 const name = (svg) => {
@@ -14,6 +15,31 @@ const warning = (svgName, message) => {
     * ${message}
   `));
 }
+
+describe('both SVG files', () => {
+  const bothSvg = spriteSvg + bluemixIconsSvg;
+  document.body.innerHTML = bothSvg;
+  const symbols = [...document.querySelectorAll('symbol')];
+
+  it('should not have duplicate IDs when both svg files are used', () => {
+    const sortedList = symbols.map(symbol => {
+      return symbol.getAttribute('id');
+    }).sort();
+
+    let results = [];
+
+    sortedList.forEach((id, index) => {
+      if (sortedList[index] === sortedList[index + 1]) {
+        results.push(sortedList[index]);
+      }
+    });
+
+    if (results.length > 0) {
+      console.log(chalk.yellow(`duplicate IDs: [${results}]`));
+    }
+    expect(results.length).toEqual(0);
+  })
+})
 
 describe('sprite.svg', () => {
   document.body.innerHTML = spriteSvg;
