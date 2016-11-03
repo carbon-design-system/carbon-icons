@@ -18,7 +18,7 @@ But, all icons should be used at `24px` or `16px` sizes, which means you need to
   <use xlink:href="#add--glyph">
 </svg>
 ```
-> **Note:** You can override `width` and `height` attributes with CSS.
+**Note:** You can override `width` and `height` attributes with CSS.
 
 **With CSS**: You can use CSS to size your icons and add other styles like color.
 ```css
