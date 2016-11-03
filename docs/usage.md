@@ -33,6 +33,8 @@ svg {
 </svg>
 ```
 
+**Note**: The icons use original color by default, which should be `black`. (see [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/)). CSS is your main way for adding color to icons.
+
 ## Using SVG file from Static Assets
 
 Use **sprite.svg** or **bluemix-icons.svg** by serving it as a static asset (like an image file) and use it with the following HTML. 
@@ -71,30 +73,6 @@ Bluemix Icons ships with two main SVG files that contain different sets of exter
 |icons.json| legacy JSON file created from sprite.svg | `1.x`, `2.x` and `3.x`|
 
 > Note: sprite.svg and bluemix-icons.svg must be used with [polyfill]().
-
-### Styling Icons with CSS
-
-**Note**: The icons use original color by default, which should be `black`. (see [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/)) but can be edited using CSS.
-
-SVG icons are styled with CSS.
-
-Some icons are colored while others are black by default. You can edit the fill to change this. See the [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/) for a guide with what `xlink:href` to use.
-
-To edit these icons in CSS, *add your own class* to the `<svg>`. For example:
-
-SCSS:
-```scss
-.icon--add {
-  fill: #cc6699; // additional styling
-}
-```
-
-HTML:
-```html
-<svg class="icon--add">
-  <use xlink:href="path/to/sprite.svg#service--add-filled"></use>
-</svg>
-```
 
 
 ### Accessibility
