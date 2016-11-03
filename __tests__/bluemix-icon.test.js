@@ -3,7 +3,6 @@ const chalk = require('chalk');
 
 const bluemixIconsSvg = fs.readFileSync(`${__dirname}/../bluemix-icons.svg`).toString('utf8');
 const bluemixIconsJson = require('../bluemix-icons.json');
-// const spriteSvg = fs.readFileSync(`${__dirname}/../sprite.svg`).toString('utf8');
 
 const name = (svg) => {
   return svg.getAttribute('id');
@@ -29,7 +28,7 @@ describe('bluemix-icons.svg', () => {
     });
   });
 
-  it('should have [fill-rule="evenodd"]', () => {    
+  it('should have [fill-rule="evenodd"]', () => {
     symbols.forEach(symbol => {
       if (symbol.getAttribute('fill-rule') !== 'evenodd') {
         warning(
@@ -64,6 +63,20 @@ describe('bluemix-icons.json', () => {
   it('should have an id', () => {
     bluemixIconsJson.forEach(object => {
       expect(object.id).not.toEqual('');
+    })
+  })
+
+  it('should have width greater than 0', () => {
+    bluemixIconsJson.forEach(object => {
+      expect(object.width).not.toEqual('');
+      expect(Number(object.width)).toBeGreaterThan(0);
+    })
+  })
+
+  it('should have height greater than 0', () => {
+    bluemixIconsJson.forEach(object => {
+      expect(object.width).not.toEqual('');
+      expect(Number(object.width)).toBeGreaterThan(0);
     })
   })
 

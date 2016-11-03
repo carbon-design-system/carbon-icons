@@ -34,7 +34,10 @@ const formatJSON = (rawJSON, bluemix) => {
 
     // Split `id` key into an Array - [{{tags}}, '--', {{name}}]
     const splitId = symbol.$.id.split('--');
-    
+
+    let width = symbol.$.viewBox.split(' ')[2];
+    let height = symbol.$.viewBox.split(' ')[3];
+
     // For each "symbol.svg.symbol", create new Objects with these keys/values
     const data = {
       id: symbol.$.id,
@@ -42,6 +45,8 @@ const formatJSON = (rawJSON, bluemix) => {
       tags: bluemix ? symbol.$.id : splitId[0],
       styles: symbol.style ? symbol.style : "",
       viewBox: symbol.$.viewBox || "",
+      width: width || "",
+      height: height || "",
       svgData: {
         circles: symbol.circle ? symbol.circle.map(attrValue => attrValue.$) : "",
         ellipses: symbol.ellipse ? symbol.ellipse.map(attrValue => attrValue.$) : "",
@@ -51,6 +56,8 @@ const formatJSON = (rawJSON, bluemix) => {
         rects: symbol.rect ? symbol.rect.map(attrValue => attrValue.$) : "",
       }
     };
+
+    console.log(data);
 
     return data;
   });
@@ -76,12 +83,12 @@ const writeJSON = (options) => {
 
 const xml2json = (cb) => {
   writeJSON({
-    svgFile: 'sprite.svg', 
+    svgFile: 'sprite.svg',
     newFileName: 'icons.json',
     bluemix: false,
   });
   writeJSON({
-    svgFile: 'bluemix-icons.svg', 
+    svgFile: 'bluemix-icons.svg',
     newFileName: 'bluemix-icons.json',
     bluemix: true,
   });

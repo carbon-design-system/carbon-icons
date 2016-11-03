@@ -54,7 +54,7 @@ describe('sprite.svg', () => {
     });
   });
 
-  it('should have [fill-rule="evenodd"]', () => {    
+  it('should have [fill-rule="evenodd"]', () => {
     symbols.forEach(symbol => {
       if (symbol.getAttribute('fill-rule') !== 'evenodd') {
         warning(
@@ -95,6 +95,20 @@ describe('icons.json', () => {
   it('should have a name', () => {
     iconJson.forEach(object => {
       expect(object.name).not.toEqual('');
+    })
+  })
+
+  it('should have width greater than 0', () => {
+    iconJson.forEach(object => {
+      expect(object.width).not.toEqual('');
+      expect(Number(object.width)).toBeGreaterThan(0);
+    })
+  })
+
+  it('should have height greater than 0', () => {
+    iconJson.forEach(object => {
+      expect(object.width).not.toEqual('');
+      expect(Number(object.width)).toBeGreaterThan(0);
     })
   })
 
@@ -148,4 +162,3 @@ describe('icons.json', () => {
     expect(results.length).toEqual(0);
   })
 })
-
