@@ -2,11 +2,40 @@
 
 The following guidelines are for developers who are using [bluemix-icons](https://github.ibm.com/Bluemix/bluemix-icons).
 
-Design usage guidelines for iconography can be found in the [design-kit wiki](https://github.ibm.com/Bluemix/design-kit/wiki/Iconography---Usage). 
+Design usage guidelines for iconography can be found in the [design-kit wiki](https://github.ibm.com/Bluemix/design-kit/wiki/Iconography---Usage).
+
+## Basic Usage with HTML and CSS
+
+All icons pull from a single SVG file ([bluemix-icons.svg]()).
+These external files are built with [svg-sprite]() using **symbol** mode, which enables us to reference an icon with `<use xlink:href>` XML syntax. One of the main benefits of **symbol** mode is that you can omit the `viewBox` attribute on every `<use>` element.
+
+But, all icons should be used at `24px` or `16px` sizes, which means you need to always declare `width` and `height` using CSS or the respective attributes.
+
+**HTML only**: Add `width` and `height` attributes to ensure icon is sized at `24px`.
+
+```html
+<svg width="24px" height="24px">
+  <use xlink:href="#add--glyph">
+</svg>
+```
+
+**With CSS**: You can use CSS to size your icons and add other styles like color.
+```css
+svg {
+  width: 24px;
+  height: 24px;
+  fill: red;
+}
+```
+```html
+<svg>
+  <use xlink:href="#add--glyph">
+</svg>
+```
 
 ## Using SVG file from Static Assets
 
-You can use **sprite.svg** or **bluemix-icons.svg** by serving it as a static asset (like an image file) and use it with the following HTML:
+Use **sprite.svg** or **bluemix-icons.svg** by serving it as a static asset (like an image file) and use it with the following HTML. 
 
 ```html
 <!-- From static assets  -->
