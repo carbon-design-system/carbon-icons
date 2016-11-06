@@ -43,13 +43,6 @@ A full list of redrawn icons and affected HTML files is listed in the [release n
 
 **Service Icons**: All icons for internal services that require hardcoded colors will be maintained and updated in the [Master Icon List in Release Blueprints](https://releaseblueprints.ibm.com/display/CLOUDOE/Master+Icon+List). This is temporary  measure.
 
-**New Polyfill**: Starting with `3.x`, icons in Bluemix will be recommended to use `svg4everybody` instead of `svgxuse` as a polyfill for external SVG sprite files. See more details in [install](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/docs/install.md#polyfill) docs.
-
-**Repos Updated to use `svg4everybody`:**
-- [ ] bluemix-components
-- [ ] bluemix-components-react
-- [ ] Bluemix.Common
-
 
 ## Troubleshooting and Development Use
 
