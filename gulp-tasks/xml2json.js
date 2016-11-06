@@ -4,7 +4,16 @@
 */
 const parseString = require('xml2js').parseString;
 const fs = require('fs');
+const gutil = require('gulp-util');
 
+let legacy = false;
+
+if (gutil.env.legacy === true) {
+  legacy = true;
+  console.log('[>>> [LEGACY] xml2json: making icons.json]');
+} else {
+  console.log('[>>> xml2json: making bluemix-icons.json]');
+}
 
 /*
   parseSync()
@@ -28,7 +37,7 @@ const parseSync = (xml) => {
   formatJSON()
   * Formats JSON and returns JSON string
 */
-const formatJSON = (rawJSON, bluemix) => {
+const formatJSON = (rawJSON) => {
   // iconMeta - returns new JSON Array of icon Objects
   const iconMeta = (rawJSON.svg.symbol).map(symbol => {
 
@@ -41,8 +50,8 @@ const formatJSON = (rawJSON, bluemix) => {
     // For each "symbol.svg.symbol", create new Objects with these keys/values
     const data = {
       id: symbol.$.id,
-      name: bluemix ? symbol.$.id : splitId[1],
-      tags: bluemix ? symbol.$.id : splitId[0],
+      name: legacy ? splitId[1] : symbol.$.id,
+      tags: legacy ? splitId[0] : symbol.$.id,
       styles: symbol.style ? symbol.style : "",
       viewBox: symbol.$.viewBox || "",
       width: width || "",
@@ -56,8 +65,6 @@ const formatJSON = (rawJSON, bluemix) => {
         rects: symbol.rect ? symbol.rect.map(attrValue => attrValue.$) : "",
       }
     };
-
-    console.log(data);
 
     return data;
   });
@@ -83,15 +90,15 @@ const writeJSON = (options) => {
 
 const xml2json = (cb) => {
   writeJSON({
-    svgFile: 'sprite.svg',
-    newFileName: 'icons.json',
-    bluemix: false,
+    svgFile: legacy ? 'sprite.svg' : 'bluemix-icons.svg',
+    newFileName: legacy ? 'icons.json' : 'bluemix-icons.json',
+    // bluemix: false,
   });
-  writeJSON({
-    svgFile: 'bluemix-icons.svg',
-    newFileName: 'bluemix-icons.json',
-    bluemix: true,
-  });
+  // writeJSON({
+  //   svgFile: 'bluemix-icons.svg',
+  //   newFileName: 'bluemix-icons.json',
+  //   bluemix: true,
+  // });
   cb();
 };
 

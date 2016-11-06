@@ -6,10 +6,10 @@
   "private": false,
   "scripts": {
     "dev": "nodemon -e html,svg server.js",
-    "build:sprite": "gulp build && gulp copy",
-    "build:bluemix-icons": "gulp buildIconsSvg && gulp copyToRoot",
+    "build:legacy": "gulp build --legacy && gulp copy --legacy && gulp xml2json --legacy",
+    "build:bluemix-icons": "gulp build && gulp copy && gulp xml2json",
     "prebuild": "gulp clean",
-    "build": "npm run build:sprite && npm run build:bluemix-icons && gulp xml2json",
+    "build": "npm run build:legacy && npm run build:bluemix-icons",
     "test": "jest"
   },
   "repository": {
@@ -49,6 +49,7 @@
     "gulp-rename": "1.2.2",
     "gulp-svg-sprite": "1.2.18",
     "gulp-svgo": "1.0.3",
+    "gulp-util": "3.0.7",
     "jest": "16.0.2",
     "nodemon": "1.9.2",
     "remove-svg-properties": "0.3.2",

@@ -58,11 +58,25 @@ But it must **not have** the following nodes:
 SVGO is used with various other gulp tasks to format external SVG sprite files.
 These should only be used when submitting pull requests that `bump` the repo to new versions.
 
-| gulp | npm | description|
-|-----|-----|-----|
-| `gulp build` | `npm run build` | Targets source icons in svg subfolders except svg/runtime icons. Removes `fill` attribute and all `stroke` attributes with [remove-svg-properties](). Then adds `fill-rule="evenodd"` to `<svg>` wrapping node with [gulp-dom](). Then optimizes SVG with [gulp-svgo](). Finally, creates SVG sprite with [gulp-svg-sprite]().
-| `gulp buildIconsSvg` | `npm run build` | Same as `gulp-build` but targets source icons in svg folder, not subfolders. |
-| `gulp clean` | `npm run prebuild` | Deletes built folders, see [clean.js]() for details. |
-| `gulp copy` | `npm run build:sprite` | Copies source code to create [sprite.svg]() and [spriteSVGIndex.html]() |
-| `gulp copyToRoot` | `npm run build:bluemix-icons` | Copies source code to create [bluemix-icons.svg]() and [index.html]() |
-| `gulp xml2json` | `npm run build` | Converts and formats XML from SVG icons to JSON creating all distributed JSON files |
+<!--| gulp | gulp --flags | npm | description|
+|-----|-----|-----|-----|
+| `gulp clean` | | `npm run prebuild` | Deletes built folders, see [clean.js]() for details. |
+| `gulp build` | `--legacy` | `npm run build` and `npm run build:legacy` | Removes `fill` attribute and all `stroke` attributes with [remove-svg-properties](). Then adds `fill-rule="evenodd"` to `<svg>` wrapping node with [gulp-dom](). Then optimizes SVG with [gulp-svgo](). Finally, creates SVG sprite with [gulp-svg-sprite](). |
+| `gulp copy` | `--legacy` | `npm run build` and `npm run build:legacy` | Copies source code to generate SVG sprites and HTML files |
+| `gulp xml2json` |`--legacy` | `npm run build` and `npm run build:legacy` | Converts and formats XML from SVG icons to JSON creating all distributed JSON files |-->
+
+* **gulp clean**
+  - `npm run prebuild`
+    - Deletes built folders, see [clean.js]() for details.
+* **gulp build** (args: --legacy)
+  - `npm run build` and `npm run build:legacy`
+    - Removes `fill` attribute and all `stroke` attributes with [remove-svg-properties](). 
+    - Adds `fill-rule="evenodd"` to `<svg>` wrapping node with [gulp-dom]()
+    - Optimizes SVG with [gulp-svgo](). 
+    - Creates SVG sprite with [gulp-svg-sprite]().
+* **gulp copy** (args: --legacy)
+  - `npm run build` and `npm run build:legacy`
+    - Copies source code to generate SVG sprites and HTML files
+* **gulp xml2json** (args: --legacy)
+  - `npm run build` and `npm run build:legacy`
+    - Converts and formats XML from SVG icons to JSON creating all distributed JSON files
