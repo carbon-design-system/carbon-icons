@@ -288,6 +288,11 @@
 	height: 20px;
 }
 
+.svg--launch--glyph-dims {
+	width: 16px;
+	height: 16px;
+}
+
 .svg--light-dims {
 	width: 18px;
 	height: 18px;
