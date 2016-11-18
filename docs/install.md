@@ -64,7 +64,7 @@ You can also `import` or `require` it into your main JavaScript file and bundle 
 
 ```js
 // bundle.js
-const svg4everybody = require('svgxuse');
+const svgxuse = require('svgxuse');
 ```
 
 ```html
