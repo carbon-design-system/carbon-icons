@@ -44,29 +44,27 @@ You can also **download** a `.zip` or `.tar.gz` file from the [latest releases h
 # Polyfill
 
 Using `bluemix-icons` relies on the use of [external svg content](https://css-tricks.com/svg-sprites-use-better-icon-fonts/##Browser+Support) via `<use>` and `xlink:href`.
-For browser-compatibility, we require the use of the [svg4everybody](https://github.com/jonathantneal/svg4everybody#svg-for-everybody) polyfill.
+For browser-compatibility, we require the use of the [svgxuse](https://github.com/Keyamoon/svgxuse) polyfill.
 
-Install `svg4everybody` and invoke it manually
+Install `svgxuse` and include it in your HTML.
 
 ```sh
-npm install --save svg4everybody
+npm install --save svgxuse
 ```
 
 ```html
 <!--index.html-->
 <body>
   ...
-  <script src="path/to/svg4everybody.js"></script>
-  <script>svg4everybody({ polyfill: true }); // run it now or whenever you are ready</script>
+  <script src="svgxuse.js" defer></script>
 </body>
 ```
 
-Or you can `import` or `require` it into your main JavaScript file and bundle it with `Webpack`:
+You can also `import` or `require` it into your main JavaScript file and bundle it with `Webpack`:
 
 ```js
 // bundle.js
-const svg4everybody = require('svg4everybody');
-svg4everybody({ polyfill: true }); // run it now or whenever you are ready
+const svg4everybody = require('svgxuse');
 ```
 
 ```html
