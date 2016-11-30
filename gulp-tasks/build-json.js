@@ -5,8 +5,8 @@ const fs = require('fs');
 const gutil = require('gulp-util');
 
 // SCRIPTS
-const getJSON = require('./scripts/getJSON');
-const formatJS = require('./scripts/formatJS');
+const getJSON = require('../scripts/getJSON');
+const formatJS = require('../scripts/formatJS');
 
 const jsonLegacy = () => {
   const xml = fs.readFileSync(`./sprite.svg`, { 'encoding': 'utf8' });

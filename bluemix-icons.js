@@ -1,6 +1,6 @@
 const fs = require('fs');
-const getJSON = require('./gulp-tasks/scripts/getJSON');
-const formatJS = require('./gulp-tasks/scripts/formatJS');
+const getJSON = require('./scripts/getJSON');
+const formatJS = require('./scripts/formatJS');
 
 const _json = getJSON(fs.readFileSync('./bluemix-icons.svg', { 'encoding': 'utf8' }));
 const BLUEMIX_ICONS = formatJS(_json, {
