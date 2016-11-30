@@ -4,6 +4,7 @@ const chalk = require('chalk');
 const spriteSvg = fs.readFileSync(`${__dirname}/../sprite.svg`).toString('utf8');
 const bluemixIconsSvg = fs.readFileSync(`${__dirname}/../bluemix-icons.svg`).toString('utf8');
 const iconJson = require('../icons.json');
+const legacyIconsJs = require('../legacy-icons.js');
 
 const name = (svg) => {
   return svg.getAttribute('id');
@@ -161,4 +162,15 @@ describe('icons.json', () => {
     }
     expect(results.length).toEqual(0);
   })
-})
+});
+
+describe('legacy-icons.js', () => {
+  it('should be an object', () => {
+    expect(typeof(legacyIconsJs)).toBe('object');
+  });
+
+  it('should have length greater than 0', () => {
+    console.log(legacyIconsJs);
+    expect(legacyIconsJs.length).toBeGreaterThan(0);
+  });
+});

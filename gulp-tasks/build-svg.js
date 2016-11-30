@@ -5,6 +5,12 @@ const rsp = require('remove-svg-properties').stream;
 const dom = require('gulp-dom');
 const gutil = require('gulp-util');
 
+let legacy = false;
+
+if (gutil.env.legacy === true) {
+  legacy = true;
+}
+
 
 // SVG Config
 const config = {
@@ -36,15 +42,6 @@ const dest = {
 };
 
 const build = () => {
-  let legacy = false;
-
-  if (gutil.env.legacy === true) {
-    legacy = true;
-    console.log('[>>> [LEGACY] Build: sprite.svg');
-  } else {
-    console.log('[>>> Build: bluemix-icons.svg]');
-  }
-
   gulp.src(legacy ? src.legacy : src.current)
     .pipe(rsp.remove({
       properties: ['fill', rsp.PROPS_STROKE]

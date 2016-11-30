@@ -69,9 +69,11 @@ Bluemix Icons ships with two main SVG files that contain different sets of exter
 | filename | description | supported versions|
 |-----|--------|---------------|
 |bluemix-icons.svg| Contains current icons (consolidated subset of legacy icons used in Bluemix) | `3.x` and newer|
-|bluemix-icons.json| JSON file created from bluemix-icons.svg, used in `Icon` React Component in [bluemix-components-react](https://github.ibm.com/Bluemix/bluemix-components-react) | `3.x` and newer|
+|bluemix-icons.json| JSON file created from bluemix-icons.svg, used on [design-system-website](http://design-system.stage1.mybluemix.net/essentials/iconography.html#library) | `3.x` and newer|
+|bluemix-icons.js| JS module created from bluemix-icons.svg, used in `Icon` React Component in [bluemix-components-react](https://github.ibm.com/Bluemix/bluemix-components-react) | `3.x` and newer|
 |sprite.svg| SVG sprite contains legacy icons | `1.x`, `2.x` and `3.x`|
 |icons.json| legacy JSON file created from sprite.svg | `1.x`, `2.x` and `3.x`|
+|legacy-icons.js| JS module created from sprite.svg | `3.x` only|
 
 > Note: sprite.svg and bluemix-icons.svg must be used with [polyfill]().
 

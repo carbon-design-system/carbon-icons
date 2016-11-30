@@ -3,6 +3,7 @@ const chalk = require('chalk');
 
 const bluemixIconsSvg = fs.readFileSync(`${__dirname}/../bluemix-icons.svg`).toString('utf8');
 const bluemixIconsJson = require('../bluemix-icons.json');
+const bluemixIconsJs = require('../bluemix-icons.js');
 
 const name = (svg) => {
   return svg.getAttribute('id');
@@ -116,4 +117,15 @@ describe('bluemix-icons.json', () => {
       expect(dataCount).toBeGreaterThan(0);
     });
   });
-})
+});
+
+describe('bluemix-icons.js', () => {
+  it('should be an object', () => {
+    expect(typeof(bluemixIconsJs)).toBe('object');
+  });
+
+  it('should have length greater than 0', () => {
+    console.log(bluemixIconsJs);
+    expect(bluemixIconsJs.length).toBeGreaterThan(0);
+  });
+});

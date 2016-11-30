@@ -6,10 +6,10 @@
   "private": false,
   "scripts": {
     "dev": "nodemon -e html,svg server.js",
-    "build:legacy": "gulp build --legacy && gulp copy --legacy && gulp xml2json --legacy",
-    "build:bluemix-icons": "gulp build && gulp copy && gulp xml2json",
     "prebuild": "gulp clean",
-    "build": "npm run build:legacy && npm run build:bluemix-icons",
+    "build:bluemix-icons": "gulp build:svg && gulp copy && gulp build:json",
+    "build:legacy": "gulp build:svg --legacy && gulp copy --legacy && gulp build:json --legacy",
+    "build": "npm run build:bluemix-icons && npm run build:legacy",
     "test": "jest"
   },
   "repository": {
@@ -26,6 +26,8 @@
     "ibm"
   ],
   "files": [
+    "legacy-icons.js",
+    "bluemix-icons.js",
     "bluemix-icons.json",
     "bluemix-icons.svg",
     "sprite.svg",
