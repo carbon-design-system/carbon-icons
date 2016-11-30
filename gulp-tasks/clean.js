@@ -4,8 +4,8 @@ const del = require('del');
 // Clean folders and files
 const clean = () => {
   return del([
-    'build', 'index.html', 'sprite.{css,svg}', 'icons.json',
-    'sprites', 'spriteSVGIndex.html', 'bluemix-icons.{json,svg}'
+    'build', 'index.html', 'sprite.{css,svg}', 'icons.json', `legacy-icons.js`,
+    'sprites', 'spriteSVGIndex.html', 'bluemix-icons.{json,svg,js}'
   ]);
 }
 

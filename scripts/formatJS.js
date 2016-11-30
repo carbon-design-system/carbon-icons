@@ -10,8 +10,6 @@ const formatJS = (rawJSON, options = {}) => {
     legacy: false,
   }, options);
 
-  console.log(this.options)
-
   const json = this.options.json;
   const legacy = this.options.legacy;
 

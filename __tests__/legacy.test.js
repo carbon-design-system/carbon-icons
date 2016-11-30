@@ -170,7 +170,6 @@ describe('legacy-icons.js', () => {
   });
 
   it('should have length greater than 0', () => {
-    console.log(legacyIconsJs);
     expect(legacyIconsJs.length).toBeGreaterThan(0);
   });
 });

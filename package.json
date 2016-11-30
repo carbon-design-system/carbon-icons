@@ -1,8 +1,8 @@
 {
   "name": "@console/bluemix-icons",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "SVG icons as sprite for Bluemix",
-  "main": "bluemix-icons.svg",
+  "main": "bluemix-icons.js",
   "private": false,
   "scripts": {
     "dev": "nodemon -e html,svg server.js",
@@ -26,6 +26,7 @@
     "ibm"
   ],
   "files": [
+    "scripts",
     "legacy-icons.js",
     "bluemix-icons.js",
     "bluemix-icons.json",

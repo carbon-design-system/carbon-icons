@@ -125,7 +125,6 @@ describe('bluemix-icons.js', () => {
   });
 
   it('should have length greater than 0', () => {
-    console.log(bluemixIconsJs);
     expect(bluemixIconsJs.length).toBeGreaterThan(0);
   });
 });
