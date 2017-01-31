@@ -11,7 +11,7 @@
 * [Usage](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/docs/usage.md)
 * [Contributing](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/docs/contributing.md)
 
-## :skull: Deprecated
+## :skull: Deprecated in `3.x`
 
 > All __subfolders__ in [svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg) are __deprecated__. 
 > Please use svg icons that are directly located in [svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg) unless they're listed below.
