@@ -40,18 +40,18 @@ Bluemix Icons now ships with two main SVG files and two main JSON files.
 |sprite.svg| SVG sprite contains legacy icons | `1.x`, `2.x` and `3.x`|
 |icons.json| legacy JSON file created from sprite.svg | `1.x`, `2.x` and `3.x`|
 
-**Sizing**: New icons have been resized to meet design requirements (`24px` or `16px`).
+- **Sizing**: New icons have been resized to meet design requirements (`24px` or `16px`).
 
-**Padding**: Internal padding has been removed from all icons.
+- **Padding**: Internal padding has been removed from all icons.
 
-**Redrawn Icons**: Some icons have been redrawn due to sizing or other issues with previous icon designs.
+- **Redrawn Icons**: Some icons have been redrawn due to sizing or other issues with previous icon designs.
 A full list of redrawn icons and affected HTML files is listed in the [release notes](https://github.ibm.com/Bluemix/bluemix-icons/releases/tag/3.0.0).
 
-**New Icons**: All new icons can be found in the [svg]() folder but not in any svg subfolder.
+- **New Icons**: All new icons can be found in the [svg]() folder but not in any svg subfolder.
 
-**Legacy Icons**: Any icons in an svg subfolder are legacy icons. Consider legacy icons to be deprecated. We will support the use of these icons until the release of `4.x`.
+- **Legacy Icons**: Any icons in an svg subfolder are legacy icons. Consider legacy icons to be deprecated. We will support the use of these icons until the release of `4.x`.
 
-**Service Icons**: All icons for internal services that require hardcoded colors will be maintained and updated in the [Master Icon List in Release Blueprints](https://releaseblueprints.ibm.com/display/CLOUDOE/Master+Icon+List). This is temporary  measure.
+- **Service Icons**: All icons for internal services that require hardcoded colors will be maintained and updated in the [Master Icon List in Release Blueprints](https://releaseblueprints.ibm.com/display/CLOUDOE/Master+Icon+List). This is temporary  measure.
 
 
 ## Troubleshooting and Development Use
