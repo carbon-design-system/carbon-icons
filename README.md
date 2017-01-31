@@ -5,11 +5,21 @@
 - Icons for Bluemix. [SEE REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/)
 - Internal Services: icons can be found and managed in [Master Icon List](https://releaseblueprints.ibm.com/display/CLOUDOE/Master+Icon+List) on release blueprints.
 
-## Documentation
+## :books: Documentation
 
 * [Install](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/docs/install.md)
 * [Usage](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/docs/usage.md)
 * [Contributing](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/docs/contributing.md)
+
+## :skull: Deprecated
+
+> All __subfolders__ in [svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg) are __deprecated__. 
+> Please use svg icons that are directly located in [svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg) unless they're listed below.
+
+| Filename  | Notes  |
+|-----------|--------|
+| :x: [copy.svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg/copy.svg) | :white_check_mark: Replaced by [copy--new.svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg/copy--new.svg) |
+| :x: [copy--code.svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg/copy.svg) |                   |
 
 ## :exclamation: About `2.x` => `3.x`
 
