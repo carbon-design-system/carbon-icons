@@ -1770,8 +1770,8 @@ module.exports = [
     }
   },
   {
-    "id": "taxonomy--cognition",
-    "name": "cognition",
+    "id": "taxonomy--china-cognitive",
+    "name": "china-cognitive",
     "tags": "taxonomy",
     "styles": "",
     "viewBox": "0 0 110 110",
