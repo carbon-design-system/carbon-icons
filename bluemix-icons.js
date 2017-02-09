@@ -1857,6 +1857,27 @@ module.exports = [
     }
   },
   {
+    "id": "subtract--glyph",
+    "name": "subtract--glyph",
+    "tags": "subtract--glyph",
+    "styles": "",
+    "viewBox": "0 0 16 16",
+    "width": "16",
+    "height": "16",
+    "svgData": {
+      "circles": "",
+      "ellipses": "",
+      "paths": [
+        {
+          "d": "M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm4 7v2H4V7"
+        }
+      ],
+      "polygons": "",
+      "polylines": "",
+      "rects": ""
+    }
+  },
+  {
     "id": "unlocked",
     "name": "unlocked",
     "tags": "unlocked",
