@@ -1,68 +1,57 @@
-# Usage
+## Usage
 
-The following guidelines are for developers who are using [bluemix-icons](https://github.ibm.com/Bluemix/bluemix-icons).
+### Using SVG sprite (recommended)
 
-Design usage guidelines for iconography can be found in the [design-kit wiki](https://github.ibm.com/Bluemix/design-kit/wiki/Iconography---Usage).
+Requirements: 
 
-## Basic Usage with HTML and CSS
+- Install `@console/bluemix-icons`
+- Use `svgxuse` polyfill
+	
+Full installation details in [GitHub](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/docs/install.md). 
 
-All icons pull from a single SVG file ([bluemix-icons.svg]()).
-These external files are built with [svg-sprite]() using **symbol** mode, which enables us to reference an icon with `<use xlink:href>` XML syntax. One of the main benefits of **symbol** mode is that you can omit the `viewBox` attribute on every `<use>` element.
+### Using SVG sprite from static assets (recommended)
 
-But, all icons should be used at `24px` or `16px` sizes, which means you need to always declare `width` and `height` using CSS or the respective attributes.
-
-**HTML only**: Add `width` and `height` attributes to ensure icon is sized at `24px`.
+Use the SVG sprite (__bluemix-icons.svg__) by serving it as a static asset.
+Then reference the SVG icon you want to display using a path to the SVG sprite file.
+To use SVG sprite files, they __must__ be distributed through a web server and while using `svgxuse`. 
 
 ```html
-<svg width="24px" height="24px">
-  <use xlink:href="#add--glyph">
+<!-- From static assets  -->
+<svg>
+  <use xlink:href="/path_to_static-assets/bluemix-icons.svg#icon_name"></use>
 </svg>
 ```
-**Note:** You can override `width` and `height` attributes with CSS.
 
-**With CSS**: You can use CSS to size your icons and add other styles like color.
+- `path_to_static-assets` is the path to your static assets where `bluemix-icons.svg` is located.
+- `icon_name` is the icon name, which will display the corresponding icon. Refer to the [library page](http://design-system.stage1.mybluemix.net/essentials/iconography.html#library) for a full list of icon names
+
+### CSS
+
+You can override size and color with CSS.
+
+```html
+<svg class="icon">
+  <use xlink:href="/path_to_static-assets/bluemix-icons.svg#icon_name"></use>
+</svg>
+```
+
 ```css
-svg {
+.icon {
   width: 24px;
   height: 24px;
   fill: red;
 }
 ```
-```html
-<svg>
-  <use xlink:href="#add--glyph">
-</svg>
-```
 
-**Note**: The icons use original color by default, which should be `black`. (see [REFERENCE PAGE](https://pages.github.ibm.com/Bluemix/bluemix-icons/)). CSS is your main way for adding color to icons.
+All icons in the library are standarized so that they do not include `stroke` or internal spacing (`padding`).
 
-## Using SVG file from Static Assets
+### Inline SVG
 
-Use **sprite.svg** or **bluemix-icons.svg** by serving it as a static asset (like an image file) and use it with the following HTML. 
+If you're unable to use the recommended SVG sprite or `svgxuse`, you can inline SVG directly into your HTML.
 
-```html
-<!-- From static assets  -->
-<svg>
-  <use xlink:href="path/to/static-assets/img/sprite.svg#common--arrows"></use>
-</svg>
-```
+Visit bluemix-icons and browse the [svg folder](https://github.ibm.com/Bluemix/bluemix-icons/tree/master/svg) for any icons you want to use. (Remember, svg subfolders contain deprecated icons. Don't use these).
 
-## Using SVG file from Bluemix.Common
-
-[Bluemix.Common](https://github.ibm.com/Bluemix/Bluemix.Common) provides an endpoint to access their currently installed version of bluemix-icons. Using the icons in your HTML will look like this.
-
-```html
-<!-- From Bluemix.Common -->
-<svg>
-  <use xlink:href="https://dev-console.stage1.ng.bluemix.net/api/v4/img/sprite.svg#common--arrows"></use>
-</svg>
-```
-
-> Important notes about Bluemix.Common:
-- If you need more control over how the polyfill is invoked, use bluemix-icons locally as a static asset.
-- The polyfill acts directly on the `window` object, so it shouldn't need to be re-imported if you are using the header JavaScript from Bluemix.Common.
-
-## Main files
+### Main files
 
 Bluemix Icons ships with two main SVG files that contain different sets of external SVG sprite files:
 
@@ -74,8 +63,6 @@ Bluemix Icons ships with two main SVG files that contain different sets of exter
 |sprite.svg| SVG sprite contains legacy icons | `1.x`, `2.x` and `3.x`|
 |icons.json| legacy JSON file created from sprite.svg | `1.x`, `2.x` and `3.x`|
 |legacy-icons.js| JS module created from sprite.svg | `3.x` only|
-
-> Note: sprite.svg and bluemix-icons.svg must be used with [polyfill]().
 
 
 ### Accessibility
@@ -91,3 +78,9 @@ For screen reader accessibility, use `<title>` element and `aria-labelledby` att
 * The `aria-labelledby` attribute will reference the `id` attribute in the the `<title>` element.
 Make sure that you do not duplicate this `id`.
 * The `<title>`element will be read by the screen reader to the user so it should describe it's purpose.
+
+
+
+
+
+
