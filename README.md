@@ -19,7 +19,9 @@
 | Filename  | Notes  |
 |-----------|--------|
 | :x: [copy.svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg/copy.svg) | :white_check_mark: Replaced by [copy--new.svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg/copy--new.svg) |
-| :x: [copy--code.svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg/copy.svg) |                   |
+| :x: [copy--code.svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg/copy.svg) | :white_check_mark: Replaced by [copy--new.svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg/copy--new.svg)                  |
+| :x: [containers.svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg/containers.svg) | :white_check_mark: Replaced by [containers--new.svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg/containers--new.svg) |
+
 
 ## :exclamation: About `2.x` => `3.x`
 
