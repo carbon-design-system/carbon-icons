@@ -3,13 +3,6 @@
 These are contributing guidelines for adding Bluemix UI icons.
 For internal service logo icons and everything else, use [Master Icon List](https://releaseblueprints.ibm.com/display/CLOUDOE/Master+Icon+List) on release blueprints.
 
-### Submitting Pull Requests
-
-* **Do not commit built files**
-  * These are files created when running `npm run build`
-  * Committing built files results in unintended merge conflicts
-* **Keep your branch up to date with `master` branch**
-
 ### Naming SVG files
 
 We use the following naming convention for SVG filenames:
@@ -17,56 +10,36 @@ We use the following naming convention for SVG filenames:
 * `name`: icon name (ex. `add.svg`)
 * `name--outline`: icon with an outline (ex. `add--outline.svg`)
 * `name--glyph`: icon that is a glyph (ex. `add--glyph`)
-* `name--modifier`: when an icon does not use `outline` or `glyph`, use an appropriate modifier (ex. `copy--code`)
+* * `name--new`: new icon that replaces a deprecated icon, see [README](https://github.ibm.com/Bluemix/bluemix-icons#skull-deprecated-in-3x)
 
-#### Adding SVGs
+### Prepping SVG XML code
 
-1. Fork this repo
-2. Clone the fork to your computer
-3. Add icons to [svg](https://github.ibm.com/Bluemix/bluemix-icons/tree/master/svg) folder
-4. **Optional**: Open terminal to your forked repo Run `npm install` to make use of dev environment
-5. Submit a pull request
+It's the goal of this library to make sure icons can be modified with CSS to change it's __color__ (`fill`) and __size__ (`width`, `height`).  
 
-When submitting pull requests to bluemix-icons, simply add icons to [svg](https://github.ibm.com/Bluemix/bluemix-icons/tree/master/svg) folder, not in the svg subfolders. Do not run `gulp` or `npm` tasks.
+Run SVG XML code through [SVGOMG](https://jakearchibald.github.io/svgomg/).
+Inspect the code and make sure that your XML doesn't include the following:
 
-* Icons directly added to svg folder are **current** set of icons as of version [3.0.0]() and newer.
-* Icons in any subfolders, like [taxonomy](https://github.ibm.com/Bluemix/bluemix-icons/tree/master/svg/taxonomy) or [common](https://github.ibm.com/Bluemix/bluemix-icons/tree/master/svg/common), are **legacy icons**.
+- `<style>` tags
+- `<g>` tags
+- `class` attribtues
+- `stroke` attributes
+- `stroke-width` attributes
 
-#### Prepping SVG XML code
+### Submitting new SVGs
 
-All SVG icons are optimized through [SVGO](https://github.com/svg/svgo) and other build steps to prepare icons for use via external SVG sprite files (sprite.svg and bluemix-icons.svg).
+1. Fork the [bluemix-icons](https://github.ibm.com/Bluemix/bluemix-icons) repo
+2. Close the fork.
+3. Add new SVG file(s) to [svg](https://github.ibm.com/Bluemix/bluemix-icons/tree/master/svg) folder. SVG subfolders are deprecated as of version `3.0.0`.
+4. Submit a pull request
+5. Do not commit built files (files created from `npm run build` script).
 
-For example, here's how XML code for [add--glyph.svg](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/svg/add--glyph.svg) can look:
+### Testing SVGs
 
-```xml
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M8,0 C3.6,0 0,3.6 0,8 C0,12.4 3.6,16 8,16 C12.4,16 16,12.4 16,8 C16,3.6 12.4,0 8,0 L8,0 Z M12,9 L9,9 L9,12 L7,12 L7,9 L4,9 L4,7 L7,7 L7,4 L9,4 L9,7 L12,7 L12,9 L12,9 Z" id="Shape" stroke="none" fill="#000000" fill-rule="evenodd"></path>
-</svg>
-```
+1. `npm run build` to build new SVG sprite files.
+2. `npm test` to run unit tests
+3. `npm start` and go to [localhost:3000](http://localhost:3000/), make sure added icons are rendering correctly
+4. Optional: Go to [localhost:3000/test](http://localhost:3000/test) and test styling of icon manually using CSS.
 
-The XML code **must have** the following attributes:
-* `width` and `height`
-* `viewBox`
-* `fill-rule="evenodd"`
+Unit tests are run against built SVG sprite files (bluemix-icons.svg and sprite.svg). 
+Do not commit built files to pull requests.
 
-But it must **not have** the following nodes:
-* `<g>`
-* `<style>`
-
-#### About SVGO and Gulp API
-
-SVGO is used with various other gulp tasks to format external SVG sprite files.
-These should only be used when submitting pull requests that `bump` the repo to new versions.
-
-* **gulp clean**
-  - `npm run prebuild`
-    - Deletes built folders, see [clean.js]() for details.
-* **gulp build:svg** (args: --legacy)
-  - `npm run build:bluemix-icons` and `npm run build:legacy`
-    - Build SVG sprite files: sprite.svg (legacy) and bluemix-icons.svg
-* **gulp build:json** (args: --legacy)
-  - `npm run build` and `npm run build:legacy`
-    - Build JSON files: icons.json (legacy) and bluemix-icons.json
-* **gulp copy** (args: --legacy)
-  - `npm run build:bluemix-icons` and `npm run build:legacy`
-    - Copies source code to generate SVG sprites and HTML files
