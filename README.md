@@ -24,12 +24,14 @@ As long as the the filenames are unique across sprite.svg and bluemix-icons.svg,
 
 | Original Name | Alternative Name |
 |---------------|------------------|
+| dashboard     | console |
 | cloud-foundry | cf-apps          |
 | open-whisk    | whisk            |
 | applications  | apps |
 | start         | play |
 | start--glyph  | play--glyph |
 | start--outline|play--outline |
+
 
 ### Name changes
 
