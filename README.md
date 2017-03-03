@@ -13,6 +13,10 @@
 
 ## Migrating from `3.x` to `4.x`
 
+### Dropping support for Bower
+
+Please use `npm` from now on. 
+
 ### Using alternative names for icons
 
 For some icons, you we intentionally duplcated icons so that you can use different names to access them.
