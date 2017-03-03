@@ -25,6 +25,8 @@ As long as the the filenames are unique across sprite.svg and bluemix-icons.svg,
 | Original Name | Alternative Name |
 |---------------|------------------|
 | dashboard     | console |
+| api           | apis |
+| financial     | finance |
 | cloud-foundry | cf-apps          |
 | open-whisk    | whisk            |
 | applications  | apps |
