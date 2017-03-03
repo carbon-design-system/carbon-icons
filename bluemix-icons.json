@@ -654,6 +654,27 @@
     }
   },
   {
+    "id": "console",
+    "name": "console",
+    "tags": "console",
+    "styles": "",
+    "viewBox": "0 0 24 24",
+    "width": "24",
+    "height": "24",
+    "svgData": {
+      "circles": "",
+      "ellipses": "",
+      "paths": [
+        {
+          "d": "M0 0v24h24V0H0zm1 23V7h8v16H1zm22 0H10v-8h13v8zm0-9H10V7h13v7zM1 6V1h22v5H1z"
+        }
+      ],
+      "polygons": "",
+      "polylines": "",
+      "rects": ""
+    }
+  },
+  {
     "id": "containers",
     "name": "containers",
     "tags": "containers",
