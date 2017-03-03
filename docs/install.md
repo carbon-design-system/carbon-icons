@@ -34,9 +34,8 @@ npm install --save @console/bluemix-icons
 
 
 #### Bower
-```sh
-bower install bluemix-icons --save
-```
+
+We don't support Bower anymore, please use npm instead.
 
 #### Download 
 You can also **download** a `.zip` or `.tar.gz` file from the [latest releases here.](https://github.ibm.com/Bluemix/bluemix-icons/releases)
