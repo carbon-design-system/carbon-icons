@@ -15,7 +15,7 @@
 
 ### Dropping support for Bower
 
-Please use `npm` from now on. 
+Please use `npm` from now on. See [install](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/docs/install.md#install) docs for more details.
 
 ### Using alternative names for icons
 
