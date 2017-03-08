@@ -53,6 +53,8 @@ Use npm to install bluemix-icons and you'll have access to production-ready SVG 
 Note that SVG files in dist folder only include most current icons reflected in bluemix-icons.svg and design-system website. 
 Files in svg/subfolders are deprecated and should not be used. 
 
+It's still **highly recommended** to use SVG sprite because it will be easier to maintain your production code and keep up with future updates.
+
 ### Main files
 
 Bluemix Icons ships with two main SVG files that contain different sets of external SVG sprite files:
