@@ -26,6 +26,7 @@
     "ibm"
   ],
   "files": [
+    "dist",
     "scripts",
     "legacy-icons.js",
     "bluemix-icons.js",
