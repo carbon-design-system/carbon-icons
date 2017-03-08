@@ -47,9 +47,11 @@ All icons in the library are standarized so that they do not include `stroke` or
 
 ### Inline SVG
 
-If you're unable to use the recommended SVG sprite or `svgxuse`, you can inline SVG directly into your HTML.
+If you're unable to use the recommended SVG sprite (bluemix-icons.svg) or `svgxuse`, you can inline SVG directly into your HTML.
+Use npm to install bluemix-icons and you'll have access to production-ready SVG files in the [dist](https://github.ibm.com/Bluemix/bluemix-icons/tree/master/dist) folder.
 
-Visit bluemix-icons and browse the [svg folder](https://github.ibm.com/Bluemix/bluemix-icons/tree/master/svg) for any icons you want to use. (Remember, svg subfolders contain deprecated icons. Don't use these).
+Note that SVG files in dist folder only include most current icons reflected in bluemix-icons.svg and design-system website. 
+Files in svg/subfolders are deprecated and should not be used. 
 
 ### Main files
 
