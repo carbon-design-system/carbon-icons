@@ -1,13 +1,13 @@
 {
   "name": "@console/bluemix-icons",
-  "version": "4.0.6",
+  "version": "4.1.0",
   "description": "SVG icons as sprite for Bluemix",
   "main": "bluemix-icons.js",
   "private": false,
   "scripts": {
     "dev": "nodemon -e html,svg server.js",
     "prebuild": "gulp clean",
-    "build:bluemix-icons": "gulp build:svgSprite && gulp copy && gulp build:json",
+    "build:bluemix-icons": "gulp build && gulp copy && gulp build:json",
     "build:legacy": "gulp build:svgSprite --legacy && gulp copy --legacy && gulp build:json --legacy",
     "build": "npm run build:bluemix-icons && npm run build:legacy",
     "test": "jest"
