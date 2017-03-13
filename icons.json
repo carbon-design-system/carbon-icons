@@ -1,6 +1,6 @@
 [
   {
-    "id": "app-actions--copy-code",
+    "id": "icon--app-actions--copy-code",
     "name": "copy-code",
     "tags": "app-actions",
     "styles": "",
@@ -21,7 +21,7 @@
     }
   },
   {
-    "id": "app-actions--dark",
+    "id": "icon--app-actions--dark",
     "name": "dark",
     "tags": "app-actions",
     "styles": "",
@@ -42,7 +42,7 @@
     }
   },
   {
-    "id": "app-actions--favorite_icon",
+    "id": "icon--app-actions--favorite_icon",
     "name": "favorite_icon",
     "tags": "app-actions",
     "styles": "",
@@ -63,7 +63,7 @@
     }
   },
   {
-    "id": "app-actions--filter",
+    "id": "icon--app-actions--filter",
     "name": "filter",
     "tags": "app-actions",
     "styles": "",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "id": "app-actions--go_to_icon",
+    "id": "icon--app-actions--go_to_icon",
     "name": "go_to_icon",
     "tags": "app-actions",
     "styles": "",
@@ -105,7 +105,7 @@
     }
   },
   {
-    "id": "app-actions--light",
+    "id": "icon--app-actions--light",
     "name": "light",
     "tags": "app-actions",
     "styles": "",
@@ -135,7 +135,7 @@
     }
   },
   {
-    "id": "app-actions--overflow_menu_icon",
+    "id": "icon--app-actions--overflow_menu_icon",
     "name": "overflow_menu_icon",
     "tags": "app-actions",
     "styles": "",
@@ -168,7 +168,7 @@
     }
   },
   {
-    "id": "app-actions--restart_icon",
+    "id": "icon--app-actions--restart_icon",
     "name": "restart_icon",
     "tags": "app-actions",
     "styles": "",
@@ -189,7 +189,7 @@
     }
   },
   {
-    "id": "common--add",
+    "id": "icon--common--add",
     "name": "add",
     "tags": "common",
     "styles": "",
@@ -213,7 +213,7 @@
     }
   },
   {
-    "id": "common--appstatus_asleep",
+    "id": "icon--common--appstatus_asleep",
     "name": "appstatus_asleep",
     "tags": "common",
     "styles": "",
@@ -234,7 +234,7 @@
     }
   },
   {
-    "id": "common--appstatus_awake",
+    "id": "icon--common--appstatus_awake",
     "name": "appstatus_awake",
     "tags": "common",
     "styles": "",
@@ -255,7 +255,7 @@
     }
   },
   {
-    "id": "common--arrows",
+    "id": "icon--common--arrows",
     "name": "arrows",
     "tags": "common",
     "styles": "",
@@ -276,7 +276,7 @@
     }
   },
   {
-    "id": "common--cancel",
+    "id": "icon--common--cancel",
     "name": "cancel",
     "tags": "common",
     "styles": "",
@@ -300,7 +300,7 @@
     }
   },
   {
-    "id": "common--close",
+    "id": "icon--common--close",
     "name": "close",
     "tags": "common",
     "styles": "",
@@ -321,7 +321,7 @@
     }
   },
   {
-    "id": "common--configure",
+    "id": "icon--common--configure",
     "name": "configure",
     "tags": "common",
     "styles": "",
@@ -342,7 +342,7 @@
     }
   },
   {
-    "id": "common--copy",
+    "id": "icon--common--copy",
     "name": "copy",
     "tags": "common",
     "styles": "",
@@ -366,7 +366,7 @@
     }
   },
   {
-    "id": "common--create",
+    "id": "icon--common--create",
     "name": "create",
     "tags": "common",
     "styles": "",
@@ -387,7 +387,7 @@
     }
   },
   {
-    "id": "common--delete",
+    "id": "icon--common--delete",
     "name": "delete",
     "tags": "common",
     "styles": "",
@@ -411,7 +411,7 @@
     }
   },
   {
-    "id": "common--deploy",
+    "id": "icon--common--deploy",
     "name": "deploy",
     "tags": "common",
     "styles": "",
@@ -438,7 +438,7 @@
     }
   },
   {
-    "id": "common--download",
+    "id": "icon--common--download",
     "name": "download",
     "tags": "common",
     "styles": "",
@@ -462,7 +462,7 @@
     }
   },
   {
-    "id": "common--edit",
+    "id": "icon--common--edit",
     "name": "edit",
     "tags": "common",
     "styles": "",
@@ -483,7 +483,7 @@
     }
   },
   {
-    "id": "common--grid",
+    "id": "icon--common--grid",
     "name": "grid",
     "tags": "common",
     "styles": "",
@@ -504,7 +504,7 @@
     }
   },
   {
-    "id": "common--group",
+    "id": "icon--common--group",
     "name": "group",
     "tags": "common",
     "styles": "",
@@ -525,7 +525,7 @@
     }
   },
   {
-    "id": "common--healthy",
+    "id": "icon--common--healthy",
     "name": "healthy",
     "tags": "common",
     "styles": "",
@@ -549,7 +549,7 @@
     }
   },
   {
-    "id": "common--help",
+    "id": "icon--common--help",
     "name": "help",
     "tags": "common",
     "styles": "",
@@ -570,7 +570,7 @@
     }
   },
   {
-    "id": "common--link",
+    "id": "icon--common--link",
     "name": "link",
     "tags": "common",
     "styles": "",
@@ -591,7 +591,7 @@
     }
   },
   {
-    "id": "common--monitor",
+    "id": "icon--common--monitor",
     "name": "monitor",
     "tags": "common",
     "styles": "",
@@ -618,7 +618,7 @@
     }
   },
   {
-    "id": "common--previous",
+    "id": "icon--common--previous",
     "name": "previous",
     "tags": "common",
     "styles": "",
@@ -639,7 +639,7 @@
     }
   },
   {
-    "id": "common--purchase",
+    "id": "icon--common--purchase",
     "name": "purchase",
     "tags": "common",
     "styles": "",
@@ -663,7 +663,7 @@
     }
   },
   {
-    "id": "common--restart",
+    "id": "icon--common--restart",
     "name": "restart",
     "tags": "common",
     "styles": "",
@@ -684,7 +684,7 @@
     }
   },
   {
-    "id": "common--running",
+    "id": "icon--common--running",
     "name": "running",
     "tags": "common",
     "styles": "",
@@ -708,7 +708,7 @@
     }
   },
   {
-    "id": "common--search",
+    "id": "icon--common--search",
     "name": "search",
     "tags": "common",
     "styles": "",
@@ -735,7 +735,7 @@
     }
   },
   {
-    "id": "common--search-sm",
+    "id": "icon--common--search-sm",
     "name": "search-sm",
     "tags": "common",
     "styles": "",
@@ -756,7 +756,7 @@
     }
   },
   {
-    "id": "common--settings",
+    "id": "icon--common--settings",
     "name": "settings",
     "tags": "common",
     "styles": "",
@@ -777,7 +777,7 @@
     }
   },
   {
-    "id": "common--start",
+    "id": "icon--common--start",
     "name": "start",
     "tags": "common",
     "styles": "",
@@ -801,7 +801,7 @@
     }
   },
   {
-    "id": "common--stop",
+    "id": "icon--common--stop",
     "name": "stop",
     "tags": "common",
     "styles": "",
@@ -825,7 +825,7 @@
     }
   },
   {
-    "id": "common--tile-view",
+    "id": "icon--common--tile-view",
     "name": "tile-view",
     "tags": "common",
     "styles": "",
@@ -849,7 +849,7 @@
     }
   },
   {
-    "id": "common--user",
+    "id": "icon--common--user",
     "name": "user",
     "tags": "common",
     "styles": "",
@@ -870,7 +870,7 @@
     }
   },
   {
-    "id": "notifications--error",
+    "id": "icon--notifications--error",
     "name": "error",
     "tags": "notifications",
     "styles": "",
@@ -891,7 +891,7 @@
     }
   },
   {
-    "id": "notifications--info",
+    "id": "icon--notifications--info",
     "name": "info",
     "tags": "notifications",
     "styles": "",
@@ -921,7 +921,7 @@
     }
   },
   {
-    "id": "notifications--success",
+    "id": "icon--notifications--success",
     "name": "success",
     "tags": "notifications",
     "styles": "",
@@ -945,7 +945,7 @@
     }
   },
   {
-    "id": "notifications--warning",
+    "id": "icon--notifications--warning",
     "name": "warning",
     "tags": "notifications",
     "styles": "",
@@ -976,7 +976,7 @@
     }
   },
   {
-    "id": "service--add-filled",
+    "id": "icon--service--add-filled",
     "name": "add-filled",
     "tags": "service",
     "styles": "",
@@ -997,7 +997,7 @@
     }
   },
   {
-    "id": "service--back",
+    "id": "icon--service--back",
     "name": "back",
     "tags": "service",
     "styles": "",
@@ -1018,7 +1018,7 @@
     }
   },
   {
-    "id": "service--chevron",
+    "id": "icon--service--chevron",
     "name": "chevron",
     "tags": "service",
     "styles": "",
@@ -1039,7 +1039,7 @@
     }
   },
   {
-    "id": "service--default",
+    "id": "icon--service--default",
     "name": "default",
     "tags": "service",
     "styles": "",
@@ -1060,7 +1060,7 @@
     }
   },
   {
-    "id": "service--down-arrow",
+    "id": "icon--service--down-arrow",
     "name": "down-arrow",
     "tags": "service",
     "styles": "",
@@ -1081,7 +1081,7 @@
     }
   },
   {
-    "id": "service--gear",
+    "id": "icon--service--gear",
     "name": "gear",
     "tags": "service",
     "styles": "",
@@ -1102,7 +1102,7 @@
     }
   },
   {
-    "id": "service--logsLink",
+    "id": "icon--service--logsLink",
     "name": "logsLink",
     "tags": "service",
     "styles": "",
@@ -1126,7 +1126,7 @@
     }
   },
   {
-    "id": "service--status-complete",
+    "id": "icon--service--status-complete",
     "name": "status-complete",
     "tags": "service",
     "styles": "",
@@ -1150,7 +1150,7 @@
     }
   },
   {
-    "id": "service--status-error",
+    "id": "icon--service--status-error",
     "name": "status-error",
     "tags": "service",
     "styles": "",
@@ -1171,7 +1171,7 @@
     }
   },
   {
-    "id": "service--status-initializing",
+    "id": "icon--service--status-initializing",
     "name": "status-initializing",
     "tags": "service",
     "styles": "",
@@ -1195,7 +1195,7 @@
     }
   },
   {
-    "id": "service--status-paused",
+    "id": "icon--service--status-paused",
     "name": "status-paused",
     "tags": "service",
     "styles": "",
@@ -1219,7 +1219,7 @@
     }
   },
   {
-    "id": "service--status-pending",
+    "id": "icon--service--status-pending",
     "name": "status-pending",
     "tags": "service",
     "styles": "",
@@ -1240,7 +1240,7 @@
     }
   },
   {
-    "id": "service--status-running",
+    "id": "icon--service--status-running",
     "name": "status-running",
     "tags": "service",
     "styles": "",
@@ -1280,7 +1280,7 @@
     }
   },
   {
-    "id": "service--status-scheduled",
+    "id": "icon--service--status-scheduled",
     "name": "status-scheduled",
     "tags": "service",
     "styles": "",
@@ -1304,7 +1304,7 @@
     }
   },
   {
-    "id": "service--status-success",
+    "id": "icon--service--status-success",
     "name": "status-success",
     "tags": "service",
     "styles": "",
@@ -1325,7 +1325,7 @@
     }
   },
   {
-    "id": "support--arrow-right",
+    "id": "icon--support--arrow-right",
     "name": "arrow-right",
     "tags": "support",
     "styles": "",
@@ -1346,7 +1346,7 @@
     }
   },
   {
-    "id": "support--bluemix-padding",
+    "id": "icon--support--bluemix-padding",
     "name": "bluemix-padding",
     "tags": "support",
     "styles": "",
@@ -1373,7 +1373,7 @@
     }
   },
   {
-    "id": "support--check-fill-circle",
+    "id": "icon--support--check-fill-circle",
     "name": "check-fill-circle",
     "tags": "support",
     "styles": "",
@@ -1394,7 +1394,7 @@
     }
   },
   {
-    "id": "support--check-padding",
+    "id": "icon--support--check-padding",
     "name": "check-padding",
     "tags": "support",
     "styles": "",
@@ -1415,7 +1415,7 @@
     }
   },
   {
-    "id": "support--chevron-down",
+    "id": "icon--support--chevron-down",
     "name": "chevron-down",
     "tags": "support",
     "styles": "",
@@ -1436,7 +1436,7 @@
     }
   },
   {
-    "id": "support--chevron-down-32",
+    "id": "icon--support--chevron-down-32",
     "name": "chevron-down-32",
     "tags": "support",
     "styles": "",
@@ -1457,7 +1457,7 @@
     }
   },
   {
-    "id": "support--chevron-up",
+    "id": "icon--support--chevron-up",
     "name": "chevron-up",
     "tags": "support",
     "styles": "",
@@ -1478,7 +1478,7 @@
     }
   },
   {
-    "id": "support--chevron-up-32",
+    "id": "icon--support--chevron-up-32",
     "name": "chevron-up-32",
     "tags": "support",
     "styles": "",
@@ -1499,7 +1499,7 @@
     }
   },
   {
-    "id": "support--close-stroke-circle",
+    "id": "icon--support--close-stroke-circle",
     "name": "close-stroke-circle",
     "tags": "support",
     "styles": "",
@@ -1523,7 +1523,7 @@
     }
   },
   {
-    "id": "support--help-fill-circle-with-outline",
+    "id": "icon--support--help-fill-circle-with-outline",
     "name": "help-fill-circle-with-outline",
     "tags": "support",
     "styles": "",
@@ -1547,7 +1547,7 @@
     }
   },
   {
-    "id": "support--idea-fill-circle-with-outline",
+    "id": "icon--support--idea-fill-circle-with-outline",
     "name": "idea-fill-circle-with-outline",
     "tags": "support",
     "styles": "",
@@ -1571,7 +1571,7 @@
     }
   },
   {
-    "id": "support--info-stroke-circle",
+    "id": "icon--support--info-stroke-circle",
     "name": "info-stroke-circle",
     "tags": "support",
     "styles": "",
@@ -1602,7 +1602,7 @@
     }
   },
   {
-    "id": "support--left-arrow-stroke-circle",
+    "id": "icon--support--left-arrow-stroke-circle",
     "name": "left-arrow-stroke-circle",
     "tags": "support",
     "styles": "",
@@ -1626,7 +1626,7 @@
     }
   },
   {
-    "id": "support--search-padding",
+    "id": "icon--support--search-padding",
     "name": "search-padding",
     "tags": "support",
     "styles": "",
@@ -1650,7 +1650,7 @@
     }
   },
   {
-    "id": "support--stackoverflow-padding",
+    "id": "icon--support--stackoverflow-padding",
     "name": "stackoverflow-padding",
     "tags": "support",
     "styles": "",
@@ -1674,7 +1674,7 @@
     }
   },
   {
-    "id": "support--upload-padding",
+    "id": "icon--support--upload-padding",
     "name": "upload-padding",
     "tags": "support",
     "styles": "",
@@ -1698,7 +1698,7 @@
     }
   },
   {
-    "id": "support--user-stroke-circle",
+    "id": "icon--support--user-stroke-circle",
     "name": "user-stroke-circle",
     "tags": "support",
     "styles": "",
@@ -1722,7 +1722,7 @@
     }
   },
   {
-    "id": "taxonomy--allcategories",
+    "id": "icon--taxonomy--allcategories",
     "name": "allcategories",
     "tags": "taxonomy",
     "styles": "",
@@ -1743,7 +1743,7 @@
     }
   },
   {
-    "id": "taxonomy--app-services",
+    "id": "icon--taxonomy--app-services",
     "name": "app-services",
     "tags": "taxonomy",
     "styles": "",
@@ -1770,7 +1770,7 @@
     }
   },
   {
-    "id": "taxonomy--china-cognitive",
+    "id": "icon--taxonomy--china-cognitive",
     "name": "china-cognitive",
     "tags": "taxonomy",
     "styles": "",
@@ -1791,7 +1791,7 @@
     }
   },
   {
-    "id": "taxonomy--cognitive",
+    "id": "icon--taxonomy--cognitive",
     "name": "cognitive",
     "tags": "taxonomy",
     "styles": "",
@@ -1812,7 +1812,7 @@
     }
   },
   {
-    "id": "taxonomy--compute",
+    "id": "icon--taxonomy--compute",
     "name": "compute",
     "tags": "taxonomy",
     "styles": [
@@ -1857,7 +1857,7 @@
     }
   },
   {
-    "id": "taxonomy--console",
+    "id": "icon--taxonomy--console",
     "name": "console",
     "tags": "taxonomy",
     "styles": "",
@@ -1881,7 +1881,7 @@
     }
   },
   {
-    "id": "taxonomy--data",
+    "id": "icon--taxonomy--data",
     "name": "data",
     "tags": "taxonomy",
     "styles": "",
@@ -1902,7 +1902,7 @@
     }
   },
   {
-    "id": "taxonomy--devops",
+    "id": "icon--taxonomy--devops",
     "name": "devops",
     "tags": "taxonomy",
     "styles": "",
@@ -1923,7 +1923,7 @@
     }
   },
   {
-    "id": "taxonomy--home",
+    "id": "icon--taxonomy--home",
     "name": "home",
     "tags": "taxonomy",
     "styles": "",
@@ -1947,7 +1947,7 @@
     }
   },
   {
-    "id": "taxonomy--integration",
+    "id": "icon--taxonomy--integration",
     "name": "integration",
     "tags": "taxonomy",
     "styles": "",
@@ -1968,7 +1968,7 @@
     }
   },
   {
-    "id": "taxonomy--iot",
+    "id": "icon--taxonomy--iot",
     "name": "iot",
     "tags": "taxonomy",
     "styles": "",
@@ -1992,7 +1992,7 @@
     }
   },
   {
-    "id": "taxonomy--media-cdn",
+    "id": "icon--taxonomy--media-cdn",
     "name": "media-cdn",
     "tags": "taxonomy",
     "styles": "",
@@ -2013,7 +2013,7 @@
     }
   },
   {
-    "id": "taxonomy--mobile",
+    "id": "icon--taxonomy--mobile",
     "name": "mobile",
     "tags": "taxonomy",
     "styles": "",
@@ -2043,7 +2043,7 @@
     }
   },
   {
-    "id": "taxonomy--network",
+    "id": "icon--taxonomy--network",
     "name": "network",
     "tags": "taxonomy",
     "styles": "",
@@ -2064,7 +2064,7 @@
     }
   },
   {
-    "id": "taxonomy--private-apis",
+    "id": "icon--taxonomy--private-apis",
     "name": "private-apis",
     "tags": "taxonomy",
     "styles": "",
@@ -2088,7 +2088,7 @@
     }
   },
   {
-    "id": "taxonomy--security",
+    "id": "icon--taxonomy--security",
     "name": "security",
     "tags": "taxonomy",
     "styles": "",
@@ -2112,7 +2112,7 @@
     }
   },
   {
-    "id": "taxonomy--storage",
+    "id": "icon--taxonomy--storage",
     "name": "storage",
     "tags": "taxonomy",
     "styles": "",
@@ -2133,7 +2133,7 @@
     }
   },
   {
-    "id": "taxonomy--watson",
+    "id": "icon--taxonomy--watson",
     "name": "watson",
     "tags": "taxonomy",
     "styles": "",
@@ -2160,7 +2160,7 @@
     }
   },
   {
-    "id": "watson--Alchemy",
+    "id": "icon--watson--Alchemy",
     "name": "Alchemy",
     "tags": "watson",
     "styles": "",
@@ -2181,7 +2181,7 @@
     }
   },
   {
-    "id": "watson--Dialog",
+    "id": "icon--watson--Dialog",
     "name": "Dialog",
     "tags": "watson",
     "styles": "",
@@ -2205,7 +2205,7 @@
     }
   },
   {
-    "id": "watson--concept-insights",
+    "id": "icon--watson--concept-insights",
     "name": "concept-insights",
     "tags": "watson",
     "styles": "",
@@ -2226,7 +2226,7 @@
     }
   },
   {
-    "id": "watson--document-conversion",
+    "id": "icon--watson--document-conversion",
     "name": "document-conversion",
     "tags": "watson",
     "styles": "",
@@ -2250,7 +2250,7 @@
     }
   },
   {
-    "id": "watson--language-translation",
+    "id": "icon--watson--language-translation",
     "name": "language-translation",
     "tags": "watson",
     "styles": "",
@@ -2277,7 +2277,7 @@
     }
   },
   {
-    "id": "watson--natural-language-classifier",
+    "id": "icon--watson--natural-language-classifier",
     "name": "natural-language-classifier",
     "tags": "watson",
     "styles": "",
@@ -2298,7 +2298,7 @@
     }
   },
   {
-    "id": "watson--personality-insights",
+    "id": "icon--watson--personality-insights",
     "name": "personality-insights",
     "tags": "watson",
     "styles": "",
@@ -2319,7 +2319,7 @@
     }
   },
   {
-    "id": "watson--relationship-extraction",
+    "id": "icon--watson--relationship-extraction",
     "name": "relationship-extraction",
     "tags": "watson",
     "styles": "",
@@ -2340,7 +2340,7 @@
     }
   },
   {
-    "id": "watson--retrieve-and-rank",
+    "id": "icon--watson--retrieve-and-rank",
     "name": "retrieve-and-rank",
     "tags": "watson",
     "styles": "",
@@ -2364,7 +2364,7 @@
     }
   },
   {
-    "id": "watson--speech-to-text",
+    "id": "icon--watson--speech-to-text",
     "name": "speech-to-text",
     "tags": "watson",
     "styles": "",
@@ -2388,7 +2388,7 @@
     }
   },
   {
-    "id": "watson--text-to-speech",
+    "id": "icon--watson--text-to-speech",
     "name": "text-to-speech",
     "tags": "watson",
     "styles": "",
@@ -2412,7 +2412,7 @@
     }
   },
   {
-    "id": "watson--tone-analyzer",
+    "id": "icon--watson--tone-analyzer",
     "name": "tone-analyzer",
     "tags": "watson",
     "styles": "",
@@ -2439,7 +2439,7 @@
     }
   },
   {
-    "id": "watson--tradeoff-analytics",
+    "id": "icon--watson--tradeoff-analytics",
     "name": "tradeoff-analytics",
     "tags": "watson",
     "styles": "",
@@ -2460,7 +2460,7 @@
     }
   },
   {
-    "id": "watson--visual-recognition",
+    "id": "icon--watson--visual-recognition",
     "name": "visual-recognition",
     "tags": "watson",
     "styles": "",

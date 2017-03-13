@@ -18,12 +18,22 @@ To use SVG sprite files, they __must__ be distributed through a web server and w
 ```html
 <!-- From static assets  -->
 <svg>
-  <use xlink:href="/path_to_static-assets/bluemix-icons.svg#icon_name"></use>
+  <use xlink:href="/path_to_static-assets/bluemix-icons.svg#icon--icon_name"></use>
 </svg>
 ```
 
 - `path_to_static-assets` is the path to your static assets where `bluemix-icons.svg` is located.
 - `icon_name` is the icon name, which will display the corresponding icon. Refer to the [library page](http://design-system.stage1.mybluemix.net/essentials/iconography.html#library) for a full list of icon names
+
+### Using SVG sprite from Bluemix.Common API
+
+__Do not rely on this usage method in production.__
+
+If you want to use the Bluemix.Common files API to use SVG sprite files, then these are your endpoints for the available files:
+
+- current: `https://dev-console.stage1.ng.bluemix.net/api/v5/img/bluemix-icons.svg`
+- legacy: `https://dev-console.stage1.ng.bluemix.net/api/v4/img/sprite.svg`
+
 
 ### CSS
 
@@ -31,7 +41,7 @@ You can override size and color with CSS.
 
 ```html
 <svg class="icon">
-  <use xlink:href="/path_to_static-assets/bluemix-icons.svg#icon_name"></use>
+  <use xlink:href="/path_to_static-assets/bluemix-icons.svg#icon--icon_name"></use>
 </svg>
 ```
 
@@ -64,19 +74,19 @@ Bluemix Icons ships with two main SVG files that contain different sets of exter
 |bluemix-icons.svg| Contains current icons (consolidated subset of legacy icons used in Bluemix) | `3.x` and newer|
 |bluemix-icons.json| JSON file created from bluemix-icons.svg, used on [design-system-website](http://design-system.stage1.mybluemix.net/essentials/iconography.html#library) | `3.x` and newer|
 |bluemix-icons.js| JS module created from bluemix-icons.svg, used in `Icon` React Component in [bluemix-components-react](https://github.ibm.com/Bluemix/bluemix-components-react) | `3.x` and newer|
-|sprite.svg| SVG sprite contains legacy icons | `1.x`, `2.x` and `3.x`|
-|icons.json| legacy JSON file created from sprite.svg | `1.x`, `2.x` and `3.x`|
+|sprite.svg| SVG sprite contains legacy icons (deprecated) | `1.x`, `2.x`, `3.x`, `4.x`, `5.x`|
+|icons.json| legacy JSON file created from sprite.svg (deprecated) | `1.x`, `2.x`, `3.x`, `4.x`, `5.x`|
 |legacy-icons.js| JS module created from sprite.svg | `3.x` only|
 
 
-### Accessibility
+### Accessibility (a11y)
 
 For screen reader accessibility, use `<title>` element and `aria-labelledby` attribute.
 
 ```html
-<svg class="icon--add" aria-labelledby="add">
-  <title id="add">Add a new service</title>
-  <use xlink:href="https://dev-console.stage1.ng.bluemix.net/api/v4/img/sprite.svg#common--add"></use>
+<svg class="icon" aria-labelledby="uniquie-id">
+  <title id="unique-id">Add a new service</title>
+  <use xlink:href="/path_to_static-assets/bluemix-icons.svg#icon--add--glyph"></use>
 </svg>
 ```
 * The `aria-labelledby` attribute will reference the `id` attribute in the the `<title>` element.
