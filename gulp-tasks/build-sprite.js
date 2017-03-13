@@ -9,16 +9,15 @@ if (gutil.env.legacy === true) {
   legacy = true;
 }
 
-
 // SVG Config
 const config = {
+  shape: {
+    id: {
+      generator: "icon--%s"
+    }
+  },
   mode: {
     symbol: { // Activate the defs mode
-      render: {
-        css: true, // CSS output
-        scss: true
-      },
-      prefix: ".svg--%s",
       bust: false, // Cache busting
       example: true // Build a page
     }

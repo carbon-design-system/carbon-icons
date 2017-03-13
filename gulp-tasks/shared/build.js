@@ -14,7 +14,7 @@ const svgBuild = (src) => {
     }, false))
     .pipe(svgo({
       plugins: [{
-        removeTitle: true
+        removeTitle: true,
       }]
     }));
 }
