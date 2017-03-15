@@ -13,7 +13,7 @@ if (gutil.env.legacy === true) {
 const config = {
   shape: {
     id: {
-      generator: "icon--%s"
+      generator: legacy ? "%s" : "icon--%s"
     }
   },
   mode: {

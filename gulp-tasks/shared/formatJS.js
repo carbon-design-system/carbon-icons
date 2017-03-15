@@ -24,8 +24,8 @@ const formatJS = (rawJSON, options = {}) => {
     // For each "symbol.svg.symbol", create new Objects with these keys/values
     const data = {
       id: symbol.$.id,
-      name: legacy ? splitId[2] : symbol.$.id,
-      tags: legacy ? splitId[1] : symbol.$.id,
+      name: legacy ? splitId[1] : symbol.$.id,
+      tags: legacy ? splitId[0] : symbol.$.id,
       styles: symbol.style ? symbol.style : "",
       viewBox: symbol.$.viewBox || "",
       width: width || "",
