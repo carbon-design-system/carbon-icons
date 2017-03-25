@@ -7,11 +7,9 @@
 const formatJS = (rawJSON, options = {}) => {
   this.options = Object.assign({
     json: true,
-    legacy: false,
   }, options);
 
   const json = this.options.json;
-  const legacy = this.options.legacy;
 
   // iconMeta - returns new JSON Array of icon Objects
   const iconMeta = (rawJSON).map(symbol => {
@@ -24,8 +22,8 @@ const formatJS = (rawJSON, options = {}) => {
     // For each "symbol.svg.symbol", create new Objects with these keys/values
     const data = {
       id: symbol.$.id,
-      name: legacy ? splitId[1] : symbol.$.id,
-      tags: legacy ? splitId[0] : symbol.$.id,
+      name: symbol.$.id,
+      tags: symbol.$.id,
       styles: symbol.style ? symbol.style : "",
       viewBox: symbol.$.viewBox || "",
       width: width || "",
