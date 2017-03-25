@@ -1,9 +1,9 @@
 const fs = require('fs');
 const chalk = require('chalk');
 
-const bluemixIconsSvg = fs.readFileSync(`${__dirname}/../bluemix-icons.svg`).toString('utf8');
-const bluemixIconsJson = require('../bluemix-icons.json');
-const bluemixIconsJs = require('../bluemix-icons.js');
+const carbonIconsSvg = fs.readFileSync(`${__dirname}/../carbon-icons.svg`).toString('utf8');
+const carbonIconsJson = require('../carbon-icons.json');
+const carbonIconsJs = require('../carbon-icons.js');
 
 const name = (svg) => {
   return svg.getAttribute('id');
@@ -16,8 +16,8 @@ const warning = (svgName, message) => {
   `));
 }
 
-describe('bluemix-icons.svg', () => {
-  document.body.innerHTML = bluemixIconsSvg;
+describe('carbon-icons.svg', () => {
+  document.body.innerHTML = carbonIconsSvg;
   const symbols = [...document.querySelectorAll('symbol')];
 
   it('should have fill-rule', () => {
@@ -60,53 +60,53 @@ describe('bluemix-icons.svg', () => {
   });
 });
 
-describe('bluemix-icons.json', () => {
+describe('carbon-icons.json', () => {
   it('should have an id', () => {
-    bluemixIconsJson.forEach(object => {
+    carbonIconsJson.forEach(object => {
       expect(object.id).not.toEqual('');
     })
   })
 
   it('should have width greater than 0', () => {
-    bluemixIconsJson.forEach(object => {
+    carbonIconsJson.forEach(object => {
       expect(object.width).not.toEqual('');
       expect(Number(object.width)).toBeGreaterThan(0);
     })
   })
 
   it('should have height greater than 0', () => {
-    bluemixIconsJson.forEach(object => {
+    carbonIconsJson.forEach(object => {
       expect(object.width).not.toEqual('');
       expect(Number(object.width)).toBeGreaterThan(0);
     })
   })
 
   it('should have a name', () => {
-    bluemixIconsJson.forEach(object => {
+    carbonIconsJson.forEach(object => {
       expect(object.name).not.toEqual('');
     })
   })
 
   it('should have tags', () => {
-    bluemixIconsJson.forEach(object => {
+    carbonIconsJson.forEach(object => {
       expect(object.tags).not.toEqual('');
     });
   })
 
   it('should have empty styles', () => {
-    bluemixIconsJson.forEach(object => {
+    carbonIconsJson.forEach(object => {
       expect(object.styles).toEqual('');
     });
   })
 
   it('should have a viewBox', () => {
-    bluemixIconsJson.forEach(object => {
+    carbonIconsJson.forEach(object => {
       expect(object.viewBox).not.toEqual('');
     })
   })
 
   it('each svgData object should have a value', () => {
-    bluemixIconsJson.forEach(object => {
+    carbonIconsJson.forEach(object => {
       let dataCount = 0;
       dataCount += object.svgData.circles.length;
       dataCount += object.svgData.ellipses.length;
@@ -119,12 +119,12 @@ describe('bluemix-icons.json', () => {
   });
 });
 
-describe('bluemix-icons.js', () => {
+describe('carbon-icons.js', () => {
   it('should be an object', () => {
-    expect(typeof(bluemixIconsJs)).toBe('object');
+    expect(typeof(carbonIconsJs)).toBe('object');
   });
 
   it('should have length greater than 0', () => {
-    expect(bluemixIconsJs.length).toBeGreaterThan(0);
+    expect(carbonIconsJs.length).toBeGreaterThan(0);
   });
 });
