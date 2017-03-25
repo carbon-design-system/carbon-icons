@@ -55,7 +55,6 @@
     "gulp-rename": "1.2.2",
     "gulp-svg-sprite": "1.2.18",
     "gulp-svgo": "1.0.3",
-    "gulp-util": "3.0.7",
     "html": "^1.0.0",
     "jest": "16.0.2",
     "nodemon": "1.9.2",

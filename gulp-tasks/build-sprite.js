@@ -1,6 +1,5 @@
 const gulp = require('gulp');
 const svgSprite = require('gulp-svg-sprite');
-const gutil = require('gulp-util');
 const svgBuild = require('./shared/build');
 
 // SVG Config

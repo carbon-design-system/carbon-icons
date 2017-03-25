@@ -1,6 +1,5 @@
 const gulp = require('gulp');
 const rename = require('gulp-rename');
-const gutil = require('gulp-util');
 
 const src = {
   current: 'sprites/symbol/**/*.{html,css,svg}',

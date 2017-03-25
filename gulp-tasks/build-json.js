@@ -2,7 +2,6 @@
 
 // REQUIRES
 const fs = require('fs');
-const gutil = require('gulp-util');
 
 // SCRIPTS
 const getJSON = require('./shared/getJSON');
