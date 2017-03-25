@@ -26,14 +26,17 @@
     "ibm"
   ],
   "files": [
-    "dist",
-    "scripts",
-    "legacy-icons.js",
     "bluemix-icons.js",
     "bluemix-icons.json",
     "bluemix-icons.svg",
-    "sprite.svg",
-    "icons.json"
+    "carbon-icons.js",
+    "carbon-icons.json",
+    "carbon-icons.svg",
+    "dist",
+    "icons.json",
+    "legacy-icons.js",
+    "scripts",
+    "sprite.svg"
   ],
   "maintainers": [
     {
