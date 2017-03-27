@@ -25,17 +25,10 @@
     "carbon"
   ],
   "files": [
-    "bluemix-icons.js",
-    "bluemix-icons.json",
-    "bluemix-icons.svg",
     "carbon-icons.js",
     "carbon-icons.json",
     "carbon-icons.svg",
-    "dist",
-    "icons.json",
-    "legacy-icons.js",
-    "scripts",
-    "sprite.svg"
+    "dist"
   ],
   "maintainers": [
     {
