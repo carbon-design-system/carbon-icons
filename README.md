@@ -1,8 +1,13 @@
 # Carbon Icons
 
+## Install
+
+```sh
+npm i carbon-icons -S
+```
+
 ## :books: Documentation
 
-* [Install](https://github.com/carbon-design-system/carbon-icons/blob/master/docs/install.md)
 * [Usage](https://github.com/carbon-design-system/carbon-icons/blob/master/docs/usage.md)
 * [Contributing](https://github.com/carbon-design-system/carbon-icons/blob/master/docs/contributing.md)
 * [Migration Guides](https://github.com/carbon-design-system/carbon-icons/tree/6.x/docs/migration-guides)
