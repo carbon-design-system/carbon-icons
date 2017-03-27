@@ -93,7 +93,15 @@ For screen reader accessibility, use `<title>` element and `aria-labelledby` att
 Make sure that you do not duplicate this `id`.
 * The `<title>`element will be read by the screen reader to the user so it should describe it's purpose.
 
+### Polyfill Troubleshooting
 
+> __TL;DR:__ It's recommended to install carbon-icons and use SVG sprite files locally because of issues with CORS.
+
+SVG cannot reference an SVG file on a different domain due to CORS (cross-origin scripting security violations).
+This means an app running at `localhost:3000` cannot use the sprite on `dev-console.stage1.ng.bluemix...` without the `svgxuse` polyfill library.
+
+The `svgxuse` polyfill adds SVG/use support for IE 9/10/11. 
+It also (and more usefully) does a check for if a `<use>` element is missing content (which it would if the request is cross-origin). If the `<use>` element is empty the script requests the SVG file with an old-fashioned `XMLHttpRequest` (this can go cross-origin, assuming the SVG has an appropriate CORS header) and finds the appropriate #hash to populate the `<use>` element.
 
 
 
