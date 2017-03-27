@@ -1,5 +1,5 @@
 {
-  "name": "carbon-icons",
+  "name": "@console/carbon-icons",
   "version": "5.1.0",
   "description": "SVG icons as sprite for Bluemix",
   "main": "carbon-icons.js",
