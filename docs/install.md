@@ -1,8 +1,12 @@
 # Install
 
-The following are guidelines for installing and using bluemix-icons.
+```sh
+npm i carbon-icons -S
+```
 
-#### NPM (recommended)
+#### Install legacy versions
+
+We no longer publish to ops-console npm registries. We will publish older versions of bluemix-icons to public npm on a per-request basis. All of our existing versions of bluemix-icons is still available on ops-console regsitries so you can follow these instructions to install them.
 
 Set up sinopia: This is the internal npm registry for Bluemix. Set up your repo to install icons from this registry to use bluemix-icons.
 
@@ -32,7 +36,6 @@ Finally, install bluemix-icons with `npm`.
 npm install --save @console/bluemix-icons
 ```
 
-
 #### Bower
 
 We don't support Bower anymore, please use npm instead.
@@ -42,7 +45,8 @@ You can also **download** a `.zip` or `.tar.gz` file from the [latest releases h
 
 # Polyfill
 
-Using `bluemix-icons` relies on the use of [external svg content](https://css-tricks.com/svg-sprites-use-better-icon-fonts/##Browser+Support) via `<use>` and `xlink:href`.
+Using `carbon-icons` or previous versions of `bluemix-icons` relies on the use of [external svg content](https://css-tricks.com/svg-sprites-use-better-icon-fonts/##Browser+Support) via `<use>` and `xlink:href`.
+
 For browser-compatibility, we require the use of the [svgxuse](https://github.com/Keyamoon/svgxuse) polyfill.
 
 Install `svgxuse` and include it in your HTML.
