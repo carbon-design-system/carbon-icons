@@ -22,9 +22,6 @@
     "carbon"
   ],
   "files": [
-    "carbon-icons.js",
-    "carbon-icons.json",
-    "carbon-icons.svg",
     "dist"
   ],
   "maintainers": [
