@@ -5,7 +5,7 @@
   "main": "carbon-icons.js",
   "private": false,
   "scripts": {
-    "dev": "nodemon -e html,svg src/server.js",
+    "dev": "nodemon -e html,svg src/test-server.js",
     "prebuild": "gulp clean",
     "build": "gulp build && gulp copy && gulp build:json",
     "postbuild": "rimraf dist/sprites",
