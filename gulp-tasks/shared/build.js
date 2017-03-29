@@ -13,9 +13,13 @@ const svgBuild = (src) => {
       return this.querySelector('body').innerHTML
     }, false))
     .pipe(svgo({
-      plugins: [{
-        removeTitle: true,
-      }]
+      js2svg: {
+        indent: 2,
+        pretty: true,
+      },
+      plugins: [
+        { removeTitle: true },
+      ]
     }));
 }
 
