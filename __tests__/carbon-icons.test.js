@@ -1,9 +1,9 @@
 const fs = require('fs');
 const chalk = require('chalk');
 
-const carbonIconsSvg = fs.readFileSync(`${__dirname}/../carbon-icons.svg`).toString('utf8');
-const carbonIconsJson = require('../carbon-icons.json');
-const carbonIconsJs = require('../carbon-icons.js');
+const carbonIconsSvg = fs.readFileSync(`${__dirname}/../dist/carbon-icons.svg`).toString('utf8');
+const carbonIconsJson = require('../dist/carbon-icons.json');
+const carbonIconsJs = require('../dist/carbon-icons.js');
 
 const name = (svg) => {
   return svg.getAttribute('id');
