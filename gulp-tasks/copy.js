@@ -1,23 +1,45 @@
 const gulp = require('gulp');
 const rename = require('gulp-rename');
 
-const src = {
-  current: 'sprites/symbol/**/*.{html,css,svg}',
-}
-
-const copy = () => {
-  gulp.src(src.current)
+function copySvg() {
+  return gulp.src('dist/sprites/symbol/**/*.svg')
     .pipe(rename(function (path) {
-      if (path.extname === '.html') {
-        path.basename = 'index';
-      }
-
       if (path.extname === '.svg') {
         path.basename = 'carbon-icons';
         path.dirname = '.'
       }
     }))
-    .pipe(gulp.dest('.'));
+    .pipe(gulp.dest('dist'));
+}
+
+
+function copyHtml() {
+  return gulp.src('dist/sprites/symbol/**/*.{html,css}')
+    .pipe(rename(function (path) {
+      if (path.extname === '.html') {
+        path.basename = 'index';
+      }
+    }))
+    .pipe(gulp.dest('dist'));
+}
+
+const copy = () => {
+  copySvg();
+  copyHtml();
+  // gulp.src('dist/sprites/symbol/**/*.{html,css,svg}')
+  //   .pipe(rename(function (path) {
+  //     if (path.extname === '.svg') {
+  //       path.basename = 'carbon-icons';
+  //       path.dirname = '.'
+  //     }
+  //   }))
+  //   .pipe(gulp.dest('.'))
+  //   .pipe(rename(function (path) {
+  //     if (path.extname === '.html') {
+  //       path.basename = 'index';
+  //     }
+  //   }))
+  //   .pipe(gulp.dest('dist'));
 }
 
 module.exports = copy;

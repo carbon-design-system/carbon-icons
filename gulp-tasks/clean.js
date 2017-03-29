@@ -4,9 +4,9 @@ const del = require('del');
 // Clean folders and files
 const clean = () => {
   return del([
+    '!dist/server.js',
     'dist',
     'index.html',
-    'sprites',
     'carbon-icons.{json,svg,js}',
   ]);
 }
