@@ -55,19 +55,25 @@ Files in svg/subfolders are deprecated and should not be used.
 
 It's still **highly recommended** to use SVG sprite because it will be easier to maintain your production code and keep up with future updates.
 
-### Main files
+### Main Assets
 
 Bluemix Icons ships with two main SVG files that contain different sets of external SVG sprite files:
 
-| filename | description | supported versions|
-|-----|--------|---------------|
-|carbon-icons.svg| Contains current icons (consolidated subset of legacy icons used in Bluemix) | `3.x` and newer|
-|carbon-icons.json| JSON file created from carbon-icons.svg, used on [design-system-website](http://design-system.stage1.mybluemix.net/essentials/iconography.html#library) | `3.x` and newer|
-|carbon-icons.js| JS module created from carbon-icons.svg, used in `Icon` React Component in [bluemix-components-react](https://github.ibm.com/Bluemix/bluemix-components-react) | `3.x` and newer|
-|sprite.svg| SVG sprite contains legacy icons (deprecated) | `1.x`, `2.x`, `3.x`, `4.x`, `5.x`|
-|icons.json| legacy JSON file created from sprite.svg (deprecated) | `1.x`, `2.x`, `3.x`, `4.x`, `5.x`|
-|legacy-icons.js| JS module created from sprite.svg | `3.x` only|
+| filename          | description                                                                                           | supported versions |
+|-------------------|-------------------------------------------------------------------------------------------------------|--------------------|
+| carbon-icons.svg  | Contains current icons (consolidated subset of legacy icons used in Bluemix)                          | `3.x` and newer    |
+| carbon-icons.json | JSON file created from carbon-icons.svg, used on [carbon-system-website]()                            | `3.x` and newer    |
+| carbon-icons.js   | JS module created from carbon-icons.svg, used in `Icon` React component in bluemix-components-react   | `3.x` and newer    |
+| dist              | Folder with production-ready SVG files used for inlining SVG                                          | `5.x` and newer    |
 
+
+### Deprecated Files
+
+| filename        | description                                           | supported versions                |
+|-----------------|-------------------------------------------------------|-----------------------------------|
+| sprite.svg      | SVG sprite contains legacy icons (deprecated)         | `1.x`, `2.x`, `3.x`, `4.x`, `5.x` |
+| icons.json      | legacy JSON file created from sprite.svg (deprecated) | `1.x`, `2.x`, `3.x`, `4.x`, `5.x` |
+| legacy-icons.js | JS module created from sprite.svg                     | `3.x` only                        |
 
 ### Accessibility (a11y)
 
