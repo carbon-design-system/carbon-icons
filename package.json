@@ -16,10 +16,6 @@
     "type": "git",
     "url": "https://github.com/carbon-design-system/carbon-icons"
   },
-  "engines": {
-    "node": "~6.0.0",
-    "npm": "~3.0.0"
-  },
   "keywords": [
     "icons",
     "bluemix",
