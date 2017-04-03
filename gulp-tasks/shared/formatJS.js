@@ -5,19 +5,13 @@
  */
 
 const formatJS = (rawJSON, options = {}) => {
+
   this.options = Object.assign({
     json: true,
   }, options);
 
-  const json = this.options.json;
-
   // iconMeta - returns new JSON Array of icon Objects
   const iconMeta = (rawJSON).map(symbol => {
-    // Split `id` key into an Array - [{{tags}}, '--', {{name}}]
-    const splitId = symbol.$.id.split('--');
-
-    let width = symbol.$.viewBox.split(' ')[2];
-    let height = symbol.$.viewBox.split(' ')[3];
 
     // For each "symbol.svg.symbol", create new Objects with these keys/values
     const data = {
@@ -26,8 +20,8 @@ const formatJS = (rawJSON, options = {}) => {
       tags: symbol.$.id,
       styles: symbol.style ? symbol.style : "",
       viewBox: symbol.$.viewBox || "",
-      width: width || "",
-      height: height || "",
+      width: symbol.$.viewBox.split(' ')[2] || "",
+      height: symbol.$.viewBox.split(' ')[3] || "",
       svgData: {
         circles: symbol.circle ? symbol.circle.map(attrValue => attrValue.$) : "",
         ellipses: symbol.ellipse ? symbol.ellipse.map(attrValue => attrValue.$) : "",
@@ -41,7 +35,7 @@ const formatJS = (rawJSON, options = {}) => {
     return data;
   });
 
-  return (json) ? JSON.stringify(iconMeta, null, 2) : iconMeta;
+  return (this.options.json) ? JSON.stringify(iconMeta, null, 2) : iconMeta;
 }
 
 module.exports = formatJS;

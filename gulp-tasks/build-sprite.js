@@ -17,18 +17,10 @@ const config = {
   }
 };
 
-const src = {
-  current: 'svg/*.svg',
-}
-
-const dest = {
-  current: './sprites',
-};
-
 const buildSprite = () => {
-  svgBuild(src.current)
+  svgBuild('src/svg/*.svg')
     .pipe(svgSprite(config))
-    .pipe(gulp.dest(dest.current));
+    .pipe(gulp.dest('./dist/sprites'));
 }
 
 module.exports = buildSprite;

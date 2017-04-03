@@ -5,7 +5,7 @@
   "main": "carbon-icons.js",
   "private": false,
   "scripts": {
-    "dev": "nodemon -e html,svg server.js",
+    "dev": "nodemon -e html,svg src/test-server.js",
     "prebuild": "gulp clean",
     "build": "gulp build && gulp copy && gulp build:json",
     "test": "jest"
@@ -21,9 +21,6 @@
     "carbon"
   ],
   "files": [
-    "carbon-icons.js",
-    "carbon-icons.json",
-    "carbon-icons.svg",
     "dist"
   ],
   "maintainers": [
@@ -40,11 +37,9 @@
     "gh-pages": "0.11.0",
     "gulp": "3.9.0",
     "gulp-dom": "0.9.0",
-    "gulp-gh-pages": "0.5.4",
     "gulp-rename": "1.2.2",
     "gulp-svg-sprite": "1.2.18",
     "gulp-svgo": "1.0.3",
-    "html": "^1.0.0",
     "jest": "16.0.2",
     "nodemon": "1.9.2",
     "remove-svg-properties": "0.3.2",
