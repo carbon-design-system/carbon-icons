@@ -8,7 +8,6 @@
     "dev": "nodemon -e html,svg src/test-server.js",
     "prebuild": "gulp clean",
     "build": "gulp build && gulp copy && gulp build:json",
-    "postbuild": "rimraf dist/sprites",
     "test": "jest"
   },
   "repository": {
