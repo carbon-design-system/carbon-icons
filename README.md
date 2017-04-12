@@ -11,6 +11,10 @@
 * [Usage](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/docs/usage.md)
 * [Contributing](https://github.ibm.com/Bluemix/bluemix-icons/blob/master/docs/contributing.md)
 
+## Deprecated
+
+- launch.svg and launch--glyph.svg are deprecated and will be redrawn for v6
+
 ## Migrating from 4.x to 5.x
 
 We had to make an emergency breaking change to namespace our svg `id` attributes.
