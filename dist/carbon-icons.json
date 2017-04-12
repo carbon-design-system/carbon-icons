@@ -1509,10 +1509,10 @@
       "ellipses": "",
       "paths": [
         {
-          "d": "M0 0v20h24V0H0zm22 18H2V4h20v14z"
+          "d": "M15.7 9.7L22 3.4V8h2V0h-8v2h4.6l-6.3 6.3z"
         },
         {
-          "d": "M11.7 15.7L18 9.4V14h2V6h-8v2h4.6l-6.3 6.3z"
+          "d": "M22 18H2V4h10V0H0v20h24v-8h-2z"
         }
       ],
       "polygons": "",
@@ -1525,7 +1525,7 @@
     "name": "icon--launch--glyph",
     "tags": "icon--launch--glyph",
     "styles": "",
-    "viewBox": "0 0 16 16",
+    "viewBox": "-3 5 16 16",
     "width": "16",
     "height": "16",
     "svgData": {
@@ -1533,10 +1533,10 @@
       "ellipses": "",
       "paths": [
         {
-          "d": "M0 0v16h16V0H0zm2 14V4h12v10H2z"
+          "d": "M7.5 12l3.6-3.6V11H13V5H7.1v2h2.5l-3.5 3.5z"
         },
         {
-          "d": "M6.474 12.952L10 9.412V12h1.938V6H6v2h2.573l-3.515 3.54z"
+          "d": "M11 19H-1V9h5V5h-7v16h16v-7h-2z"
         }
       ],
       "polygons": "",
