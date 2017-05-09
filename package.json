@@ -63,9 +63,6 @@
     "xml2js": "0.4.17"
   },
   "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    },
     "validate-commit-msg": {
       "maxSubjectLength": 100,
       "subjectPattern": ".+",
