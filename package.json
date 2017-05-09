@@ -10,7 +10,8 @@
     "build:bluemix-icons": "gulp build && gulp copy && gulp build:json",
     "build:legacy": "gulp build:svgSprite --legacy && gulp copy --legacy && gulp build:json --legacy",
     "build": "npm run build:bluemix-icons && npm run build:legacy",
-    "test": "jest"
+    "test": "jest",
+    "commitmsg": "validate-commit-msg"
   },
   "repository": {
     "type": "git",
