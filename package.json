@@ -1,6 +1,6 @@
 {
   "name": "carbon-icons",
-  "version": "5.2.1",
+  "version": "0.0.0-development",
   "description": "SVG icons as sprite for Bluemix",
   "main": "carbon-icons.js",
   "private": false,
@@ -11,7 +11,8 @@
     "build:legacy": "gulp build:svgSprite --legacy && gulp copy --legacy && gulp build:json --legacy",
     "build": "npm run build:bluemix-icons && npm run build:legacy",
     "test": "jest",
-    "commitmsg": "validate-commit-msg"
+    "commitmsg": "validate-commit-msg",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -59,9 +60,11 @@
     "jest": "16.0.2",
     "nodemon": "1.9.2",
     "remove-svg-properties": "0.3.2",
+    "semantic-release-cli": "^3.0.3",
     "svgxuse": "1.1.16",
     "validate-commit-msg": "^2.12.1",
-    "xml2js": "0.4.17"
+    "xml2js": "0.4.17",
+    "semantic-release": "^6.3.6"
   },
   "config": {
     "validate-commit-msg": {
