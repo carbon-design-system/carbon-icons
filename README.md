@@ -1,6 +1,6 @@
 # Carbon Icons
 
-## Install
+[![Build Status](https://travis-ci.org/carbon-design-system/carbon-icons.svg?branch=master)](https://travis-ci.org/carbon-design-system/carbon-icons)
 
 ```sh
 npm i carbon-icons -S
