@@ -5,14 +5,14 @@ cache:
 notifications:
   email: false
 node_js:
-  - '7'
   - '6'
 install: npm install
 before_script:
   - npm prune
-after_success:
+script:
   - npm run build
   - npm test
+after_success:
   - npm run semantic-release
 branches:
   except:
