@@ -1,6 +1,6 @@
 {
   "name": "carbon-icons",
-  "version": "0.0.0-development",
+  "version": "5.1.2",
   "description": "SVG icons as sprite for Bluemix",
   "main": "carbon-icons.js",
   "private": false,
@@ -60,7 +60,6 @@
     "jest": "16.0.2",
     "nodemon": "1.9.2",
     "remove-svg-properties": "0.3.2",
-    "semantic-release-cli": "^3.0.3",
     "svgxuse": "1.1.16",
     "validate-commit-msg": "^2.12.1",
     "xml2js": "0.4.17",
