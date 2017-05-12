@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
-    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard 1</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <path d="M30.707,8.293 L24,1.586 L17.293,8.293 L18.707,9.707 L23,5.414 L23,19 C23,24.514 18.514,29 13,29 C7.486,29 3,24.514 3,19 C3,16.329 4.04,13.818 5.929,11.929 L4.515,10.515 C2.248,12.782 1,15.795 1,19 C1,25.617 6.383,31 13,31 C19.617,31 25,25.617 25,19 L25,5.414 L29.293,9.707 L30.707,8.293 L30.707,8.293 L30.707,8.293 Z" id="Shape"></path>
-    <circle id="Oval" cx="13" cy="19" r="3"></circle>
-</svg>

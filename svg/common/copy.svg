@@ -1,7 +1,0 @@
-<svg width="18px" height="24px" viewBox="0 0 18 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
-  <path d="M13,4 L13,0 L0,0 L0,19 L4,19 L4,24 L18,24 L18,4 L13,4 L13,4 Z M4,17 L2,17 L2,2 L11,2 L11,4 L4,4 L4,17 L4,17 L4,17 L4,17 Z M16,22 L6,22 L6,6 L16,6 L16,22 L16,22 Z" id="Shape"></path>
-  <rect id="Rectangle-path" x="8" y="9" width="6" height="1"></rect>
-  <rect id="Rectangle-path_1_" x="8" y="11" width="6" height="1"></rect>
-  <polyline id="Rectangle-path_4_" points="8 14 8 13 14 13 14 14"></polyline>
-  <rect id="Rectangle-path_3_" x="8" y="15" width="3" height="1"></rect>
-</svg>

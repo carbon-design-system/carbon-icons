@@ -1,9 +1,4 @@
 node_modules
 .DS_Store
 npm-debug.log
-.publish
-original-svg
-svg/redraw-icons.zip
-build
-sprites
 yarn.lock
