@@ -15,4 +15,3 @@ npm i carbon-icons -S
   - [v4](https://github.com/carbon-design-system/carbon-icons/blob/6.x/docs/migration-guides/migration-v4.md)
   - [v5](https://github.com/carbon-design-system/carbon-icons/blob/6.x/docs/migration-guides/migration-v5.md)
   - [v6](https://github.com/carbon-design-system/carbon-icons/blob/6.x/docs/migration-guides/migration-v6.md)
-
