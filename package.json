@@ -8,7 +8,8 @@
     "dev": "nodemon -e html,svg src/test-server.js",
     "prebuild": "gulp clean",
     "build": "gulp build && gulp copy && gulp build:json",
-    "test": "jest"
+    "test": "jest",
+    "commitmsg": "validate-commit-msg"
   },
   "repository": {
     "type": "git",
@@ -40,10 +41,31 @@
     "gulp-rename": "1.2.2",
     "gulp-svg-sprite": "1.2.18",
     "gulp-svgo": "1.0.3",
-    "jest": "16.0.2",
+    "html": "^1.0.0",
+    "husky": "^0.13.3",
     "nodemon": "1.9.2",
     "remove-svg-properties": "0.3.2",
     "svgxuse": "1.1.16",
+    "validate-commit-msg": "^2.12.1",
     "xml2js": "0.4.17"
+  },
+  "config": {
+    "validate-commit-msg": {
+      "maxSubjectLength": 100,
+      "subjectPattern": ".+",
+      "subjectPatternErrorMsg": "Subject does not match subject pattern!",
+      "types": [
+        "chore",
+        "docs",
+        "feat",
+        "fix",
+        "perf",
+        "refactor",
+        "revert",
+        "style",
+        "test"
+      ],
+      "warnOnFail": false
+    }
   }
 }
