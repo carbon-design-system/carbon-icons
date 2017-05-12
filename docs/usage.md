@@ -15,9 +15,6 @@ Note that SVG files in dist folder only include most current icons reflected in 
 > - Serve carbon-icons.svg as a static asset
 > - Use carbon-icons.svg from same origin to avoid CORS issues.
 
-	
-Full installation details in [GitHub](https://github.com/carbon-design-system/carbon-icons/blob/master/docs/install.md). 
-
 ### Using SVG sprite from static assets (recommended)
 
 Use the SVG sprite (__carbon-icons.svg__) by serving it as a static asset. Note that the use of [external svg content](https://css-tricks.com/svg-sprites-use-better-icon-fonts/##Browser+Support) via `<use>` and `xlink:href` is only compatible when using [svgxuse](https://github.com/Keyamoon/svgxuse) polyfill (`npm i svgxuse -D`).
