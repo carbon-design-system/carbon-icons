@@ -10,7 +10,8 @@
     "build:bluemix-icons": "gulp build && gulp copy && gulp build:json",
     "build:legacy": "gulp build:svgSprite --legacy && gulp copy --legacy && gulp build:json --legacy",
     "build": "npm run build:bluemix-icons && npm run build:legacy",
-    "test": "jest"
+    "test": "jest",
+    "commitmsg": "validate-commit-msg"
   },
   "repository": {
     "type": "git",
@@ -54,10 +55,31 @@
     "gulp-svgo": "1.0.3",
     "gulp-util": "3.0.7",
     "html": "^1.0.0",
+    "husky": "^0.13.3",
     "jest": "16.0.2",
     "nodemon": "1.9.2",
     "remove-svg-properties": "0.3.2",
     "svgxuse": "1.1.16",
+    "validate-commit-msg": "^2.12.1",
     "xml2js": "0.4.17"
+  },
+  "config": {
+    "validate-commit-msg": {
+      "maxSubjectLength": 100,
+      "subjectPattern": ".+",
+      "subjectPatternErrorMsg": "Subject does not match subject pattern!",
+      "types": [
+        "chore",
+        "docs",
+        "feat",
+        "fix",
+        "perf",
+        "refactor",
+        "revert",
+        "style",
+        "test"
+      ],
+      "warnOnFail": false
+    }
   }
 }
