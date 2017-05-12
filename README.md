@@ -20,10 +20,5 @@ yarn add carbon-icons -S
 
 ## Links
 
-### Public:
-
 - [Carbon Design System - Iconography](http://carbondesignsystem.com/style/iconography/library)
-
-### IBM only:
-
-- [service-icons-temp](https://github.ibm.com/bthan/service-icons-temp): temporary place for service icons; previously hosted on IBM Release Blueprints.
+- [service-icons-temp repo](https://github.ibm.com/bthan/service-icons-temp): temporary place for service icons; previously hosted on IBM Release Blueprints. (IBM only)
