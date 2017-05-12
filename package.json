@@ -75,6 +75,7 @@
       "subjectPattern": ".+",
       "subjectPatternErrorMsg": "Subject does not match subject pattern!",
       "types": [
+        "build",
         "chore",
         "docs",
         "feat",
@@ -83,7 +84,8 @@
         "refactor",
         "revert",
         "style",
-        "test"
+        "test",
+        "ci"
       ],
       "warnOnFail": false
     },
