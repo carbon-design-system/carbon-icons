@@ -17,14 +17,26 @@ Note that SVG files in dist folder only include most current icons reflected in 
 
 ### Using SVG sprite from static assets (recommended)
 
-Use the SVG sprite (__carbon-icons.svg__) by serving it as a static asset. Note that the use of [external svg content](https://css-tricks.com/svg-sprites-use-better-icon-fonts/##Browser+Support) via `<use>` and `xlink:href` is only compatible when using [svgxuse](https://github.com/Keyamoon/svgxuse) polyfill (`npm i svgxuse -D`).
+Install carbon-icons and svgxuse so you can use carbon-icons.svg and svgxuse.js.
+
+```sh
+npm i carbon-icons svgxuse
+```
+
+Use the SVG sprite (__carbon-icons.svg__) by serving it as a static asset. 
+Note that the use of [external svg content](https://css-tricks.com/svg-sprites-use-better-icon-fonts/##Browser+Support) via `<use>` and `xlink:href` is only compatible when using [svgxuse.js](https://github.com/Keyamoon/svgxuse) polyfill.
+
+Move the carbon-icons.svg and svgxuse.js files from node_modules to a folder where you will serve your static assets from. They will be located in node_modules/carbon-icons and node_modules/svgxuse respectively.
+
+> svgxuse is also available via CDN at [https://unpkg.com/svgxuse@1.2.4/svgxuse.js](https://unpkg.com/svgxuse@1.2.4/svgxuse.js)
 
 **server.js (`express`)**
 ```js
 const express = require('express');
 const app = express();
 
-app.use(express.static('node_modules'));
+// static assets are served from a folder named dist
+app.use(express.static('dist'));
 
 ...
 ```
@@ -35,12 +47,13 @@ app.use(express.static('node_modules'));
   ...
   <svg>
     <title>Add new users to your account</title>
-    <use xlink:href="/carbon-icons/carbon-icons.svg#icon--add--glyph"></use>
+    <use xlink:href="/carbon-icons.svg#icon--add--glyph"></use>
   </svg>
   ...
-  <script src="/svgxuse/svgxuse.js" defer></script>
+  <script src="/svgxuse.js" defer></script>
 </body>
 ```
+You can do a simple copy and paste, setup an automated task to move the files out of node_modules or do whatever is the best fit for your project. 
 
 ### CSS overrides
 
@@ -48,7 +61,7 @@ You can override how an SVG icon looks using CSS.
 
 ```html
 <svg class="icon">
-  <use xlink:href="/carbon-icons/carbon-icons.svg#icon--add--glyph"></use>
+  <use xlink:href="/carbon-icons.svg#icon--add--glyph"></use>
 </svg>
 ```
 
@@ -79,7 +92,7 @@ For screen reader accessibility, use `<title>` element.
 ```html
 <svg class="icon">
   <title>Add a new service</title>
-  <use xlink:href="/carbon-icons/carbon-icons.svg#icon--add--glyph"></use>
+  <use xlink:href="/carbon-icons.svg#icon--add--glyph"></use>
 </svg>
 ```
 
