@@ -17,9 +17,18 @@ Note that SVG files in dist folder only include most current icons reflected in 
 
 ### Using SVG sprite from static assets (recommended)
 
-Use the SVG sprite (__carbon-icons.svg__) by serving it as a static asset. Note that the use of [external svg content](https://css-tricks.com/svg-sprites-use-better-icon-fonts/##Browser+Support) via `<use>` and `xlink:href` is only compatible when using [svgxuse](https://github.com/Keyamoon/svgxuse) polyfill (`npm i svgxuse -D`).
+Install carbon-icons and svgxuse so you can use carbon-icons.svg and svgxuse.js.
 
-After installing carbon-icons and svgxuse, move the [carbon-icons.svg]() and svgxuse.js files from **node_modules** to a folder where you will serve your static assets from. They will be located in node_modules/carbon-icons and node_modules/svgxuse respectively.
+```sh
+npm i carbon-icons svgxuse
+```
+
+Use the SVG sprite (__carbon-icons.svg__) by serving it as a static asset. 
+Note that the use of [external svg content](https://css-tricks.com/svg-sprites-use-better-icon-fonts/##Browser+Support) via `<use>` and `xlink:href` is only compatible when using [svgxuse.js](https://github.com/Keyamoon/svgxuse) polyfill.
+
+Move the carbon-icons.svg and svgxuse.js files from node_modules to a folder where you will serve your static assets from. They will be located in node_modules/carbon-icons and node_modules/svgxuse respectively.
+
+> svgxuse is also available via CDN at [https://unpkg.com/svgxuse@1.2.4/svgxuse.js](https://unpkg.com/svgxuse@1.2.4/svgxuse.js)
 
 **server.js (`express`)**
 ```js
