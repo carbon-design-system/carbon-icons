@@ -2,7 +2,7 @@
   "name": "carbon-icons",
   "version": "6.0.2",
   "description": "SVG icons as sprite for Bluemix",
-  "main": "carbon-icons.js",
+  "main": "dist/carbon-icons.js",
   "private": false,
   "scripts": {
     "dev": "nodemon -e html,svg src/test-server.js",
