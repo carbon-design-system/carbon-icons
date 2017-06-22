@@ -42,6 +42,7 @@
     "gh-pages": "0.11.0",
     "gulp": "3.9.0",
     "gulp-dom": "0.9.0",
+    "gulp-edit-xml": "^2.0.0",
     "gulp-rename": "1.2.2",
     "gulp-svg-sprite": "1.2.18",
     "gulp-svgo": "1.0.3",
@@ -51,6 +52,8 @@
     "npm-run-all": "^4.0.2",
     "remove-svg-properties": "0.3.2",
     "semantic-release": "^6.3.6",
+    "smart-svg-path": "^1.0.2",
+    "svg-points": "^5.0.0",
     "svgxuse": "1.1.16",
     "validate-commit-msg": "^2.12.1",
     "xml2js": "0.4.17"
