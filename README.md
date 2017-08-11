@@ -30,3 +30,5 @@ yarn add carbon-icons -S
 - `header--help`
 - `header--notifciation`
 - `header--ticket`
+- `whisk`
+- `open-whisk`
