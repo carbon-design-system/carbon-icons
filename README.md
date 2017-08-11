@@ -22,3 +22,11 @@ yarn add carbon-icons -S
 
 - [Carbon Design System - Iconography](http://carbondesignsystem.com/style/iconography/library)
 - [service-icons-temp repo](https://github.ibm.com/bthan/service-icons-temp): temporary place for service icons; previously hosted on IBM Release Blueprints. (IBM only)
+
+## Deprecated
+
+- `header--contact`
+- `header--docs`
+- `header--help`
+- `header--notifciation`
+- `header--ticket`
