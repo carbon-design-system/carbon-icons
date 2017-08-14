@@ -12,12 +12,7 @@ const formatJS = (rawJSON, options = {}) => {
     options
   );
 
-  // iconMeta - returns new JSON Array of icon Objects
   const iconMeta = rawJSON.map(symbol => {
-    // For each "symbol.svg.symbol", create new Objects with these keys/values
-    // console.log(JSON.stringify(symbol.path.map(path => path.$.d), null, 2));
-    // console.log(JSON.stringify(symbol, null, 2));
-
     const name = symbol.$.id.split("icon--").join("");
     const viewBox = symbol.$.viewBox || "";
     const width = parseInt(symbol.$.viewBox.split(" ")[2]) || "";
@@ -28,10 +23,11 @@ const formatJS = (rawJSON, options = {}) => {
       .join("");
 
     const data = {
+      id: `icon--${name}`,
       name,
-      viewBox,
       width,
       height,
+      viewBox,
       url: `https://unpkg.com/carbon-icons/dist/svg/${name}.svg`,
       paths,
       svgString: `<svg viewBox='${viewBox}' width='${width}' height='${height}' fill-rule='evenodd'><title>${name}</title>${pathsXML}</svg>`
