@@ -25,10 +25,10 @@ yarn add carbon-icons -S
 
 ## Deprecated
 
-- `header--contact`
-- `header--docs`
-- `header--help`
-- `header--notifciation`
-- `header--ticket`
-- `whisk`
-- `open-whisk`
+- `header--contact`: not used anymore
+- `header--docs`: not used anymore
+- `header--help`: not used anymore
+- `header--notifciation`: not used anymore
+- `header--ticket`: not used anymore
+- `whisk`: old icon; replaced by `functions`
+- `open-whisk`: old icon; replaced by `functions`
