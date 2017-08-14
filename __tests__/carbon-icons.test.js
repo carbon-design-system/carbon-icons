@@ -1,14 +1,14 @@
-const fs = require('fs');
-const chalk = require('chalk');
+const fs = require("fs");
+const chalk = require("chalk");
 
 const carbonIconsSvg = fs
   .readFileSync(`${__dirname}/../dist/carbon-icons.svg`)
-  .toString('utf8');
-const carbonIconsJson = require('../dist/carbon-icons.json');
-const carbonIconsJs = require('../dist/carbon-icons.js');
+  .toString("utf8");
+const carbonIconsJson = require("../dist/carbon-icons.json");
+const carbonIconsJs = require("../dist/carbon-icons.js");
 
 const name = svg => {
-  return svg.getAttribute('id');
+  return svg.getAttribute("id");
 };
 
 const warning = (svgName, message) => {
@@ -20,43 +20,45 @@ const warning = (svgName, message) => {
   );
 };
 
-describe('carbon-icons.svg', () => {
+describe("carbon-icons.svg", () => {
   document.body.innerHTML = carbonIconsSvg;
-  const symbols = [...document.querySelectorAll('symbol')];
+  const symbols = [...document.querySelectorAll("symbol")];
 
-  it('should have fill-rule', () => {
+  it("should have fill-rule", () => {
     symbols.forEach(symbol => {
-      if (!symbol.hasAttribute('fill-rule')) {
-        warning(name(symbol), 'fill-rule is missing');
+      if (!symbol.hasAttribute("fill-rule")) {
+        warning(name(symbol), "fill-rule is missing");
       }
-      expect(symbol.hasAttribute('fill-rule')).toBe(true);
+      expect(symbol.hasAttribute("fill-rule")).toBe(true);
     });
   });
 
-  it('should not have circle attrs (cx, cy, r)', () => {
+  it("should not have circle attrs (cx, cy, r)", () => {
     symbols.forEach(symbol => {
-      expect(symbol.hasAttribute('cx')).toBe(false);
-      expect(symbol.hasAttribute('cy')).toBe(false);
-      expect(symbol.hasAttribute('r')).toBe(false);
+      expect(symbol.hasAttribute("cx")).toBe(false);
+      expect(symbol.hasAttribute("cy")).toBe(false);
+      expect(symbol.hasAttribute("r")).toBe(false);
     });
   });
 
   it('should have [fill-rule="evenodd"]', () => {
     symbols.forEach(symbol => {
-      if (symbol.getAttribute('fill-rule') !== 'evenodd') {
+      if (symbol.getAttribute("fill-rule") !== "evenodd") {
         warning(
           name(symbol),
-          `fill-rule is: ${symbol.getAttribute('fill-rule')}\n\t...should be evenodd`
+          `fill-rule is: ${symbol.getAttribute(
+            "fill-rule"
+          )}\n\t...should be evenodd`
         );
       }
-      expect(symbol.getAttribute('fill-rule')).toEqual('evenodd');
+      expect(symbol.getAttribute("fill-rule")).toEqual("evenodd");
     });
   });
 
-  it('should not have duplicate id attributes', () => {
+  it("should not have duplicate id attributes", () => {
     const sortedList = symbols
       .map(symbol => {
-        return symbol.getAttribute('id');
+        return symbol.getAttribute("id");
       })
       .sort();
 
@@ -75,96 +77,54 @@ describe('carbon-icons.svg', () => {
   });
 });
 
-describe('carbon-icons.json', () => {
-  it('should have an id', () => {
+describe("carbon-icons.json", () => {
+  it("should have an id", () => {
     carbonIconsJson.forEach(object => {
-      expect(object.id).not.toEqual('');
+      expect(object.id).not.toEqual("");
     });
   });
 
-  it('should have width greater than 0', () => {
+  it("should have width greater than 0", () => {
     carbonIconsJson.forEach(object => {
-      expect(object.width).not.toEqual('');
+      expect(object.width).not.toEqual("");
       expect(Number(object.width)).toBeGreaterThan(0);
     });
   });
 
-  it('should have height greater than 0', () => {
+  it("should have height greater than 0", () => {
     carbonIconsJson.forEach(object => {
-      expect(object.width).not.toEqual('');
+      expect(object.width).not.toEqual("");
       expect(Number(object.width)).toBeGreaterThan(0);
     });
   });
 
-  it('should have a name', () => {
+  it("should have a name", () => {
     carbonIconsJson.forEach(object => {
-      expect(object.name).not.toEqual('');
+      expect(object.name).not.toEqual("");
     });
   });
 
-  it('should have tags', () => {
+  it("should have a viewBox", () => {
     carbonIconsJson.forEach(object => {
-      expect(object.tags).not.toEqual('');
+      expect(object.viewBox).not.toEqual("");
     });
   });
 
-  it('should have empty styles', () => {
-    carbonIconsJson.forEach(object => {
-      expect(object.styles).toEqual('');
-    });
-  });
-
-  it('should have a viewBox', () => {
-    carbonIconsJson.forEach(object => {
-      expect(object.viewBox).not.toEqual('');
-    });
-  });
-
-  it('should have empty data for circles', () => {
-    carbonIconsJson.forEach(object => {
-      expect(object.svgData.circles).toEqual('');
-    });
-  });
-
-  it('should have empty data for polygons', () => {
-    carbonIconsJson.forEach(object => {
-      expect(object.svgData.polygons).toEqual('');
-    });
-  });
-
-  it('should have empty data for ellipses', () => {
-    carbonIconsJson.forEach(object => {
-      expect(object.svgData.ellipses).toEqual('');
-    });
-  });
-
-  it('should have empty data for polylines', () => {
-    carbonIconsJson.forEach(object => {
-      expect(object.svgData.polylines).toEqual('');
-    });
-  });
-
-  it('should have empty data for rects', () => {
-    carbonIconsJson.forEach(object => {
-      expect(object.svgData.rects).toEqual('');
-    });
-  });
-
-  it('each svgData object should have a path value', () => {
+  it("each svgData object should have a path value", () => {
     carbonIconsJson.forEach(object => {
       let dataCount = 0;
-      dataCount += object.svgData.paths.length;
+      dataCount += object.paths.length;
       expect(dataCount).toBeGreaterThan(0);
     });
   });
 });
 
-describe('carbon-icons.js', () => {
-  it('should be an object', () => {
-    expect(typeof carbonIconsJs).toBe('object');
+describe("carbon-icons.js", () => {
+  it("should be an object", () => {
+    expect(typeof carbonIconsJs).toBe("object");
   });
 
-  it('should have length greater than 0', () => {
+  it("should have length greater than 0", () => {
     expect(carbonIconsJs.length).toBeGreaterThan(0);
   });
 });
