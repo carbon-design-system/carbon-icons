@@ -15,7 +15,10 @@ We use the following naming convention for SVG filenames:
 
 ### Submitting new SVG icons
 
-Make a pull request. Add new icons to [**src/svg**]() folder.
+Make a pull request and add new icons to [**src/svg**](https://github.com/carbon-design-system/carbon-icons/tree/master/src/svg) folder.
+You can also create a new issue with your SVG code; copy and paste it into your created issue. A Carbon team member will submit it for you. You can get SVG code using Sketch.
+
+![sketch](https://user-images.githubusercontent.com/4185382/30172200-bc48bb9a-93b9-11e7-96d6-e968e88cfd79.png)
 
 ### Prepping SVG XML code
 
