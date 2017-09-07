@@ -2,7 +2,7 @@
 
 These are contributing guidelines for adding Bluemix UI icons.
 
-> For internal service logo icons and everything else, make a pull request to [service-icons-temp repo](https://github.ibm.com/bthan/service-icons-temp), follow [contributing guidelines](https://github.ibm.com/bthan/service-icons-temp/blob/master/CONTRIBUTING.md).
+> For internal service logo icons, you will need to rely on your service broker. Talk to your engineering team for further steps. 
 
 ### Naming SVG files
 
