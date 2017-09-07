@@ -11,7 +11,7 @@ yarn add carbon-icons -S
 ## :books: Docs
 
 * [Usage](https://github.com/carbon-design-system/carbon-icons/blob/master/docs/usage.md)
-* [Contributing](https://github.com/carbon-design-system/carbon-icons/blob/master/docs/contributing.md)
+* [Contributing](https://github.com/carbon-design-system/carbon-icons/blob/master/CONTRIBUTING.md)
 * [Migration Guides](https://github.com/carbon-design-system/carbon-icons/tree/master/docs/migration-guides)
   - [v3](https://github.com/carbon-design-system/carbon-icons/tree/master/docs/migration-guides/migration-v3.md)
   - [v4](https://github.com/carbon-design-system/carbon-icons/tree/master/docs/migration-guides/migration-v4.md)
