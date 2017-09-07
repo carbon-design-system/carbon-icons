@@ -20,6 +20,7 @@ yarn add carbon-icons -S
 
 ## Links
 
+- [CDN - Unpkg](https://unpkg.com/carbon-icons@6.1.0/dist/)
 - [Carbon Design System - Iconography](http://carbondesignsystem.com/style/iconography/library)
 - [service-icons-temp repo (IBM only)](https://github.ibm.com/bthan/service-icons-temp): temporary place for service icons that were previously hosted on IBM Release Blueprints. All new service icons should be given to your service broker.
 
