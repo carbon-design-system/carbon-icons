@@ -13,18 +13,18 @@ const formatJS = (rawJSON, options = {}) => {
   );
 
   const iconMeta = rawJSON.map(symbol => {
-    const name = symbol.$.id.split("icon--").join("");
-    const viewBox = symbol.$.viewBox || "";
-    const width = parseInt(symbol.$.viewBox.split(" ")[2]) || "";
-    const height = parseInt(symbol.$.viewBox.split(" ")[3]) || "";
+    const name = symbol.$.id.split('icon--').join('');
+    const viewBox = symbol.$.viewBox || '';
+    const width = parseInt(symbol.$.viewBox.split(' ')[2]) || '';
+    const height = parseInt(symbol.$.viewBox.split(' ')[3]) || '';
     const paths = symbol.path.map(path => path.$.d);
     const pathsXML = paths
       .map(pathData => `<path d='${pathData}'></path>`)
-      .join("");
+      .join('');
 
     const data = {
-      id: `icon--${name}`,
       name,
+      nameWithPrefix: `icon--${name}`,
       width,
       height,
       viewBox,
