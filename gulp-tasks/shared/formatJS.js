@@ -5,37 +5,38 @@
  */
 
 const formatJS = (rawJSON, options = {}) => {
+  this.options = Object.assign(
+    {
+      json: true
+    },
+    options
+  );
 
-  this.options = Object.assign({
-    json: true,
-  }, options);
+  const iconMeta = rawJSON.map(symbol => {
+    const name = symbol.$.id.split('icon--').join('');
+    const viewBox = symbol.$.viewBox || '';
+    const width = parseInt(symbol.$.viewBox.split(' ')[2]) || '';
+    const height = parseInt(symbol.$.viewBox.split(' ')[3]) || '';
+    const paths = symbol.path.map(path => path.$.d);
+    const pathsXML = paths
+      .map(pathData => `<path d='${pathData}'></path>`)
+      .join('');
 
-  // iconMeta - returns new JSON Array of icon Objects
-  const iconMeta = (rawJSON).map(symbol => {
-
-    // For each "symbol.svg.symbol", create new Objects with these keys/values
     const data = {
-      id: symbol.$.id,
-      name: symbol.$.id,
-      tags: symbol.$.id,
-      styles: symbol.style ? symbol.style : "",
-      viewBox: symbol.$.viewBox || "",
-      width: symbol.$.viewBox.split(' ')[2] || "",
-      height: symbol.$.viewBox.split(' ')[3] || "",
-      svgData: {
-        circles: symbol.circle ? symbol.circle.map(attrValue => attrValue.$) : "",
-        ellipses: symbol.ellipse ? symbol.ellipse.map(attrValue => attrValue.$) : "",
-        paths: symbol.path ? symbol.path.map(attrValue => attrValue.$) : "",
-        polygons: symbol.polygon ? symbol.polygon.map(attrValue => attrValue.$) : "",
-        polylines: symbol.polyline ? symbol.polyline.map(attrValue => attrValue.$) : "",
-        rects: symbol.rect ? symbol.rect.map(attrValue => attrValue.$) : "",
-      }
+      name,
+      nameWithPrefix: `icon--${name}`,
+      width,
+      height,
+      viewBox,
+      url: `https://unpkg.com/carbon-icons/dist/svg/${name}.svg`,
+      paths,
+      svgString: `<svg viewBox='${viewBox}' width='${width}' height='${height}' fill-rule='evenodd'><title>${name}</title>${pathsXML}</svg>`
     };
 
     return data;
   });
 
-  return (this.options.json) ? JSON.stringify(iconMeta, null, 2) : iconMeta;
-}
+  return this.options.json ? JSON.stringify(iconMeta, null, 2) : iconMeta;
+};
 
 module.exports = formatJS;
