@@ -30,9 +30,21 @@ module.exports = () => readFilePromisified(`./dist/carbon-icons.svg`, { 'encodin
         typeof define === 'function' && define.amd ? define(factory) :
         typeof module === 'object' && module.exports ? (module.exports = factory()) :
         (global.CarbonIcons = factory());
-      })(this, function () { return ${stringified}; });`),
-      writeFilePromisified(`./dist/carbon-icons.es.js`, formatted
+      })(this, function () {
+        var icons = ${stringified};
+        function camelCaseFromHyphnated(s) {
+          return s.replace(/\-+([A-z])/g, (match, token) => token.toUpperCase());
+        }
+        icons.forEach(function (item, i) {
+          icons[camelCaseFromHyphnated(item.id)] = icons[i];
+        });
+        return icons;
+      });`),
+      writeFilePromisified(`./dist/carbon-icons-list.js`, formatted
         .map(item => `export const ${camelCaseFromHyphnated(item.id)} = ${JSON.stringify(item, null, 2)};`)
         .join('\n\n')),
+      writeFilePromisified(`./dist/carbon-icons.es.js`, `export * from './carbon-icons-list';
+        import * as icons from './carbon-icons-list';
+        export default (function () { return Object.keys(icons).map(function (key) { return icons[key]; }); })();`)
     ]);
   });
