@@ -41,7 +41,7 @@ module.exports = () => readFilePromisified(`./dist/carbon-icons.svg`, { 'encodin
         return icons;
       });`),
       writeFilePromisified(`./dist/carbon-icons-list.js`, formatted
-        .map(item => `export const ${camelCaseFromHyphnated(item.id)} = ${JSON.stringify(item, null, 2)};`)
+        .map(item => `export var ${camelCaseFromHyphnated(item.id)} = ${JSON.stringify(item, null, 2)};`)
         .join('\n\n')),
       writeFilePromisified(`./dist/carbon-icons.es.js`, `export * from './carbon-icons-list';
         import * as icons from './carbon-icons-list';
