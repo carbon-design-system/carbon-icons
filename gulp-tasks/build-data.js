@@ -33,7 +33,7 @@ module.exports = () => readFilePromisified(`./dist/carbon-icons.svg`, { 'encodin
       })(this, function () {
         var icons = ${stringified};
         function camelCaseFromHyphnated(s) {
-          return s.replace(/\-+([A-z])/g, (match, token) => token.toUpperCase());
+          return s.replace(/\-+([A-z])/g, function (match, token) { return token.toUpperCase(); });
         }
         icons.forEach(function (item, i) {
           icons[camelCaseFromHyphnated(item.id)] = icons[i];
