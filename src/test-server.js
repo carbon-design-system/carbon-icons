@@ -13,7 +13,7 @@ app.get('/test', (req, res) => {
 });
 
 app.listen(3333, function() {
-console.log(`
+  console.log(`
 Icon pages running:
 - index.html ==> http://localhost:3333
 - test.html ==> http://localhost:3333/test

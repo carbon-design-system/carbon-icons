@@ -9,6 +9,6 @@ const clean = () => {
     'index.html',
     'carbon-icons.{json,svg,js}',
   ]);
-}
+};
 
 module.exports = clean;

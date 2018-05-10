@@ -46,7 +46,9 @@ describe('carbon-icons.svg', () => {
       if (symbol.getAttribute('fill-rule') !== 'evenodd') {
         warning(
           name(symbol),
-          `fill-rule is: ${symbol.getAttribute('fill-rule')}\n\t...should be evenodd`
+          `fill-rule is: ${symbol.getAttribute(
+            'fill-rule'
+          )}\n\t...should be evenodd`
         );
       }
       expect(symbol.getAttribute('fill-rule')).toEqual('evenodd');
