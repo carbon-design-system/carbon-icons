@@ -1,3 +1,10 @@
-<svg width="12px" height="8px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
-	<polygon id="SVGID_1_" stroke="none" fill="#000000" points="1.4 7.5 6 2.8 10.6 7.5 12 6.1 6 0 0 6.1"></polygon>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="7px" viewBox="0 0 12 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron--up</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="chevron--up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="chevron" fill="#000000" fill-rule="nonzero" points="5.99408113 1.44972267 0.726461685 6.99971556 -5.79924997e-13 6.31479463 5.99350948 2.93098879e-14 11.996192 6.31451019 11.2702706 7"></polygon>
+    </g>
 </svg>
