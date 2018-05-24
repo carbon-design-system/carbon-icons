@@ -1,11 +1,11 @@
-<svg width="18px" height="24px" viewBox="0 0 18 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>copy</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="copy--new" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M13,5 L13,0 L0,0 L0,19 L5,19 L5,24 L18,24 L18,5 L13,5 L13,5 Z M2,17 L2,2 L11,2 L11,5 L5,5 L5,17 L2,17 L2,17 Z M16,22 L7,22 L7,7 L16,7 L16,22 L16,22 Z" id="Shape" fill="#000000"></path>
-        <rect id="Rectangle-path" fill="#000000" x="9" y="9" width="5" height="2"></rect>
-        <rect id="Rectangle-path" fill="#000000" x="9" y="12" width="5" height="2"></rect>
-        <rect id="Rectangle-path" fill="#000000" x="9" y="15" width="3" height="2"></rect>
+    <g id="copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0.999913067,9.99999988 L-8.88045447e-05,10.0000001 L-8.88045447e-05,2.00842236 C-8.90630636e-05,0.904674734 0.894058942,0.00958482502 1.99780596,0.00842299807 L9.99947369,2.77002352e-07 L10.0005263,0.999999723 L1.99885858,1.00842244 C1.44698507,1.00900336 0.999911066,1.45654831 0.999911195,2.00842212 L0.999913067,9.99999988 Z" id="line" fill="#000000" fill-rule="nonzero"></path>
+        <path d="M11,4.20710678 L11,8.00128586 L14.7941791,8.00128586 L11,4.20710678 Z M15,9.00128586 L11,9.00128586 C10.4477153,9.00128586 10,8.55357061 10,8.00128586 L10,4 L4.5,4 C4.22385763,4 4,4.22385763 4,4.5 L4,14.5 C4,14.7761424 4.22385763,15 4.5,15 L14.5,15 C14.7761424,15 15,14.7761424 15,14.5 L15,9.00128586 Z M11,3 C11.1326082,3 11.2597852,3.05267842 11.3535534,3.14644661 L15.8535534,7.64644661 C15.9473216,7.7402148 16,7.86739176 16,8 L16,14.5 C16,15.3284271 15.3284271,16 14.5,16 L4.5,16 C3.67157288,16 3,15.3284271 3,14.5 L3,4.5 C3,3.67157288 3.67157288,3 4.5,3 L11,3 Z" id="paper" fill="#000000" fill-rule="nonzero"></path>
     </g>
 </svg>
