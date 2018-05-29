@@ -19,7 +19,9 @@ const config = {
 };
 
 const buildSprite = () => {
-  svgBuild('src/svg/*.svg').pipe(svgSprite(config)).pipe(gulp.dest('./dist/sprites'));
+  svgBuild('src/svg/*.svg')
+    .pipe(svgSprite(config))
+    .pipe(gulp.dest('./dist/sprites'));
 };
 
 module.exports = buildSprite;

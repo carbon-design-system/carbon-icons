@@ -17,4 +17,3 @@ gulp.task('build', ['build:svgSprite', 'build:svgDist']);
 gulp.task('default', function() {
   console.log('\nUse `npm run build` instead.\n');
 });
-

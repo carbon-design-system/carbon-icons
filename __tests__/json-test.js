@@ -62,4 +62,3 @@ describe('carbon-icons.json', () => {
     });
   });
 });
-

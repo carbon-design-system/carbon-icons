@@ -1,9 +1,9 @@
 ## Migrating from 4.x to 5.x
 
 We had to make an emergency breaking change to namespace our svg `id` attributes.
-Now, all `id`s are prefixed with `icon--`. 
+Now, all `id`s are prefixed with `icon--`.
 
-Whether you're using __bluemix-icons.svg__ or __sprite.svg__, you can update your `<use xlink:href>` to use the new prefix.
+Whether you're using **bluemix-icons.svg** or **sprite.svg**, you can update your `<use xlink:href>` to use the new prefix.
 
 ```html
 <svg class="icon">

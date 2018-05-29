@@ -5,7 +5,7 @@ const parseXMLstring = require('xml2js').parseString;
  * Parses XML "syncronously"
  * xml: argument that accepts only bluemix-icons.svg or sprite.svg
  */
-const getJSON = (xml) => {
+const getJSON = xml => {
   let error = null;
   let json = null;
 
@@ -16,6 +16,6 @@ const getJSON = (xml) => {
 
   if (error) throw error;
   return json.svg.symbol;
-}
+};
 
 module.exports = getJSON;

@@ -19,14 +19,17 @@ function camelCaseFromHyphnated(s) {
   return s.replace(/\-+([A-z])/g, (match, token) => token.toUpperCase());
 }
 
-module.exports = () => readFilePromisified(`./dist/carbon-icons.svg`, { 'encoding': 'utf8' })
-  .then(xml => getJSON(xml))
-  .then((result) => {
-    const formatted = formatJS(result, { json: false });
-    const stringified = JSON.stringify(formatted, null, 2);
-    return Promise.all([
-      writeFilePromisified(`./dist/carbon-icons.json`, stringified),
-      writeFilePromisified(`./dist/carbon-icons.js`, `(function(global, factory) {
+module.exports = () =>
+  readFilePromisified(`./dist/carbon-icons.svg`, { encoding: 'utf8' })
+    .then(xml => getJSON(xml))
+    .then(result => {
+      const formatted = formatJS(result, { json: false });
+      const stringified = JSON.stringify(formatted, null, 2);
+      return Promise.all([
+        writeFilePromisified(`./dist/carbon-icons.json`, stringified),
+        writeFilePromisified(
+          `./dist/carbon-icons.js`,
+          `(function(global, factory) {
         typeof define === 'function' && define.amd ? define(factory) :
         typeof module === 'object' && module.exports ? (module.exports = factory()) :
         (global.CarbonIcons = factory());
@@ -39,12 +42,24 @@ module.exports = () => readFilePromisified(`./dist/carbon-icons.svg`, { 'encodin
           icons[camelCaseFromHyphnated(item.id)] = icons[i];
         });
         return icons;
-      });`),
-      writeFilePromisified(`./dist/carbon-icons-list.js`, formatted
-        .map(item => `export var ${camelCaseFromHyphnated(item.id)} = ${JSON.stringify(item, null, 2)};`)
-        .join('\n\n')),
-      writeFilePromisified(`./dist/carbon-icons.es.js`, `export * from './carbon-icons-list';
+      });`
+        ),
+        writeFilePromisified(
+          `./dist/carbon-icons-list.js`,
+          formatted
+            .map(
+              item =>
+                `export var ${camelCaseFromHyphnated(
+                  item.id
+                )} = ${JSON.stringify(item, null, 2)};`
+            )
+            .join('\n\n')
+        ),
+        writeFilePromisified(
+          `./dist/carbon-icons.es.js`,
+          `export * from './carbon-icons-list';
         import * as icons from './carbon-icons-list';
-        export default (function () { return Object.keys(icons).map(function (key) { return icons[key]; }); })();`)
-    ]);
-  });
+        export default (function () { return Object.keys(icons).map(function (key) { return icons[key]; }); })();`
+        ),
+      ]);
+    });
