@@ -6,6 +6,7 @@
   "module": "dist/carbon-icons.es.js",
   "private": false,
   "scripts": {
+    "ci-check": "yarn test --runInBand",
     "dev": "nodemon -e html,svg src/test-server.js",
     "prebuild": "gulp clean",
     "build": "gulp build && gulp copy && gulp build:data",
