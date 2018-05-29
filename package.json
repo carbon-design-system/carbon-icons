@@ -1,7 +1,7 @@
 {
   "name": "carbon-icons",
   "version": "6.0.2",
-  "description": "SVG icons as sprite for Bluemix",
+  "description": "Icons for the Carbon Design System",
   "main": "dist/carbon-icons.js",
   "module": "dist/carbon-icons.es.js",
   "private": false,

@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/carbon-design-system/carbon-icons.svg?branch=master)](https://travis-ci.org/carbon-design-system/carbon-icons)
 
+> Icons for the Carbon Design System
+
 ## Getting Started
 
 Run the following command using [npm](https://www.npmjs.com/):
