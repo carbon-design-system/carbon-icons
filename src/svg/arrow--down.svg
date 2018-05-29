@@ -1,3 +1,10 @@
-<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
-	<polygon id="Shape" fill="#000000" points="8 12.6 8 0 6 0 6 12.7 1.3 7.7 0 9 7 16 14 9 12.7 7.7"></polygon>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow--down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="arrow--down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8.5,14.0277046 L13.2716343,9.00028444 L13.998096,9.68520537 L8.00458649,16 L2.00190402,9.68548981 L2.72782534,9 L7.5,14.0200799 L7.5,0 L8.5,0 L8.5,14.0277046 Z" id="arrow" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

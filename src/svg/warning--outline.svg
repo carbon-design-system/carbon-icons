@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>warning--outline</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="warning--outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#000000">
+            <rect id="Rectangle-9" x="7.5" y="5" width="1" height="5"></rect>
+            <circle id="Oval-10" cx="8" cy="12" r="1"></circle>
+            <path d="M0.495695805,15 C0.12128988,15 -0.117582088,14.596902 0.0596919315,14.2642406 L7.52095001,0.262909075 C7.70724581,-0.0866819983 8.20387106,-0.0878841192 8.39182792,0.260801046 L15.9391703,14.2621326 C16.1185253,14.5948602 15.8797496,15 15.5042962,15 L0.495695805,15 Z M1.32378314,14.0013316 L14.6716787,14.0013316 L7.95945143,1.54925034 L1.32378314,14.0013316 Z" id="Path-30" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
