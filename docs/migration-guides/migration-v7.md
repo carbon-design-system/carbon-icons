@@ -45,9 +45,9 @@ Glyphs are no longer supported in the latest versions of the Carbon Design Syste
 | `arrow--right`       | No change                                      |
 | `arrow--up`          | No change                                      |
 | `attachment`         | New ✨                                         |
-| `asleep`             | New ✨-                                        |
-| `awake`              | New ✨-                                        |
-| `back-to-top`        | New ✨-                                        |
+| `asleep`             | New ✨                                         |
+| `awake`              | New ✨                                         |
+| `back-to-top`        | New ✨                                         |
 | `calendar`           | No change                                      |
 | `caret--down`        | No change                                      |
 | `caret--left`        | No change                                      |
