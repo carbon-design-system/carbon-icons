@@ -1,4 +1,9 @@
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
-	<polygon id="Shape" fill="#000000" points="19 9.4 17.8 8.3 13 13 13 0 11 0 11 13 6.2 8.3 5 9.4 12 16"></polygon>
-	<polygon id="Shape_1_" fill="#000000" points="22 14 22 20 2 20 2 14 0 14 0 20.8 0 24 1.6 24 22.4 24 24 24 24 20.8 24 14"></polygon>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>download</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <path d="M7.50630933,11.0291798 L11.6429762,6.6536077 L12.3696425,7.34059824 L7.00652428,13.0134531 L1.63999999,7.34370989 L2.3662603,6.65629011 L6.50630933,11.0302598 L6.50630933,0 L7.50630933,0 L7.50630933,11.0291798 Z" id="arrow" fill="#000000" fill-rule="nonzero"></path>
+    <path d="M13,15 L13,13 L14,13 L14,15 C14,15.5522847 13.5522847,16 13,16 L1,16 C0.44771525,16 6.76353751e-17,15.5522847 0,15 L0,13 L1,13 L1,15 L13,15 Z" id="bottom" fill="#000000" fill-rule="nonzero"></path>
 </svg>

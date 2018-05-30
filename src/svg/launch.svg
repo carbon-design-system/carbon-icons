@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="20px" viewBox="0 0 24 20" style="enable-background:new 0 0 24 20;" xml:space="preserve">
-  <polygon id="Shape_1_" points="15.7,9.7 22,3.4 22,8 24,8 24,0 16,0 16,2 20.6,2 14.3,8.3 "/>
-  <polygon points="22,18 2,18 2,4 12,4 12,0 0,0 0,4 0,20 24,20 24,12 22,12 "/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>launch</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <path d="M14.2928932,1 L10.5,1 L10.5,0 L16,0 L16,5.5 L15,5.5 L15,1.70710678 L9.69669914,7.01040764 L8.98959236,6.30330086 L14.2928932,1 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+    <path d="M14.2928932,1 L10.5,1 L10.5,0 L16,0 L16,5.5 L15,5.5 L15,1.70710678 L9.69669914,7.01040764 L8.98959236,6.30330086 L14.2928932,1 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+    <path d="M13,9 L14,9 L14,15 C14,15.5522847 13.5522847,16 13,16 L1,16 C0.44771525,16 6.76353751e-17,15.5522847 0,15 L-1.11022302e-16,3 C-1.78657678e-16,2.44771525 0.44771525,2 1,2 L7.99504589,2 L7.99504589,3 L1,3 L1,15 L13,15 L13,9 Z" id="window" fill="#000000" fill-rule="nonzero"></path>
 </svg>
