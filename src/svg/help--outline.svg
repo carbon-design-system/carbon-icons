@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>help--outline</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="help--outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,15 C11.8659932,15 15,11.8659932 15,8 C15,4.13400675 11.8659932,1 8,1 C4.13400675,1 1,4.13400675 1,8 C1,11.8659932 4.13400675,15 8,15 Z M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z" id="Oval-7" fill="#000000" fill-rule="nonzero"></path>
+        <path d="M8.5,7.5 L8.61000013,7.5 C9.57649845,7.5 10.3600001,6.71649831 10.3600001,5.75 C10.3600001,4.78350169 9.57649845,4 8.61000013,4 L7.75,4 C6.78350169,4 6,4.78350169 6,5.75 L5,5.75 C5,4.23121694 6.23121694,3 7.75,3 L8.61000013,3 C10.1287832,3 11.3600001,4.23121694 11.3600001,5.75 C11.3600001,7.26878306 10.1287832,8.5 8.61000013,8.5 L8.5,8.5 L8.5,10 L7.5,10 L7.5,7.5 L8.5,7.5 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+        <circle id="Oval-8" fill="#000000" cx="8" cy="12" r="1"></circle>
+    </g>
+</svg>

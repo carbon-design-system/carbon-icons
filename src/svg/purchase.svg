@@ -1,5 +1,9 @@
-<svg width="24px" height="17px" viewBox="0 0 24 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd">
-	<path d="M0,0 L0,17 L24,17 L24,0 L0,0 L0,0 Z M22,15 L2,15 L2,8 L22,8 L22,15 L22,15 Z M2,4 L2,2 L22,2 L22,4 L2,4 L2,4 Z" id="Shape" fill="#323232"></path>
-	<rect id="Rectangle-path" fill="#323232" x="3" y="13" width="4" height="1"></rect>
-	<rect id="Rectangle-path" fill="#323232" x="8" y="13" width="5" height="1"></rect>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="11px" viewBox="0 0 16 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>purchase</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <path d="M15,3 L15,1 L1,1 L1,3 L15,3 Z M15,4 L1,4 L1,10 L15,10 L15,4 Z M0.75,0 L15.25,0 C15.6642136,0 16,0.335786438 16,0.75 L16,10.25 C16,10.6642136 15.6642136,11 15.25,11 L0.75,11 C0.335786438,11 5.07265313e-17,10.6642136 0,10.25 L0,0.75 C-5.07265313e-17,0.335786438 0.335786438,0 0.75,0 Z" id="CC-outline" fill="#000000" fill-rule="nonzero"></path>
+    <polygon id="line" fill="#000000" fill-rule="nonzero" points="2 9 2 8 7 8 7 9"></polygon>
 </svg>
