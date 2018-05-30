@@ -27,6 +27,7 @@ yarn add carbon-icons
   - [v4](https://github.com/carbon-design-system/carbon-icons/tree/master/docs/migration-guides/migration-v4.md)
   - [v5](https://github.com/carbon-design-system/carbon-icons/tree/master/docs/migration-guides/migration-v5.md)
   - [v6](https://github.com/carbon-design-system/carbon-icons/tree/master/docs/migration-guides/migration-v6.md)
+  - [v7](https://github.com/carbon-design-system/carbon-icons/tree/master/docs/migration-guides/migration-v7.md)
 
 ## Links
 
