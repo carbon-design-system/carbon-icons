@@ -36,14 +36,15 @@ Glyphs are no longer supported in the latest versions of the Carbon Design Syste
 
 | Icon Name            | Status                                         |
 | -------------------- | ---------------------------------------------- |
-| `add`                | No change                                      |
 | `add--outline`       | No change                                      |
-| `arrows`             | No change                                      |
+| `add--solid`         | New ✨                                         |
+| `add`                | No change                                      |
 | `add--solid`         | New ✨                                         |
 | `arrow--down`        | No change                                      |
 | `arrow--left`        | No change                                      |
 | `arrow--right`       | No change                                      |
 | `arrow--up`          | No change                                      |
+| `arrows`             | No change                                      |
 | `attachment`         | New ✨                                         |
 | `asleep`             | New ✨                                         |
 | `awake`              | New ✨                                         |
@@ -54,16 +55,16 @@ Glyphs are no longer supported in the latest versions of the Carbon Design Syste
 | `caret--right`       | No change                                      |
 | `caret--up`          | No change                                      |
 | `chat`               | New ✨                                         |
-| `checkmark`          | No change                                      |
 | `checkmark--outline` | No change                                      |
 | `checkmark--solid`   | New ✨                                         |
+| `checkmark`          | No change                                      |
 | `chevron--down`      | No change                                      |
 | `chevron--left`      | No change                                      |
 | `chevron--right`     | No change                                      |
 | `chevron--up`        | No change                                      |
-| `close`              | No change                                      |
 | `close--outline`     | No change                                      |
 | `close--solid`       | New ✨                                         |
+| `close`              | No change                                      |
 | `code`               | New ✨                                         |
 | `copy`               | No change                                      |
 | `delete`             | No change                                      |
@@ -78,8 +79,8 @@ Glyphs are no longer supported in the latest versions of the Carbon Design Syste
 | `favorite--outline`  | New ✨ (replacing a star variation)            |
 | `favorite--solid`    | New ✨                                         |
 | `filter`             | No change                                      |
-| `folder`             | New ✨                                         |
 | `folder-add`         | New ✨                                         |
+| `folder`             | New ✨                                         |
 | `forum`              | New ✨                                         |
 | `grid`               | New ✨                                         |
 | `help--outline`      | New ✨ (replacing what was previously help)    |
@@ -90,8 +91,8 @@ Glyphs are no longer supported in the latest versions of the Carbon Design Syste
 | `link`               | No change                                      |
 | `list`               | No change                                      |
 | `locked`             | No change                                      |
-| `maximize`           | New ✨                                         |
 | `minimize`           | New ✨                                         |
+| `maximize`           | New ✨                                         |
 | `new-tab`            | New ✨                                         |
 | `notifications-off`  | New ✨                                         |
 | `notifications-on`   | New ✨                                         |
@@ -112,6 +113,7 @@ Glyphs are no longer supported in the latest versions of the Carbon Design Syste
 | `stop--solid`        | New ✨                                         |
 | `subtract--solid`    | New ✨                                         |
 | `subtract--outline`  | New ✨                                         |
+| `terminal`           | New ✨                                         |
 | `unlock`             | No change                                      |
 | `upload`             | No change                                      |
 | `user`               | No change                                      |
