@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>close--outline</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="close--outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M8,7.29289322 L5.52512627,4.81801948 L4.81801948,5.52512627 L7.29289322,8 L4.81801948,10.4748737 L5.52512627,11.1819805 L8,8.70710678 L10.4748737,11.1819805 L11.1819805,10.4748737 L8.70710678,8 L11.1819805,5.52512627 L10.4748737,4.81801948 L8,7.29289322 Z M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z" id="Combined-Shape" fill="#000000"></path>
-    </g>
-</svg>
+<svg width="17" height="17" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg"><path d="M8.087 15.502a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm0 1a8 8 0 1 1 0-16 8 8 0 0 1 0 16z"/><path d="M8.087 7.795l2.475-2.475.707.707-2.475 2.475 2.475 2.475-.707.707-2.475-2.475-2.475 2.475-.707-.707L7.38 8.502 4.905 6.027l.707-.707 2.475 2.475z"/></svg>
