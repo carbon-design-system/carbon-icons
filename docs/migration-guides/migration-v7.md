@@ -38,8 +38,7 @@ Glyphs are no longer supported in the latest versions of the Carbon Design Syste
 | -------------------- | ---------------------------------------------- |
 | `add--outline`       | No change                                      |
 | `add--solid`         | New ✨                                         |
-| `add`                | No change                                      |
-| `add--solid`         | New ✨                                         |
+| `add`                | No change                                      |–
 | `arrow--down`        | No change                                      |
 | `arrow--left`        | No change                                      |
 | `arrow--right`       | No change                                      |
