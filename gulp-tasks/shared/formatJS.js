@@ -11,6 +11,19 @@ const formatJS = (rawJSON, options = {}) => {
     },
     options
   );
+  const findPaths = symbol => {
+    if (symbol.path) {
+      return symbol.path.map(attrValue => attrValue.$);
+    }
+
+    if (symbol.g) {
+      return symbol.g.filter(child => child.path).reduce((paths, child) => {
+        return paths.concat(child.path.map(path => path.$));
+      }, []);
+    }
+
+    return null;
+  };
 
   // iconMeta - returns new JSON Array of icon Objects
   const iconMeta = rawJSON.map(symbol => {
@@ -30,7 +43,16 @@ const formatJS = (rawJSON, options = {}) => {
         ellipses: symbol.ellipse
           ? symbol.ellipse.map(attrValue => attrValue.$)
           : '',
-        paths: symbol.path ? symbol.path.map(attrValue => attrValue.$) : '',
+        g: symbol.g
+          ? symbol.g.map(attrValue => attrValue.$).reduce(
+              (acc, attrs) => ({
+                ...acc,
+                ...attrs,
+              }),
+              {}
+            )
+          : null,
+        paths: findPaths(symbol),
         polygons: symbol.polygon
           ? symbol.polygon.map(attrValue => attrValue.$)
           : '',
