@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>UI Icon/Icon/close--outline/$ui-05</title>
+    <title>close--outline</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="3.-Style" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="UI-Icons" transform="translate(-757.000000, -297.000000)" fill="#000000">
-            <g id="UI-Icon/close--outline/$ui-05" transform="translate(757.086984, 297.502059)">
-                <g id="close--outline">
-                    <path d="M8,15 C11.8659932,15 15,11.8659932 15,8 C15,4.13400675 11.8659932,1 8,1 C4.13400675,1 1,4.13400675 1,8 C1,11.8659932 4.13400675,15 8,15 Z M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z" id="circle" fill-rule="nonzero"></path>
-                    <path d="M8,7.29289322 L10.4748737,4.81801948 L11.1819805,5.52512627 L8.70710678,8 L11.1819805,10.4748737 L10.4748737,11.1819805 L8,8.70710678 L5.52512627,11.1819805 L4.81801948,10.4748737 L7.29289322,8 L4.81801948,5.52512627 L5.52512627,4.81801948 L8,7.29289322 Z" id="x" fill-rule="nonzero"></path>
-                </g>
-            </g>
-        </g>
+    <g id="close--outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,14.5 C11.5898509,14.5 14.5,11.5898509 14.5,8 C14.5,4.41014913 11.5898509,1.5 8,1.5 C4.41014913,1.5 1.5,4.41014913 1.5,8 C1.5,11.5898509 4.41014913,14.5 8,14.5 Z M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z" id="outline" fill="#000000" fill-rule="nonzero"></path>
+        <path d="M8,6.58578644 L10.1213203,4.46446609 L11.5355339,5.87867966 L9.41421356,8 L11.5355339,10.1213203 L10.1213203,11.5355339 L8,9.41421356 L5.87867966,11.5355339 L4.46446609,10.1213203 L6.58578644,8 L4.46446609,5.87867966 L5.87867966,4.46446609 L8,6.58578644 Z" id="x" fill="#000000" fill-rule="nonzero"></path>
     </g>
 </svg>
