@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>play--outline</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="play--outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M8,14.5 C11.5898509,14.5 14.5,11.5898509 14.5,8 C14.5,4.41014913 11.5898509,1.5 8,1.5 C4.41014913,1.5 1.5,4.41014913 1.5,8 C1.5,11.5898509 4.41014913,14.5 8,14.5 Z M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z" id="Oval-13" fill="#000000" fill-rule="nonzero"></path>
-        <path d="M5,4.75004017 C5,4.52776443 5.0592697,4.30950883 5.17170122,4.11776511 C5.5208971,3.52223714 6.28674709,3.32254552 6.88227506,3.67174139 L12.3803497,6.89561177 C12.5643092,7.00347893 12.7176138,7.15661608 12.8256819,7.34045763 C13.1755283,7.93560369 12.9766736,8.70167142 12.3815276,9.05151781 L6.88345291,12.2834665 C6.69143267,12.3963423 6.47273914,12.4558593 6.25,12.4558593 C5.55964406,12.4558593 5,11.8962152 5,11.2058593 L5,4.75004017 Z M7,9.89500166 L10.2667141,7.97471987 L7,6.05923788 L7,9.89500166 Z" id="Path-33" fill="#000000" fill-rule="nonzero"></path>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<title>play--outline</title>
+<desc>Created with Sketch.</desc>
+<g id="play--outline">
+	<path id="Oval-13" d="M8,14.5c3.6,0,6.5-2.9,6.5-6.5S11.6,1.5,8,1.5S1.5,4.4,1.5,8S4.4,14.5,8,14.5z M8,16c-4.4,0-8-3.6-8-8
+		s3.6-8,8-8s8,3.6,8,8S12.4,16,8,16z"/>
+	<path id="Path-33" d="M5,4.8c0-0.2,0.1-0.4,0.2-0.6c0.3-0.6,1.1-0.8,1.7-0.4l5.5,3.2c0.2,0.1,0.3,0.3,0.4,0.4
+		c0.3,0.6,0.2,1.4-0.4,1.7l-5.5,3.2c-0.2,0.1-0.4,0.2-0.6,0.2c-0.7,0-1.2-0.6-1.2-1.2V4.8z M7,9.9L10.3,8L7,6.1V9.9z"/>
+</g>
 </svg>

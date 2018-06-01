@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>Forum</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Forum" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M11.7026941,12 L8.70242193,14.9765113 L7.99813183,14.266599 L11.2908074,11 L14.4967508,11 C14.7728931,11 14.9967508,10.7761424 14.9967508,10.5 L14.9967508,4.5 C14.9967508,4.22385763 14.7728931,4 14.4967508,4 L4.49675076,4 C4.22060839,4 3.99675076,4.22385763 3.99675076,4.5 L3.99675076,10.5097844 C3.99752427,10.7873227 4.22200649,11.010554 4.49814779,11.0097825 L7.99860297,11.000002 L8.00139703,11.999998 L4.50094184,12.0097786 C3.67251795,12.0120932 2.99907129,11.3423994 2.99675662,10.5139755 L2.99675076,4.5 C2.99675076,3.67157288 3.66832364,3 4.49675076,3 L14.4967508,3 C15.3251779,3 15.9967508,3.67157288 15.9967508,4.5 L15.9967508,10.5 C15.9967508,11.3284271 15.3251779,12 14.4967508,12 L11.7026941,12 Z" id="Path-43" fill="#000000" fill-rule="nonzero"></path>
-        <path d="M0.998052682,7.99999314 L-0.00194731818,8.00000686 L-0.00203647362,1.50000594 C-0.00204632147,0.671578819 0.66951857,-2.03937876e-06 1.49795255,-1.18872582e-05 L8.00000091,-1.18872582e-05 L7.99999909,1 L1.49795758,0.999988113 C1.22181521,0.999991395 0.997960244,1.22385168 0.997963526,1.49999314 L0.998052682,7.99999314 Z" id="Path-10" fill="#000000" fill-rule="nonzero"></path>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="16px" height="15px" viewBox="0 0 16 15" style="enable-background:new 0 0 16 15;" xml:space="preserve">
+<title>Forum</title>
+<desc>Created with Sketch.</desc>
+<g id="Forum">
+	<path id="Path-43" d="M11.7,12l-3,3L8,14.3l3.3-3.3h3.2c0.3,0,0.5-0.2,0.5-0.5v-6C15,4.2,14.8,4,14.5,4h-10C4.2,4,4,4.2,4,4.5v6
+		C4,10.8,4.2,11,4.5,11L8,11l0,1l-3.5,0C3.7,12,3,11.3,3,10.5l0-6C3,3.7,3.7,3,4.5,3h10C15.3,3,16,3.7,16,4.5v6
+		c0,0.8-0.7,1.5-1.5,1.5H11.7z"/>
+	<path id="Path-10" d="M1,8L0,8l0-6.5C0,0.7,0.7,0,1.5,0H8l0,1L1.5,1C1.2,1,1,1.2,1,1.5L1,8z"/>
+</g>
 </svg>

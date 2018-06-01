@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>terminal</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="terminal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M16,4.5 L16.0002173,4.99999995 L16,15 C16,15.5522847 15.5522847,16 15,16 L1,16 C0.44771525,16 6.77084257e-17,15.5522847 8.13151629e-20,15 L8.13151629e-20,4.50695233 L-0.000217260221,4.00695237 L8.13151629e-20,1 C-6.75457953e-17,0.44771525 0.44771525,1.01453063e-16 1,0 L15,0 C15.5522847,-1.01453063e-16 16,0.44771525 16,1 L16,4.5 Z M15,4.00043447 L15,1 L1,1 L1,4.00651776 L15,4.00043447 Z M15,5.00043457 L1,5.00651785 L1,15 L15,15 L15,5.00043457 Z" id="window" fill="#000000" fill-rule="nonzero"></path>
-        <polygon id="mini-chevron" fill="#000000" fill-rule="nonzero" points="3.02020171 8.35355339 3.72730849 7.64644661 6.02019459 9.93933271 3.72730849 12.2322188 3.02020171 11.525112 4.60598103 9.93933271"></polygon>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<title>terminal</title>
+<desc>Created with Sketch.</desc>
+<g id="terminal">
+	<path id="window" d="M16,4.5L16,5l0,10c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1V4.5L0,4l0-3c0-0.6,0.4-1,1-1h14c0.6,0,1,0.4,1,1V4.5z
+		 M15,4V1H1v3L15,4z M15,5L1,5v10h14V5z"/>
+	<polygon id="mini-chevron" points="3,8.4 3.7,7.6 6,9.9 3.7,12.2 3,11.5 4.6,9.9 	"/>
+</g>
 </svg>
