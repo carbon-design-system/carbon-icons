@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>download</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <path d="M7.50630933,11.0291798 L11.6429762,6.6536077 L12.3696425,7.34059824 L7.00652428,13.0134531 L1.63999999,7.34370989 L2.3662603,6.65629011 L6.50630933,11.0302598 L6.50630933,0 L7.50630933,0 L7.50630933,11.0291798 Z" id="arrow" fill="#000000" fill-rule="nonzero"></path>
-    <path d="M13,15 L13,13 L14,13 L14,15 C14,15.5522847 13.5522847,16 13,16 L1,16 C0.44771525,16 6.76353751e-17,15.5522847 0,15 L0,13 L1,13 L1,15 L13,15 Z" id="bottom" fill="#000000" fill-rule="nonzero"></path>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="14px" height="16px" viewBox="0 0 14 16" style="enable-background:new 0 0 14 16;" xml:space="preserve">
+<title>download</title>
+<desc>Created with Sketch.</desc>
+<g id="download">
+	<path id="arrow" d="M7.5,11l4.1-4.4l0.7,0.7L7,13L1.6,7.3l0.7-0.7L6.5,11V0h1V11z"/>
+	<path id="bottom" d="M13,15v-2h1v2c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1v-2h1v2H13z"/>
+</g>
 </svg>
