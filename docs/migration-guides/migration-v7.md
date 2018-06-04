@@ -74,7 +74,6 @@ Glyphs are no longer supported in the latest versions of the Carbon Design Syste
 | `email`              | New ✨                                         |
 | `error--outline`     | New ✨ (replacing what was previously error)   |
 | `error--solid`       | New ✨                                         |
-| `export`             | New ✨                                         |
 | `favorite--outline`  | New ✨ (replacing a star variation)            |
 | `favorite--solid`    | New ✨                                         |
 | `filter`             | No change                                      |
