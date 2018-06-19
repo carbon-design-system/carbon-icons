@@ -1,20 +1,12 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 16">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-      }
-
-      .cls-2 {
-        fill: #00ff2d;
-      }
-    </style>
-  </defs>
-  <title>asleep</title>
-  <path class="cls-1" d="M5.66,4.89a8.13,8.13,0,0,1,1-3.84,7,7,0,1,0,5.85,11.87A8.16,8.16,0,0,1,5.66,4.89Z"/>
-  <path class="cls-2" d="M7.55,0h0Z"/>
-  <path class="cls-1" d="M5.66,4.89a8.13,8.13,0,0,1,1-3.84,7,7,0,1,0,5.85,11.87A8.16,8.16,0,0,1,5.66,4.89Z"/>
-  <path class="cls-1" d="M5.66,4.89a8.13,8.13,0,0,1,1-3.84,7,7,0,1,0,5.85,11.87A8.16,8.16,0,0,1,5.66,4.89Z"/>
-  <path class="cls-1" d="M5.66,4.89a8.13,8.13,0,0,1,1-3.84,7,7,0,1,0,5.85,11.87A8.16,8.16,0,0,1,5.66,4.89Z"/>
-  <path d="M14,12a7.14,7.14,0,0,1-6.8-7.13,6.92,6.92,0,0,1,1.26-4L8.47.77A.51.51,0,0,0,8.56.51.5.5,0,0,0,8.08,0H8a8,8,0,1,0,6.33,12.88h0A.5.5,0,0,0,14,12ZM8,15A7,7,0,0,1,7.12,1.05,8.14,8.14,0,0,0,13,12.92,7,7,0,0,1,8,15Z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="16px" viewBox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>asleep</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="asleep" fill="#000000" fill-rule="nonzero">
+            <path d="M14,12 C10.2,11.8 7.2,8.7 7.2,4.9 C7.2,3.5 7.6,2.1 8.5,0.9 L8.5,0.8 C8.6,0.7 8.6,0.6 8.6,0.5 C8.6,0.2 8.4,0 8.1,0 L8,0 C3.6,0 0,3.6 0,8 C0,12.4 3.6,16 8,16 C10.5,16 12.8,14.8 14.3,12.9 C14.5,12.7 14.5,12.4 14.4,12.2 C14.3,12.1 14.1,12 14,12 Z M8,15 C4.1,15 1,11.9 1,8 C1,4.4 3.6,1.4 7.2,1 C5.1,5 6.6,9.9 10.5,12 C11.3,12.4 12.1,12.7 13,12.9 C11.7,14.3 9.9,15 8,15 Z" id="Shape"></path>
+        </g>
+    </g>
 </svg>
