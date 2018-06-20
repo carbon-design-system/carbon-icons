@@ -1,6 +1,4 @@
-<!-- Pleas fill out all the sections below and format the issue tittle as `Contribution: icon name`. Thanks!-->
-
-
+<!-- Please fill out all the sections below and format the issue tittle as `Contribution: icon name`. Thanks!-->
 
 #### 1. Team name
 
