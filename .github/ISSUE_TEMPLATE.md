@@ -1,33 +1,18 @@
-<!-- Feel free to remove sections that aren't relevant.
+<!-- Pleas fill out all the sections below.-->
 
-## Title line template: [Title]: Brief description
+*Please format the issue tittle as `Contribution: icon name`*
 
--->
+#### 1.Team name
 
-## Detailed description
+#### 2. Icon name
 
-> Describe in detail the issue you're having.
+#### 3. Please briefly describe what the icon is supposed to represent and the use case(s) its being used for.
 
-> Is this a feature request (new component, new icon), a bug, or a general issue?
+#### 4. Box Link
+Add in a box link (or other cloud) link to your completed Icon Contribution Template sketch file. Please make sure the permissions are set so anyone can view the icon.
 
-> Is this issue related to a specific component?
+#### 5.Screen Shot
+Please add the following screen shots to this issue:
 
-> What did you expect to happen? What happened instead? What would you like to see changed?
-
-> What browser are you working in?
-
-> What version of the Carbon Design System are you using?
-
-> What offering/product do you work on? Any pressing ship or release dates we should be aware of?
-
-## Steps to reproduce the issue
-
-1.  Step one
-2.  Step two
-3.  Step three
-4.  etc.
-
-## Additional information
-
-- Screenshots or code
-- Notes
+1. Close-up screen shot of the icon with the pixel grid turned on 
+2. Screen shot of the icon in context with your use case. 
