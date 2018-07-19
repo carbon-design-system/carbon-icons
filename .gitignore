@@ -3,6 +3,9 @@ dist
 node_modules
 lib
 
+# Images
+*.png
+
 # Logs
 *.log
 
