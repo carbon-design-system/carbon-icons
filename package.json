@@ -1,7 +1,7 @@
 {
-  "name": "carbon-icons",
-  "version": "7.0.1",
-  "description": "Icons for the Carbon Design System",
+  "name": "wfp-icons",
+  "version": "0.0.1",
+  "description": "Icons for the WFP UI",
   "main": "dist/carbon-icons.js",
   "module": "dist/carbon-icons.es.js",
   "private": false,
