@@ -1,6 +1,6 @@
 {
   "name": "@wfp/icons",
-  "version": "0.0.5",
+  "version": "0.0.51",
   "description": "Icons for the WFP UI",
   "main": "dist/carbon-icons.js",
   "module": "dist/carbon-icons.es.js",
@@ -22,6 +22,10 @@
     "url": "https://github.com/carbon-design-system/carbon-icons"
   },
   "keywords": [
+    "WFP",
+    "World Food Programme",
+    "UN",
+    "United Nations",
     "icons",
     "bluemix",
     "ibm",
