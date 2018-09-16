@@ -14,14 +14,14 @@ Note that SVG files in dist folder only include most current icons reflected in 
 >
 > - `svgxuse` polyfill
 > - Serve carbon-icons.svg as a static asset
-> - Use carbon-icons.svg from same origin to avoid CORS issues.
+> - Use wfp-icons.svg from same origin to avoid CORS issues.
 
 ### Using SVG sprite from static assets (recommended)
 
 Install carbon-icons and svgxuse so you can use carbon-icons.svg and svgxuse.js.
 
 ```sh
-npm i carbon-icons svgxuse
+npm i @wfp/icons svgxuse
 ```
 
 Use the SVG sprite (**carbon-icons.svg**) by serving it as a static asset.

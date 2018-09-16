@@ -2,20 +2,20 @@
 
 [![Build Status](https://travis-ci.org/carbon-design-system/carbon-icons.svg?branch=master)](https://travis-ci.org/carbon-design-system/carbon-icons)
 
-> Icons for the Carbon Design System
+> Icons for the WFP UI (forked from the Carbon Design System)
 
 ## Getting Started
 
 Run the following command using [npm](https://www.npmjs.com/):
 
 ```bash
-npm install -S carbon-icons
+npm install -S @wfp/icons
 ```
 
 If you prefer [Yarn](https://yarnpkg.com/en/), use the following command instead:
 
 ```bash
-yarn add carbon-icons
+yarn add @wfp/icons
 ```
 
 ## :books: Docs
