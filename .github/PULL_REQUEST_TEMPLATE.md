@@ -1,4 +1,4 @@
-Closes carbon-design-system/carbon-components-react#
+Closes carbon-design-system/carbon-icons#
 
 {{short description}}
 
