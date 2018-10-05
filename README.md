@@ -32,4 +32,4 @@ yarn add carbon-icons
 ## Links
 
 - [CDN - Unpkg](https://unpkg.com/carbon-icons/dist/)
-- [Carbon Design System - Iconography](http://carbondesignsystem.com/style/iconography/library)
+- [Carbon Design System - Iconography](http://carbondesignsystem.com/guidelines/iconography/library)
