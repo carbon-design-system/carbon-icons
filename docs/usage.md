@@ -4,9 +4,9 @@
 
 > We recommend inlining SVG when possible since it's a best practice. Overall, this is the simplest way for using SVG in your HTML documents.
 
-Production-ready SVG files are available in the [dist](https://github.com/carbon-design-system/carbon-icons/tree/master/dist) folder, which have been optimized with SVGO.
+Production-ready SVG files are available in the `dist` folder, which have been optimized with SVGO.
 
-Note that SVG files in dist folder only include most current icons reflected in [carbon-icons.svg](https://raw.githubusercontent.com/carbon-design-system/carbon-icons/master/dist/carbon-icons.svg) and [carbon-design-system website](http://carbondesignsystem.com/style/iconography/library).
+Note that SVG files in dist folder only include most current icons reflected in [carbon-design-system website](http://carbondesignsystem.com/guidelines/iconography/library).
 
 ### Using SVG sprite
 
