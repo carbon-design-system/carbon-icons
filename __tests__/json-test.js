@@ -16,8 +16,8 @@ describe('carbon-icons.json', () => {
       });
 
       it('should have height greater than 0', () => {
-        expect(object.width).not.toEqual('');
-        expect(Number(object.width)).toBeGreaterThan(0);
+        expect(object.height).not.toEqual('');
+        expect(Number(object.height)).toBeGreaterThan(0);
       });
 
       it('should have a name', () => {
