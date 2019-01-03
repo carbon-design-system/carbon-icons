@@ -1,6 +1,6 @@
 {
   "name": "@wfp/icons",
-  "version": "0.0.62",
+  "version": "0.0.63",
   "description": "Icons for the WFP UI",
   "main": "dist/carbon-icons.js",
   "module": "dist/carbon-icons.es.js",
