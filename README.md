@@ -1,3 +1,11 @@
+# Deprecated
+
+This project is deprecated and will no longer be updated, please use the icon package under [Carbon Elements](https://github.com/IBM/carbon-elements/tree/master/packages/icons) instead.
+
+For help migrating from v7 to this new package, checkout our [migration guide](https://github.com/IBM/carbon-elements/blob/master/docs/migration/10.x-icons.md).
+
+---
+
 # carbon-icons
 
 [![Build Status](https://travis-ci.org/carbon-design-system/carbon-icons.svg?branch=master)](https://travis-ci.org/carbon-design-system/carbon-icons)
