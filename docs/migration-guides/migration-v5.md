@@ -7,7 +7,9 @@ Whether you're using **bluemix-icons.svg** or **sprite.svg**, you can update you
 
 ```html
 <svg class="icon">
-  <use xlink:href="/path_to_static-assets/bluemix-icons.svg#icon--icon_name"></use>
+  <use
+    xlink:href="/path_to_static-assets/bluemix-icons.svg#icon--icon_name"
+  ></use>
 </svg>
 ```
 
