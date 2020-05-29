@@ -1,3 +1,11 @@
+# Deprecated
+
+This project is deprecated and will no longer be updated, please use the [icon package](https://github.com/carbon-design-system/carbon/tree/master/packages/icons) in the Carbon monorepo instead. Or, if you're using React, use [`@carbon/icons-react`](https://github.com/carbon-design-system/carbon/tree/master/packages/icons-react).
+
+For help migrating from v7 to these new packages, check out our [migration guide](https://github.com/carbon-design-system/carbon/blob/master/docs/migration/10.x-icons.md).
+
+---
+
 # carbon-icons
 
 [![Build Status](https://travis-ci.org/carbon-design-system/carbon-icons.svg?branch=master)](https://travis-ci.org/carbon-design-system/carbon-icons)
