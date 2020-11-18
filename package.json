@@ -52,7 +52,7 @@
     "npm-run-all": "^4.0.2",
     "prettier": "^1.13.2",
     "remove-svg-properties": "^0.3.3",
-    "semantic-release": "^15.5.0",
+    "semantic-release": "^17.2.3",
     "smart-svg-path": "^1.0.3",
     "svg-points": "^6.0.1",
     "svgxuse": "^1.2.6",
