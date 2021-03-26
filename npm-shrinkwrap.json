@@ -1,6 +1,6 @@
 {
     "name": "@wfp/icons",
-    "version": "0.0.82",
+    "version": "0.0.84",
     "lockfileVersion": 1,
     "requires": true,
     "dependencies": {
@@ -5347,6 +5347,12 @@
                         "pinkie-promise": "^2.0.0"
                     }
                 },
+                "graceful-fs": {
+                    "version": "4.1.2",
+                    "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.2.tgz",
+                    "integrity": "sha1-/iI5t1dJcuZ+QfgIgj+b+kqZHjc=",
+                    "dev": true
+                },
                 "pify": {
                     "version": "2.3.0",
                     "resolved": "https://registry.npmjs.org/pify/-/pify-2.3.0.tgz",
@@ -5636,6 +5642,12 @@
                         "inherits": "1",
                         "minimatch": "~0.2.11"
                     }
+                },
+                "graceful-fs": {
+                    "version": "1.2.3",
+                    "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-1.2.3.tgz",
+                    "integrity": "sha1-FaSAaldUfLLS2/J/QuiajDRRs2Q=",
+                    "dev": true
                 },
                 "inherits": {
                     "version": "1.0.2",
@@ -14592,6 +14604,15 @@
                         "gaze": "^0.5.1"
                     }
                 },
+                "graceful-fs": {
+                    "version": "3.0.12",
+                    "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.12.tgz",
+                    "integrity": "sha512-J55gaCS4iTTJfTXIxSVw3EMQckcqkpdRv3IR7gu6sq0+tbC363Zx6KH/SEwXASK9JRbhyZmVjJEVJIOxYsB3Qg==",
+                    "dev": true,
+                    "requires": {
+                        "natives": "^1.1.3"
+                    }
+                },
                 "isarray": {
                     "version": "0.0.1",
                     "resolved": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz",
@@ -17235,6 +17256,15 @@
                     "resolved": "https://registry.npmjs.org/clone/-/clone-0.2.0.tgz",
                     "integrity": "sha1-xhJqkK1Pctv1rNskPMN3JP6T/B8=",
                     "dev": true
+                },
+                "graceful-fs": {
+                    "version": "3.0.12",
+                    "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.12.tgz",
+                    "integrity": "sha512-J55gaCS4iTTJfTXIxSVw3EMQckcqkpdRv3IR7gu6sq0+tbC363Zx6KH/SEwXASK9JRbhyZmVjJEVJIOxYsB3Qg==",
+                    "dev": true,
+                    "requires": {
+                        "natives": "^1.1.3"
+                    }
                 },
                 "isarray": {
                     "version": "0.0.1",
